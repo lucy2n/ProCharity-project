@@ -1,0 +1,5 @@
+.header__personal-area {
+  width: 218px;
+  display: flex;
+  justify-content: space-between;
+}

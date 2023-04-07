@@ -1,0 +1,6 @@
+.header__menu {
+  display: flex;
+  width: 57.4%;
+  max-width: 640px;
+  justify-content: space-between;
+}

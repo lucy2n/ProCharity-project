@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="pages/index__header_footer.css">
-  </head>
-  <body class="page">
-    <header class="header">
-      <img class="header__logo" src="./images/logo.svg" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="pages/index__header_footer.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <img class="header__logo" src="./images/logo.svg" alt="ProCharity">
       <nav class="header__menu">
         <a class="header__link" href="#">О проекте</a>
         <a class="header__link" href="#">Задания</a>
@@ -17,20 +20,14 @@
         <a class="header__link" href="#">Для НКО</a>
         <a class="header__link" href="#">Бизнесу</a>
         <a class="header__link" href="#">FAQ</a>
-        <button
-          class="header__search"
-          type="button"
-          aria-label="поиск"
-        ></button>
+        <button class="header__search" type="button" aria-label="поиск"></button>
       </nav>
       <div class="header__personal-area">
-        <p class="header__title">Личный кабинет</p>
-        <img
-          class="header__avatar"
-          src="./images/header_avatar.png"
-          alt="супермен"
-        />
+        <p class="header__title">Присоедениться</p>
+        <div class="header__avatar"></div>
       </div>
-    </header>
-  </body>
+    </div>
+  </header>
+</body>
+
 </html>
