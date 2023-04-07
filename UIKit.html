@@ -8,7 +8,11 @@
   <title>Document</title>
   <link rel="stylesheet" href="./src/pages/index.css">
 </head>
-
+<!-- <style>
+  *{
+    outline: 1px solid red;
+  }
+</style> -->
 <body>
 
   <!-- UIKit -->
@@ -16,12 +20,14 @@
 
   <!-- неактивное состояние -->
 
-  <div class="input-box">
-    <input class="input" type="text" placeholder="Имя">
-    <span class="input-box__title">Имя</span>
-    <div class="input-box__ico input-box__ico_clear"></div>
+  <div class="input-case">
+    <div class="input-box">
+      <input class="input" type="text" placeholder="Имя">
+      <span class="input-box__title">Имя</span>
+      <div class="input-box__ico input-box__ico_clear"></div>
+    </div>
+    <span class="input__error-message">Может содержать только буквы и специальные символы</span>
   </div>
-
 
   <br>
 
@@ -61,6 +67,7 @@
   <!-- прозрачная кнопка -->
   <button class="button button_no-background">назад</button>
 
+  <!-- маленькая кнопка)) -->
   <button class="button button_small">назад</button>
 
 </body>

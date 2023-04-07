@@ -1,4 +1,5 @@
 .input-box__ico_clear {
   background-image: url(../../../../../images/input-clear-ico.svg);
   display: none;
+  margin: 0 12px 0 8px
 }
