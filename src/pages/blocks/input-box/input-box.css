@@ -1,0 +1,20 @@
+.input-box {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 358px;
+  min-width: 311px;
+  height: 48px;
+  width: 100%;
+  background-color: #F1F5F9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 796px) {
+  .input-box {
+    max-width: 311px;
+  }
+}
+

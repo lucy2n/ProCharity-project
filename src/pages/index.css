@@ -1,0 +1,14 @@
+/* buttons&inputs */
+@import url(./blocks/input-box/input-box.css);
+@import url(./blocks/input/input.css);
+@import url(./blocks/input-box/__ico/input-box__ico.css);
+@import url(./blocks/input-box/__ico/_eye/input-box__ico_eye.css);
+@import url(./blocks/input-box/__ico/_eye-crossed/input-box__ico_eye-crossed.css);
+@import url(./blocks/input-box/__ico/_quest-mark/input-box__ico_quest-mark.css);
+@import url(./blocks/input-box/__title/input-box__title.css);
+@import url(./blocks/input-box/__ico/_hidden/input-box__ico_hidden.css);
+@import url(./blocks/input-box/__ico/_clear/input-box__ico_clear.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_unactive/button_unactive.css);
+@import url(./blocks/button/_no-background/button__no-background.css);
+@import url(./blocks/button/_small/button_small.css);

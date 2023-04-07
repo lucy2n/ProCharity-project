@@ -1,0 +1,29 @@
+.button {
+  width: 228px;
+  height: 56px;
+  background-color: rgba(230, 86, 9, 1);
+  border-radius: 6px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  transition: .5s;
+}
+  
+.button:not(.button_unactive, .button_no-background):hover {
+  cursor: pointer;
+  background-color: rgb(193, 79, 17);
+}
+
+@media screen and (max-width: 796px) {
+  .button {
+    width: 312px;
+  }
+}
