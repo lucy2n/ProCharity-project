@@ -1,5 +1,14 @@
 .header__personal-area {
-  width: 218px;
+  width: 25.3%;
+  max-width: 218px;
+  min-width: 200px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.header__personal-area:hover {
+  opacity: 0.6;
 }
