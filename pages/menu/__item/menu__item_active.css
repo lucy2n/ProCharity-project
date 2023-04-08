@@ -1,0 +1,7 @@
+.menu__item_active .menu__text {
+    color: #EA5A0A;
+}
+
+.menu__item_active .menu__number {
+    background-color: #EA5A0A;
+}
