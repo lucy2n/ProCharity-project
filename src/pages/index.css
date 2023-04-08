@@ -1,14 +1,22 @@
 /* buttons&inputs */
-@import url(./blocks/input-box/input-box.css);
+@import url(../../node_modules/@yaireo/tagify/dist/tagify.css);
+
+@import url(./blocks/input-case/__container/input-case__container.css);
 @import url(./blocks/input/input.css);
-@import url(./blocks/input-box/__ico/input-box__ico.css);
-@import url(./blocks/input-box/__ico/_eye/input-box__ico_eye.css);
-@import url(./blocks/input-box/__ico/_eye-crossed/input-box__ico_eye-crossed.css);
-@import url(./blocks/input-box/__ico/_quest-mark/input-box__ico_quest-mark.css);
-@import url(./blocks/input-box/__title/input-box__title.css);
-@import url(./blocks/input-box/__ico/_hidden/input-box__ico_hidden.css);
-@import url(./blocks/input-box/__ico/_clear/input-box__ico_clear.css);
+@import url(./blocks/input-case/__subtitle/input-case__subtitle.css);
+@import url(./blocks/input-case/__ico/input-case__ico.css);
+@import url(./blocks/input-case/__ico/_type/input-case__ico_type_eye.css);
+@import url(./blocks/input-case/__ico/_type/input-case__ico_type_eye-crossed.css);
+@import url(./blocks/input-case/__ico/_type/input-case__ico_type_quest-mark.css);
+@import url(./blocks/input-case/__ico/_type/input-case__ico_type_cross.css);
 @import url(./blocks/button/button.css);
-@import url(./blocks/button/_unactive/button_unactive.css);
-@import url(./blocks/button/_no-background/button__no-background.css);
-@import url(./blocks/button/_small/button_small.css);
+@import url(./blocks/button/_type/button_type_disabled.css);
+@import url(./blocks/button/_type/button_type_back.css);
+@import url(./blocks/button/_type/button_type_half-width.css);
+@import url(./blocks/button/_type/button_type_save.css);
+@import url(./blocks/input-case/input-case.css);
+@import url(./blocks/input-case/__error-message/input-case__error-message.css);
+@import url(./blocks/input-case/_dropdown-menu/input-case_dropdown-menu.css);
+@import url(./blocks/input-case/__container/_dropdown-menu/input-case__container_dropdown-menu.css);
+@import url(./blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
+@import url(./blocks/input-case/__title/input-case__title.css);

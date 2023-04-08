@@ -18,8 +18,11 @@
 }
   
 .button:not(.button_unactive, .button_no-background):hover {
+  background-color: #cc4d00;
+}
+
+.button:not(.button_unactive):hover {
   cursor: pointer;
-  background-color: rgb(193, 79, 17);
 }
 
 @media screen and (max-width: 796px) {

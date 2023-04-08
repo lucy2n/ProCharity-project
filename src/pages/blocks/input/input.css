@@ -8,6 +8,8 @@
   color: #7B878F;
   background-color: #F1F5F9;
   padding: 12px 16px;
+  border-radius: 6px;
+
 }
 
 .input:focus {
@@ -18,10 +20,8 @@
   visibility: visible;
 }
 
-.input:focus~span {
-  visibility: visible;
-}
-
-.input:focus~.input-box__ico_clear {
+.input:focus~.input-case__ico_type_cross {
   display: block;
 }
+
+

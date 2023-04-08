@@ -6,69 +6,128 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./src/pages/index.css">
+
+  <style>
+    /* .tagify {
+      border: none;
+      left: 12px;
+      --placeholder-color: #7B878F;
+      --placeholder-color-focus: #7B878F;
+    }
+
+    .tagify__dropdown__wrapper {
+      position: relative;
+      top: 22px;
+      left: 12px;
+    }
+
+    .tagify__input {
+      top: 10px;
+      margin: 0;
+      box-sizing: border-box;
+      min-height: 48px;
+      max-width: 100%;
+      padding: 0;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: black;
+    }
+
+    .tagify__dropdown__item {
+      max-width: 100%;
+    } */
+  </style>
+
 </head>
-<!-- <style>
-  *{
-    outline: 1px solid red;
-  }
-</style> -->
+
 <body>
 
   <!-- UIKit -->
   <!-- inputs& buttons -->
-
   <!-- неактивное состояние -->
 
+
+  <!-- button -->
+  <button type="button" class="button">зарегистрироваться</button>
+
+
+  <!-- неактивная кнопка -->
+  <button class="button button_type_disabled" disabled>зарегистрироваться</button>
+
+  <!-- прозрачная кнопка -->
+  <button class="button button_type_back">назад</button>
+
+  <!-- маленькая кнопка(не нужна) -->
+  <button class="button button_type_save">Сохранить</button>
+
+
+
+  <br>
+  <br>
+
   <div class="input-case">
-    <div class="input-box">
+    <div class="input-case__container">
       <input class="input" type="text" placeholder="Имя">
-      <span class="input-box__title">Имя</span>
-      <div class="input-box__ico input-box__ico_clear"></div>
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_cross"></div>
     </div>
-    <span class="input__error-message">Может содержать только буквы и специальные символы</span>
+    <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
   </div>
 
   <br>
 
-  <div class="input-box">
-    <input class="input" type="password" placeholder="Пароль">
-    <span class="input-box__title">Пароль</span>
-    <div class="input-box__ico input-box__ico_eye"></div>
+  <div class="input-case">
+    <div class="input-case__container">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">Пароль</span>
+      <div class="input-case__ico input-case__ico_type_eye"></div>
+    </div>
+    <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
   </div>
 
   <br>
 
-  <div class="input-box">
-    <input class="input" type="password" placeholder="Пароль">
-    <span class="input-box__title">email</span>
-    <div class="input-box__ico input-box__ico_eye-crossed"></div>
+  <div class="input-case">
+    <div class="input-case__container">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">email</span>
+      <div class="input-case__ico input-case__ico_type_eye-crossed"></div>
+    </div>
+    <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
   </div>
 
   <br>
 
   <!-- c всплывающей подсказкой -->
 
-  <div class="input-box">
-    <input class="input" type="text" placeholder="Telegram">
-    <span class="input-box__title">Имя</span>
-    <div class="input-box__ico input-box__ico_clear"></div>
-    <div class="input-box__ico input-box__ico_quest-mark"></div>
+  <div class="input-case">
+    <div class="input-case__container">
+      <input class="input" type="text" placeholder="Telegram">
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_cross"></div>
+      <div class="input-case__ico input-case__ico_type_quest-mark"></div>
+    </div>
+    <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
   </div>
 
   <br>
 
-  <!-- buttons -->
-  <button type="button" class="button">зарегистрироваться</button>
+  <div class="input-case input-case_dropdown-menu">
+    <span class="input-case__title">Укажи, какие категории заданий тебе интересны и соответствуют твоим
+      навыкам</span>
+    <div class="input-case__container input-case__container_dropdown-menu">
+      <input class="input_tags-manual-suggestions" type="text" placeholder="Выбрать">
+      <div class="input-case__ico input-case__ico_type_arrow"></div>
+      <span class=" input-case__error-message">Поле обязательное</span>
+    </div>
 
-  <!-- неактивная кнопка -->
-  <button class="button button_unactive">зарегистрироваться</button>
+    <br>
 
-  <!-- прозрачная кнопка -->
-  <button class="button button_no-background">назад</button>
+    <!-- <input class="input_tags-manual-suggestions" type="text" placeholder="Выбрать" style=""> -->
 
-  <!-- маленькая кнопка)) -->
-  <button class="button button_small">назад</button>
 
 </body>
 
