@@ -1,0 +1,9 @@
+.progress {
+	width: 256px;
+	display: grid;
+	grid-template-columns: 1fr 24px;
+	row-gap: 8px;
+	column-gap: 16px;
+	margin: 0px;
+	margin-left: 160px;
+}

@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="pages/index__status.css" />
+  </head>
+  <body>
+    <div class="status">
+      <p class="status__title">Статус профиля</p>
+      <div class="status__tag tag tag__color_dark" tabindex="-1">
+        <p class="tag__text">Скрыт</p>
+        <p class="tag__mark">?</p>
+      </div><!--добявиться общий класс для тегов от Насти-->
+    </div>
+
+    <div class="progress">
+      <p class="progress__complete">
+        Профиль заполнен на <spen class="progress-value">66</spen>%
+      </p>
+      <progress class="progress__bar" max="100" value="66"></progress>
+      <button class="progress__reload" tipe="button"></button>
+      <p class="progress__info">
+        Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
+        выбрали исполнителем
+      </p>
+    </div>
+  </body>
 </html>

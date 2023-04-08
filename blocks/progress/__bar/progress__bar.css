@@ -1,0 +1,27 @@
+.progress__bar {
+  grid-column: 1;
+  border-radius: 24px;
+	height: 24px;
+  width: 216px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+}
+
+.progress__bar::-webkit-progress-bar {
+  height: 24px;
+	background-color: #E3E9F0;
+  border-radius: 24px;
+	border: solid #E3E9F0 2px;
+}
+.progress__bar::-webkit-progress-value {
+  height: 20px;
+  background-color: #72d0dc;
+  border-radius: 24px;
+}
+.progress__bar::-moz-progress-bar {
+  background-color: #72d0dc;
+  height: 20px;
+  border-radius: 24px;
+}
