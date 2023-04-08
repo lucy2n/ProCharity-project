@@ -17,7 +17,7 @@
   transition: .5s;
 }
   
-.button:not(.button_unactive, .button_no-background):hover {
+.button:not(.button_unactive, .button_type_back):hover {
   background-color: #cc4d00;
 }
 
