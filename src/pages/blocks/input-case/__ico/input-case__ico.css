@@ -1,8 +1,11 @@
 .input-case__ico {
   padding: 0;
-  margin: 0 12px 0 0;
   width: 24px;
   height: 24px;
   background-position: center;
   background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  right: 12px;
 }

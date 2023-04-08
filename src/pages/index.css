@@ -1,8 +1,20 @@
 /* buttons&inputs */
-@import url(../../node_modules/@yaireo/tagify/dist/tagify.css);
 
-@import url(./blocks/input-case/__container/input-case__container.css);
+/* tagrify block */
+@import url(../../node_modules/@yaireo/tagify/dist/tagify.css);
+@import url(./blocks/tagify/tagify.css);
+@import url(./blocks/tagify/__tag/tagify__tag.css);
+@import url(./blocks/tagify/__input/tagify__input.css);
+@import url(./blocks/tagify/__dropdown/__dropdown__wrapper/tagify__dropdown__wrapper.css);
+@import url(./blocks/tagify/__customSuggestionsList/tagify__customSuggestionsList.css);
+@import url(./blocks/tagify/__tag/__removeBtn/tagify__tag__removeBtn.css);
+@import url(./blocks/tagify/__tag-text/tagify__tag-text.css);
+@import url(./blocks/tagify/__dropdown/__dropdown__item/tagify__dropdown__item.css);
+/* tagrify block */
+
+
 @import url(./blocks/input/input.css);
+@import url(./blocks/input/_type/input_type_error.css);
 @import url(./blocks/input-case/__subtitle/input-case__subtitle.css);
 @import url(./blocks/input-case/__ico/input-case__ico.css);
 @import url(./blocks/input-case/__ico/_type/input-case__ico_type_eye.css);
@@ -16,7 +28,6 @@
 @import url(./blocks/button/_type/button_type_save.css);
 @import url(./blocks/input-case/input-case.css);
 @import url(./blocks/input-case/__error-message/input-case__error-message.css);
-@import url(./blocks/input-case/_dropdown-menu/input-case_dropdown-menu.css);
-@import url(./blocks/input-case/__container/_dropdown-menu/input-case__container_dropdown-menu.css);
 @import url(./blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
 @import url(./blocks/input-case/__title/input-case__title.css);
+@import url(./blocks/input-case/__dropdown-content/input-case__dropdown-content.css);

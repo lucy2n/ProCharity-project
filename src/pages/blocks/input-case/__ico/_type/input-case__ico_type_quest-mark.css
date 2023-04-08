@@ -11,11 +11,12 @@
   border-radius: 8px;
   content: 'Если тебе удобнее, чтобы представители фондов писали в Telegram, укажи свой ник (без @ и url)';
   position: absolute;
-  left: 6px;
-  top: -75px;
+  right: -10px;
+  top: -90px;
   background: #FFFFFF;;
   box-shadow: 0px 4px 24px rgba(0, 77, 95, 0.24);
 
+  
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
@@ -24,9 +25,10 @@
   color: #58646A;
 }
 
+
 @media screen and (max-width: 856px) {
   .input-case__ico_type_quest-mark:hover::after {
     width: 312px;
-    left: 0px;
+    right: -12px;
   }
 }

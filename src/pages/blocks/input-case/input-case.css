@@ -1,12 +1,7 @@
 .input-case {
   position: relative;
-  /* height: 88px; */
-  max-width: 358px;
-  min-width: 312px;
+  /* width: max-content; */
+  display: inline-block;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 856px) {
-  .input-case {
-    max-width: 311px;
-  }
-}

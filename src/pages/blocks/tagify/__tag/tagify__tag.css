@@ -1,0 +1,15 @@
+.tagify__tag {
+height: 24px;
+margin: 0;
+}
+
+.tagify__tag>div::before {
+  box-shadow: 0 0 0 var(--tag-inset-shadow-size) #FF6100 inset;
+  border-radius: 20px;
+  height: 24px;
+  margin: 0;
+}
+
+.tagify__tag>div>* {
+  color: white;
+}
