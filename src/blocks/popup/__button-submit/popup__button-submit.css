@@ -1,0 +1,10 @@
+.popup__button-submit {
+    width: 147px;
+    height: 56px;
+    background-color: #E65609;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
