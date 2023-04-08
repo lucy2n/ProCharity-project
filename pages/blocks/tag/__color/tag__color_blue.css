@@ -1,0 +1,13 @@
+.tag__color_blue {
+    background-color: #72D0DC;
+    color: #72D0DC;
+}
+
+.tag__color_blue:focus {
+    outline: 2px solid #048AA7;
+}
+
+.tag__color_blue:active {
+    opacity: 1;
+    background-color: #048AA7;
+}
