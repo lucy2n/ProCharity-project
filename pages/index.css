@@ -4,7 +4,3 @@
 @import url(./blocks/tag/__color/tag__color_dark.css);
 @import url(./blocks/tag/__color/tag__color_orange.css);
 @import url(./blocks/tag/__color/tag__color_blue.css);
-
-* {
-    font-family: 'Arial';
-}
