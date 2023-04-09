@@ -1,0 +1,15 @@
+.navigation__text {
+    margin: 0;
+
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 796px) {
+    .navigation__text {
+        margin: 0;
+    }
+
+    .navigation__text:first-of-type {
+        display: none;
+    }
+}
