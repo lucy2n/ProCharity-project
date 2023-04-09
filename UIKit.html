@@ -30,6 +30,97 @@
       </button>
     </div>
   </header>
+  <main class="content">
+
+    <!-- UIKit -->
+    <!-- inputs& buttons -->
+
+    <!-- button -->
+    <button type="button" class="button">зарегистрироваться</button>
+
+    <!-- неактивная кнопка -->
+    <button class="button button_type_disabled" disabled>зарегистрироваться</button>
+
+    <!-- прозрачная кнопка -->
+    <button class="button button_type_back">назад</button>
+
+    <!-- кнопка сохранить -->
+    <button class="button button_type_save">Сохранить</button>
+
+
+
+    <br>
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="text" placeholder="Имя">
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_cross"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">Пароль</span>
+      <div class="input-case__ico input-case__ico_type_eye"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">email</span>
+      <div class="input-case__ico input-case__ico_type_eye-crossed"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <!-- c всплывающей подсказкой -->
+
+    <div class="input-case">
+      <input class="input input_type_error" type="text" placeholder="Telegram">
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_quest-mark"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <br>
+
+
+    <!-- c выпадающим меню (при фокусе инпута) -->
+
+    <div class="input-case">
+      <div class="input-case__dropdown">
+        <input class="input input_type_error" type="text" placeholder="Предпочитаемый способ связи">
+        <span class="input-case__subtitle">Предпочитаемый способ связи</span>
+        <div class="input-case__dropdown-content">
+          <a href="#">Telegram</a>
+          <a href="#">Email</a>
+          <a href="#">Моб.телефон</a>
+        </div>
+      </div>
+
+      <div class="input-case__ico input-case__ico_type_arrow"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+
+  <br>
+
+    <!--инпут c выпадающим меню (библиотека tagify) -->
+
+    <div class="input-case">
+      <input class="input_tags-manual-suggestions" type="text" placeholder="Выбрать">
+      <div class="input-case__ico input-case__ico_type_arrow"></div>
+      <span class="input-case__error-message">Поле обязательное</span>
+    </div>
+  </main>
 </body>
 
 </html>
