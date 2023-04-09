@@ -1,3 +1,4 @@
 @import url(../src/vendor/normalize.css);
 /*footer*/
-@import Url(../src/blocks/footer/footer.css);
+@import url(../src/blocks/footer/footer.css);
+@import url(../src/blocks/footer/__container/footer__container.css);
