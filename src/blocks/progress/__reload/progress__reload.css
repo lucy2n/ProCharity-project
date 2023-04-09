@@ -1,7 +1,7 @@
 .progress__reload {
 	width: 24px;
 	height: 24px;
-	background: url(../../../images/reload.svg) no-repeat;
+	background: url(../../../../images/reload.svg) no-repeat;
 	background-color: none;
 	border: none;
 	cursor: pointer;

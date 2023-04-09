@@ -1,0 +1,13 @@
+/*общее для всей страницы*/
+@import url(../src/vendor/normalize.css);
+/*status*/
+@import url(../src/blocks/status/status.css);
+@import url(../src/blocks/status/__title/status__title.css);
+
+/*progress*/
+@import url(../src/blocks/progress/progress.css);
+@import url(../src/blocks/progress/__complete/progress__complete.css);
+@import url(../src/blocks/progress/__bar/progress__bar.css);
+@import url(../src/blocks/progress/__reload/progress__reload.css);
+@import url(../src/blocks/progress/__info/progress__info.css);
+@import url(../src/blocks/progress/__link/progress__link.css);
