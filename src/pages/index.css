@@ -36,7 +36,10 @@
 
 @import url(./index__header_footer.css);
 
+/* Popup */
+
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/cropper/cropper.css);
 @import url(../blocks/position/fixed.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__title/popup__title.css);

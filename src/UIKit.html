@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
   <title>Document</title>
   <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
 </head>
@@ -124,7 +126,9 @@
     <section class="popup fixed">
       <div class="popup__container">
           <h2 class="popup__title">Выберите фрагмент изображения</h2>
-          <img src="" alt="" class="popup__avatar">
+          <div class="popup__div">
+            <img id="popup__avatar" src="<%=require('./images/popup_image.png')%>" alt="" class="popup__image">
+          </div>
           <button class="popup__button-submit">Сохранить</button>
       </div>
       <button class="popup__button-close"></button>
