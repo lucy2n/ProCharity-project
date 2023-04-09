@@ -42,7 +42,7 @@
 
 @import url(./index__header_footer.css);
 @import url(../blocks/stepper/stepper.css);
-@import url(../blocks/stepper/__place/stepper__place_registration.css);
+@import url(../blocks/stepper/_place/stepper_place_registration.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__link/navigation__link.css);

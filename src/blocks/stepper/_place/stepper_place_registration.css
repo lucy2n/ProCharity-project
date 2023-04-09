@@ -1,36 +1,36 @@
-.stepper__place_registration .menu__item_active .menu__number {
+.stepper_place_registration .menu__item_active .menu__number {
     background-image: url(../../../../src/images/Shape.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
 }
 
-.stepper__place_registration .navigation {
+.stepper_place_registration .navigation {
     display: none;
 }
 
-.stepper__place_registration .menu__text {
+.stepper_place_registration .menu__text {
     color: #7B878F;
 }
 
-.stepper__place_registration .menu__number {
+.stepper_place_registration .menu__number {
     background-color: #F5F6F8;
 
     color: #7B878F;
 }
 
 @media screen and (max-width: 796px) {
-    .stepper__place_registration .menu__item_active .menu__number {
+    .stepper_place_registration .menu__item_active .menu__number {
         background: linear-gradient(to right, #E65609 50%, #F1F5F9 50%);
     }
 
-    .stepper__place_registration .navigation {
+    .stepper_place_registration .navigation {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
 
-    .stepper__place_registration .navigation__text:first-of-type {
+    .stepper_place_registration .navigation__text:first-of-type {
         display: block;
 
         color: #58646A;
