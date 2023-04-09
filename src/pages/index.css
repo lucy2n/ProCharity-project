@@ -53,3 +53,15 @@
 @import url(../blocks/menu/__item/_active/menu__item_active.css);
 @import url(../blocks/menu/__number/menu__number.css);
 @import url(../blocks/menu/__text/menu__text.css);
+
+/*status*/
+@import url(../blocks/status/status.css);
+@import url(../blocks/status/__title/status__title.css);
+
+/*progress*/
+@import url(../blocks/progress/progress.css);
+@import url(../blocks/progress/__complete/progress__complete.css);
+@import url(../blocks/progress/__bar/progress__bar.css);
+@import url(../blocks/progress/__reload/progress__reload.css);
+@import url(../blocks/progress/__info/progress__info.css);
+@import url(../blocks/progress/__link/progress__link.css);

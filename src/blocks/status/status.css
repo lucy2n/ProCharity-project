@@ -1,0 +1,12 @@
+.status {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 0px 24px 160px;
+}
+@media screen and (max-width: 876px) {
+  .status {
+    margin: 32px 0px 80px 23px;
+  }
+}
