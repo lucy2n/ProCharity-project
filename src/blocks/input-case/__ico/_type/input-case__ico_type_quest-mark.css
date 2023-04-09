@@ -1,5 +1,5 @@
 .input-case__ico_type_quest-mark {
-  background-image: url(../../../../../images/input-quest-mark-ico.svg);
+  background-image: url(../../../../images/input-quest-mark-ico.svg);
 }
 
 .input-case__ico_type_quest-mark:hover::after {

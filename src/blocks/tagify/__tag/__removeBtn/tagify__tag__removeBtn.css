@@ -1,6 +1,6 @@
 .tagify__tag__removeBtn {
   color: white;
-  background-image: url("../../../../../images/input-cross-white-ico.svg");
+  background-image: url("../../../../images/input-cross-white-ico.svg");
   background-size: cover;
   width: 16px;
   height: 16px;
@@ -12,5 +12,5 @@
 }
 
 .tagify__tag__removeBtn:hover {
-background-image: url("../../../../../images/input-cross-white-ico.svg");
+background-image: url("../../../../images/input-cross-white-ico.svg");
 }
