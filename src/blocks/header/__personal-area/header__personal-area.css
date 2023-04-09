@@ -1,0 +1,27 @@
+.header__personal-area {
+  width: 25.3%;
+  max-width: 218px;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  transition: .3s;
+}
+.header__personal-area:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1060px) {
+  .header__personal-area {
+    min-width: 58px;
+    width: 12.3%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header__personal-area {
+    width: 66px
+  }
+}

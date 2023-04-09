@@ -1,3 +1,40 @@
+/* buttons&inputs */
+
+/* tagrify block */
+@import url(../../node_modules/@yaireo/tagify/dist/tagify.css);
+@import url(../blocks/tagify/tagify.css);
+@import url(../blocks/tagify/__tag/tagify__tag.css);
+@import url(../blocks/tagify/__input/tagify__input.css);
+@import url(../blocks/tagify/__dropdown/__dropdown__wrapper/tagify__dropdown__wrapper.css);
+@import url(../blocks/tagify/__customSuggestionsList/tagify__customSuggestionsList.css);
+@import url(../blocks/tagify/__tag/__removeBtn/tagify__tag__removeBtn.css);
+@import url(../blocks/tagify/__tag-text/tagify__tag-text.css);
+@import url(../blocks/tagify/__dropdown/__dropdown__item/tagify__dropdown__item.css);
+/* tagrify block */
+
+
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/_type/input_type_error.css);
+@import url(../blocks/input-case/__subtitle/input-case__subtitle.css);
+@import url(../blocks/input-case/__ico/input-case__ico.css);
+@import url(../blocks/input-case/__ico/_type/input-case__ico_type_eye.css);
+@import url(../blocks/input-case/__ico/_type/input-case__ico_type_eye-crossed.css);
+@import url(../blocks/input-case/__ico/_type/input-case__ico_type_quest-mark.css);
+@import url(../blocks/input-case/__ico/_type/input-case__ico_type_cross.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_disabled.css);
+@import url(../blocks/button/_type/button_type_back.css);
+@import url(../blocks/button/_type/button_type_half-width.css);
+@import url(../blocks/button/_type/button_type_save.css);
+@import url(../blocks/input-case/input-case.css);
+@import url(../blocks/input-case/__error-message/input-case__error-message.css);
+@import url(../blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
+@import url(../blocks/input-case/__title/input-case__title.css);
+@import url(../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
+
+/* Header */
+
+@import url(./index__header_footer.css);
 @import url(../blocks/stepper/stepper.css);
 @import url(../blocks/stepper/__place/stepper__place_registration.css);
 
@@ -10,7 +47,3 @@
 @import url(../blocks/menu/__item/_active/menu__item_active.css);
 @import url(../blocks/menu/__number/menu__number.css);
 @import url(../blocks/menu/__text/menu__text.css);
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}

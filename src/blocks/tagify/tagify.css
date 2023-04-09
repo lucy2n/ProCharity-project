@@ -1,0 +1,10 @@
+.tagify {
+  border: none;
+  --tag-bg: #FF6100;
+  background: #F1F5F9;
+  min-height: 48px;
+  width: 736px;
+  border-radius: 6px;
+  padding: 12px 16px;
+  gap: 8px;
+}
