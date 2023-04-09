@@ -1,0 +1,24 @@
+.input-case__dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f5f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.input-case__dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.input-case__dropdown-content a:hover {
+  background-color: #ddd;
+}

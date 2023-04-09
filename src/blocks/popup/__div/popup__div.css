@@ -1,4 +1,5 @@
-.popup__avatar {
+.popup__div {
     max-width: 472px;
     max-height: 298px;
+    padding: 20px 0;
 }
