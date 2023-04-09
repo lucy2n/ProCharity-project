@@ -31,3 +31,7 @@
 @import url(../blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
 @import url(../blocks/input-case/__title/input-case__title.css);
 @import url(../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
+
+/* Header */
+
+@import url(./index__header_footer.css);
