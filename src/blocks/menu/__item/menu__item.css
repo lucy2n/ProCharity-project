@@ -1,0 +1,13 @@
+.menu__item {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    opacity: .5;
+}
