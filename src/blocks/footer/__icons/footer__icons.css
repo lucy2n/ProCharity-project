@@ -1,0 +1,8 @@
+.footer__icons {
+  grid-row: 3;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 64px 0px;
+}
