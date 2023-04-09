@@ -1,0 +1,15 @@
+.tag__text {
+    margin: 0 12px;
+
+    max-width: 120px;
+    max-height: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: white;
+}
