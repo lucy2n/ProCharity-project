@@ -1,0 +1,16 @@
+@import url(../blocks/stepper/stepper.css);
+@import url(../blocks/stepper/__place/stepper__place_registration.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__text/navigation__text.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../blocks/menu/__number/menu__number.css);
+@import url(../blocks/menu/__text/menu__text.css);
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -5,13 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="src/pages/index.css">
     <title>Document</title>
 </head>
 
 <body>
-    <ul class="menu">
+    <section class="stepper">
+        <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+            <p class="navigation__text">/</p>
+            <p class="navigation__text"> Профиль волонтёра</p>
+        </div>
+        <ul class="menu" id="AccountMenu">
+            <li class="menu__item menu__item_active">
+                <p class="menu__number">1</p>
+                <p class="menu__text">Личные данные</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">2</p>
+                <p class="menu__text">Компетенции</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">3</p>
+                <p class="menu__text">Мотивация</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">4</p>
+                <p class="menu__text">Портфолио</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">5</p>
+                <p class="menu__text">Социальные сети</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="stepper">
+        <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+            <p class="navigation__text">/</p>
+            <p class="navigation__text">Настройки</p>
+        </div>
+    <ul class="menu" id="SettingsMenu">
         <li class="menu__item menu__item_active">
+            <p class="menu__number">1</p>
+            <p class="menu__text">Уведомления</p>
+        </li>
+        <li class="menu__item">
+            <p class="menu__number">2</p>
+            <p class="menu__text">Профиль</p>
+        </li>
+        <li class="menu__item">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Смена пароля</p>
+        </li>
+    </ul>
+    </section>
+
+    <section class="stepper stepper__place_registration">
+        <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+            <p class="navigation__text">Шаг 1 из 5</p>
+            <p class="navigation__text">Регистрация волонтёра</p>
+        </div>
+    <ul class="menu" id="RegistrationMenu">
+        <li class="menu__item menu__item_active">
+            <p class="menu__number"></p>
+            <p class="menu__text">Регистрация</p>
+        </li>
+        <li class="menu__item">
             <p class="menu__number">1</p>
             <p class="menu__text">Личные данные</p>
         </li>
@@ -32,6 +91,7 @@
             <p class="menu__text">Социальные сети</p>
         </li>
     </ul>
+    </section>
 </body>
 
 </html>
