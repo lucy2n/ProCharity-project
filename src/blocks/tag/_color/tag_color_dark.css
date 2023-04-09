@@ -1,0 +1,12 @@
+.tag_color_dark {
+    background-color: #3A464C;
+    color: #3A464C;
+}
+
+.tag_color_dark:focus {
+    outline: 2px solid #E65609;
+}
+
+.tag_color_dark:active {
+    opacity: 1;
+}
