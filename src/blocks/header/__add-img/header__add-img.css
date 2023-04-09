@@ -1,0 +1,21 @@
+.header__add-img {
+  display: none;
+  background-color: #e6560a;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 1060px) {
+  .header__add-img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__add-img {
+    width: 32px;
+    height: 32px;
+  }
+}

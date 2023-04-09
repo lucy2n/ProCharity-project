@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <img class="header__menu-img" src="<%=require('./images/menu.svg')%>" alt="меню">
+      <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="ProCharity">
+      <nav class="header__menu">
+        <a class="header__link" href="#">О проекте</a>
+        <a class="header__link" href="#">Задания</a>
+        <a class="header__link" href="#">Волонтерам</a>
+        <a class="header__link" href="#">Для НКО</a>
+        <a class="header__link" href="#">Бизнесу</a>
+        <a class="header__link" href="#">FAQ</a>
+        <button class="header__search" type="button" aria-label="поиск"></button>
+      </nav>
+      <button class="header__personal-area" type="button" aria-label="регистрация">
+        <img class="header__add-img" src="<%=require('./images/add.svg')%>"alt="присодениться">
+        <p class="header__title">Присоедениться</p>
+        <div class="header__avatar"></div>
+      </button>
+    </div>
+  </header>
+  <main class="content">
+    <br>
+    <!-- UIKit -->
+    <!-- inputs& buttons -->
+
+    <!-- button -->
+    <button type="button" class="button">зарегистрироваться</button>
+
+    <!-- неактивная кнопка -->
+    <button class="button button_type_disabled" disabled>зарегистрироваться</button>
+
+    <!-- прозрачная кнопка -->
+    <button class="button button_type_back">назад</button>
+
+    <!-- кнопка сохранить -->
+    <button class="button button_type_save">Сохранить</button>
+
+
+
+    <br>
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="text" placeholder="Имя">
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_cross"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">Пароль</span>
+      <div class="input-case__ico input-case__ico_type_eye"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <div class="input-case">
+      <input class="input" type="password" placeholder="Пароль">
+      <span class="input-case__subtitle">email</span>
+      <div class="input-case__ico input-case__ico_type_eye-crossed"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <!-- c всплывающей подсказкой -->
+
+    <div class="input-case">
+      <input class="input input_type_error" type="text" placeholder="Telegram">
+      <span class="input-case__subtitle">Имя</span>
+      <div class="input-case__ico input-case__ico_type_quest-mark"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+    <br>
+
+    <br>
+
+
+    <!-- c выпадающим меню (при фокусе инпута) -->
+
+    <div class="input-case">
+      <div class="input-case__dropdown">
+        <input class="input input_type_error" type="text" placeholder="Предпочитаемый способ связи">
+        <span class="input-case__subtitle">Предпочитаемый способ связи</span>
+        <div class="input-case__dropdown-content">
+          <a href="#">Telegram</a>
+          <a href="#">Email</a>
+          <a href="#">Моб.телефон</a>
+        </div>
+      </div>
+
+      <div class="input-case__ico input-case__ico_type_arrow"></div>
+      <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+    </div>
+
+
+  <br>
+
+    <!--инпут c выпадающим меню (библиотека tagify) -->
+
+    <div class="input-case">
+      <input class="input_tags-manual-suggestions" type="text" placeholder="Выбрать">
+      <div class="input-case__ico input-case__ico_type_arrow"></div>
+      <span class="input-case__error-message">Поле обязательное</span>
+    </div>
+
+    <section class="popup fixed">
+      <div class="popup__container">
+          <h2 class="popup__title">Выберите фрагмент изображения</h2>
+          <img src="" alt="" class="popup__avatar">
+          <button class="popup__button-submit">Сохранить</button>
+      </div>
+      <button class="popup__button-close"></button>
+  </section>
+
+  </main>
+
+</body>
+
+</html>
