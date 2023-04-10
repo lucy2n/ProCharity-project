@@ -1,4 +1,6 @@
-.popup__image-notification{
+.popup__image-notification {
     width: 18px;
     height: 18px;
+    padding-top: 12px;
+    margin-left: 17px;
 }
