@@ -44,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/contacts.html'
+      template: './src/contacts.html',
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),

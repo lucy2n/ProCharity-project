@@ -77,3 +77,4 @@
 @import url(../blocks/form-container/__radio-buttons-box/form-container__radio-buttons-box.css);
 @import url(../blocks/form-container/__radio-buttons-box/__button/form-container__radio-buttons-box__button.css);
 @import url(../blocks/form-container/__radio-buttons-box/__button/_type-active/form-container__radio-buttons-box__button_type-active.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
