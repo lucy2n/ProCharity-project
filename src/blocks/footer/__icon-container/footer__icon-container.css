@@ -4,11 +4,10 @@
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 24px;
-  margin-right: 65px;
+
 }
-.footer__icon-container:last-of-type {
-	margin-right: 0;
-	margin-left: 95px;
+.footer__icon-container:last-of-type{
+  margin-left: 35%;
 }
