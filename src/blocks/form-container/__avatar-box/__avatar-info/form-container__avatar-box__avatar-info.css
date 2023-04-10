@@ -1,10 +1,11 @@
-.input-case__error-message {
-  display: none;
-  width: 226px;
+.form-container__avatar-box__avatar-info {
+  max-width: 163px;
+  padding-left: 32px;
+
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #D20202;
+  color: #7B878F;
 }

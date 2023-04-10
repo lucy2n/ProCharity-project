@@ -65,3 +65,12 @@
 @import url(../blocks/progress/__reload/progress__reload.css);
 @import url(../blocks/progress/__info/progress__info.css);
 @import url(../blocks/progress/__link/progress__link.css);
+
+/* contacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/contacts__menu-container/contacts__menu-container.css);
+@import url(../blocks/form-container/form-container.css);
+@import url(../blocks/form-container/__avatar-box/form-container__avatar-box.css);
+@import url(../blocks/form-container/__avatar-box/__avatar/form-container__avatar-box__avatar.css);
+@import url(../blocks/form-container/__avatar-box/__avatar-info/form-container__avatar-box__avatar-info.css);
+@import url(../blocks/form/__inputs-container/form__inputs-container.css);
