@@ -19,3 +19,17 @@
 @import url(../blocks/header/__avatar/_add/header__avatar_add_user.css);
 @import url(../blocks/header/__menu-img/header__menu-img.css);
 @import url(../blocks/header/__add-img/header__add-img.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__icons/footer__icons.css);
+@import url(../blocks/footer/__icon-container/footer__icon-container.css);
+@import url(../blocks/footer/__icon-title/footer__icon-title.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__autor/footer__autor.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__information/footer__information.css);
