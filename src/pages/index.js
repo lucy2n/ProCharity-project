@@ -46,7 +46,7 @@ import Cropper from 'cropperjs';
 
 const image = document.getElementById('popup__avatar');
 const cropper = new Cropper(image, {
-  aspectRatio: 1 / 1
+  autoCropArea: 1
 });
 
 cropper.options.highlight = false;
