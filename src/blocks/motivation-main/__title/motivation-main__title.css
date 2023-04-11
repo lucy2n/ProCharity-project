@@ -1,0 +1,10 @@
+.motivation-main__title {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  color: #374045;
+}

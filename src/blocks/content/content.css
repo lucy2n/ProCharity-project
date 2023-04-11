@@ -1,7 +1,10 @@
-.content{
-	margin: 0 auto;
-	width: 71.1%;
-	max-width: 1024px;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+.content {
+  margin: 0 auto;
+  width: 71.1%;
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+  grid-template-rows: repeat(3, min-content);
+	column-gap: 32px;
+  row-gap: 24px;
 }
