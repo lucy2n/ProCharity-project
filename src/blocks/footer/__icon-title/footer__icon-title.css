@@ -10,3 +10,9 @@
   padding: 0;
   margin-right: 24px;
 }
+@media screen and (max-width: 850px){
+  .footer__icon-title {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

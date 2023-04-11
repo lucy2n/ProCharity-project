@@ -4,3 +4,8 @@
   padding: 0px;
   gap: 16px;
 }
+@media screen and (max-width: 850px) {
+  .footer__links{
+    display: none;
+  }
+}

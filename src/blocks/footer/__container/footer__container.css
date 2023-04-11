@@ -8,3 +8,11 @@
   padding-top: 64px;
   padding-bottom: 72px;
 }
+@media screen and (max-width: 850px) {
+  .footer__container{
+    grid-template-columns: 1fr;
+    width: 86.7%;
+    padding-top: 48px;
+    padding-bottom: 58px;
+  }
+}

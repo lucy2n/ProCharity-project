@@ -9,3 +9,8 @@
 	margin: 0;
 	margin-bottom: 22px;
 }
+@media screen and (max-width: 850px) {
+  .footer__title{
+    display: none;
+  }
+}

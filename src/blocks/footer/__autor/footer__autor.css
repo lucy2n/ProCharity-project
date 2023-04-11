@@ -8,3 +8,8 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 850px){
+  .footer__autor{
+		grid-row: 2;
+  }
+}
