@@ -1,15 +1,42 @@
 .contacts {
-  margin: auto;
-  max-width: 1440px;
-  padding: 0 30px;
-  display: flex;
   justify-content: center;
+  margin: auto;
+  padding: 0 30px;
+  display: grid;
+  max-width: 1024px;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 32px;
+}
+
+.contacts>.status {
+  grid-row: 2/3;
+}
+
+.contacts>.progress {
+  grid-row: 3/4;
+}
+
+.contacts>.form-container {
+  grid-row: 1/5;
 }
 
 @media screen and (max-width: 856px) {
   .contacts {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 24px;
+    grid-template-columns: repeat(1, auto);
   }
+
+  .contacts>.stepper {
+    grid-row: 1/2;
+  }
+
+  .contacts>.form-container {
+    grid-row: 2/3;
+  }
+
+  .contacts>.status {
+    grid-row: 3/4;
+  }
+
+
 }

@@ -3,3 +3,9 @@
   flex-direction: column;
   margin-right: 32px;
 }
+
+@media screen and (max-width: 856px) {
+  .contacts__menu-container {
+    margin-right: 0;
+  }
+}
