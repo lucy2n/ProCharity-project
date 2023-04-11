@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
   <title>Document</title>
   <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
 </head>
@@ -120,6 +122,29 @@
       <div class="input-case__ico input-case__ico_type_arrow"></div>
       <span class="input-case__error-message">Поле обязательное</span>
     </div>
+
+
+    <section class="popup fixed">
+      <div class="popup__container">
+        <h2 class="popup__title">Выберите фрагмент изображения</h2>
+        <div class="popup__cropper-container">
+          <div class="popup__div">
+            <img id="popup__avatar" src="<%=require('./images/popup_image.png')%>" alt="" class="popup__image">
+          </div>
+        </div>
+        <button class="button button_type_save">Сохранить</button>
+        <button class="popup__button-close"></button>
+      </div>
+    </section>
+    <section class="popup__notification fixed">
+      <img src="<%=require('./images/popup__notification.png')%>" alt="" class="popup__image-notification">
+      <div class="popup__container-notification">
+        <h2 class="popup__title-notification">Профиль на модерации</h2>
+        <p class="popup__text-notification">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на
+          email.</p>
+      </div>
+      <button class="popup__button-close popup__button-close_type_notification"></button>
+    </section>
 
     <!--теги-->
     <div class="tag tag_color_dark" tabindex="-1">
@@ -240,6 +265,7 @@
   </section>
 
   </main>
+
 </body>
 
 </html>
