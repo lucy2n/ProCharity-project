@@ -44,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/UIKit.html'
+      template: 'src/notifications.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
