@@ -106,7 +106,8 @@
               <input class="input" type="text" placeholder="Имя">
               <span class="input-case__subtitle">Имя</span>
               <div class="input-case__ico input-case__ico_type_cross"></div>
-              <span class="input-case__error-message input-case-error-message_type-active">Может содержать только буквы и специальные символы</span>
+              <span class="input-case__error-message">Может содержать только буквы
+                и специальные символы</span>
             </div>
             <div class="input-case">
               <input class="input" type="text" placeholder="Фамилия">
@@ -143,12 +144,13 @@
             <div class="input-case">
               <input class="input" type="text" placeholder="Ник в Telegram">
               <span class="input-case__subtitle">Ник в Telegram</span>
+              <!-- <div class="input-case__ico input-case__ico_type_cross"></div> -->
               <div class="input-case__ico input-case__ico_type_quest-mark"></div>
               <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
             </div>
             <div class="input-case">
               <div class="input-case__dropdown">
-                <input class="input input_type_error" type="text" placeholder="Предпочитаемый способ связи">
+                <input class="input" type="text" placeholder="Предпочитаемый способ связи">
                 <span class="input-case__subtitle">Предпочитаемый способ связи</span>
                 <div class="input-case__dropdown-content">
                   <a href="#">Telegram</a>
@@ -157,7 +159,8 @@
                 </div>
               </div>
               <div class="input-case__ico input-case__ico_type_arrow"></div>
-              <span class="input-case__error-message input-case-error-message_type-active">Может содержать только буквы и специальные символы</span>
+              <span class="input-case__error-message">Может содержать только буквы
+                и специальные символы</span>
             </div>
           </fieldset>
           <div class="form-container__radio-buttons-box">
@@ -168,19 +171,27 @@
           </div>
           <fieldset class="form__inputs-container">
             <div class="input-case">
-              <input class="input" type="text" placeholder="Имя">
-              <span class="input-case__subtitle">Имя</span>
-              <div class="input-case__ico input-case__ico_type_cross"></div>
-              <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+              <div class="input-case__dropdown">
+                <input class="input input_type_error input_type_error" type="text" placeholder="Выбрать компанию">
+                <span class="input-case__subtitle">Выбрать компанию</span>
+                <div class="input-case__dropdown-content">
+                  <a href="#">Яндекс</a>
+                  <a href="#">Гугл</a>
+                  <a href="#">Амазон</a>
+                </div>
+              </div>
+              <div class="input-case__ico input-case__ico_type_arrow"></div>
+              <span class="input-case__error-message input-case-error-message_type-active">Поле обязательное</span>
             </div>
             <div class="input-case">
-              <input class="input" type="text" placeholder="Имя">
-              <span class="input-case__subtitle">Имя</span>
+              <input class="input input_type_error" type="text" placeholder="Должность">
+              <span class="input-case__subtitle">Должность</span>
               <div class="input-case__ico input-case__ico_type_cross"></div>
-              <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
+              <span class="input-case__error-message input-case-error-message_type-active">Поле обязательное</span>
             </div>
           </fieldset>
           <textarea class="form__textarea" name="" id="" placeholder="Как ты о нас узнал?"></textarea>
+          <button type="submit" class="button button_type_save">Сохранить</button>
         </form>
       </div>
     </section>

@@ -1,6 +1,7 @@
 .input {
   box-sizing: border-box;
-  width: 358px;
+  max-width: 358px;
+  width: 100%;
   height: 48px;
   border: none;
   color: #7B878F;
@@ -45,6 +46,19 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .input:focus~.input-case__ico_type_cross {
   display: block;
 }
+
+.input:focus~.input-case__ico_type_quest-mark::after {
+  display: inline-block;
+  content: "";
+  position: relative;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/input-cross-white-ico.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .input:focus~.input-case__dropdown-content {
   display: block;

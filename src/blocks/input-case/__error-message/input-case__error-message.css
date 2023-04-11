@@ -1,11 +1,11 @@
 .input-case__error-message {
   display: none;
   width: 226px;
-  position: absolute;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #D20202;
+  margin-top: 4px;
 }

@@ -1,3 +1,10 @@
 .form-container {
-  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 856px) {
+  .form-container {
+    max-width: 312px;
+  }
 }

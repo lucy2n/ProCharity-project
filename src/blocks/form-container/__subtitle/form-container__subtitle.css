@@ -15,3 +15,9 @@
 .form-container p:nth-child(3) {
   padding-top: 32px;
 } 
+
+@media screen and (max-width: 856px) {
+  .form-container__subtitle {
+    max-width: 311px;
+  }
+}
