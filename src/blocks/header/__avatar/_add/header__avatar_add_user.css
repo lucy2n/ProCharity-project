@@ -1,0 +1,15 @@
+.header__avatar_add_user {
+  z-index: 1;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  background: url(../../../../images/header_avatar.png) no-repeat center
+    border-box;
+  background-color: #69a2ab;
+}
+@media screen and (max-width: 896px) {
+  .header__avatar_add_user {
+    right: 17px;
+    top: 8px;
+  }
+}
