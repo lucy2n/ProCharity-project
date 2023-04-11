@@ -1,3 +1,9 @@
+@import url(../blocks/tag/tag.css);
+@import url(../blocks/tag/__text/tag__text.css);
+@import url(../blocks/tag/__mark/tag__mark.css);
+@import url(../blocks/tag/_color/tag_color_dark.css);
+@import url(../blocks/tag/_color/tag_color_orange.css);
+@import url(../blocks/tag/_color/tag_color_blue.css);
 /* buttons&inputs */
 
 /* tagrify block */
@@ -54,3 +60,29 @@
 @import url(../blocks/popup/__text-notification/popup__text-notification.css);
 @import url(../blocks/popup/__button-close/_type/popup__button-close_type_notification.css);
 @import url(../blocks/popup/__cropper-container/popup__cropper-container.css);
+
+@import url(../blocks/stepper/stepper.css);
+@import url(../blocks/stepper/_place/stepper_place_registration.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__text/navigation__text.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../blocks/menu/__number/menu__number.css);
+@import url(../blocks/menu/__text/menu__text.css);
+
+/*status*/
+@import url(../blocks/status/status.css);
+@import url(../blocks/status/__title/status__title.css);
+
+/*progress*/
+@import url(../blocks/progress/progress.css);
+@import url(../blocks/progress/__complete/progress__complete.css);
+@import url(../blocks/progress/__bar/progress__bar.css);
+@import url(../blocks/progress/__reload/progress__reload.css);
+@import url(../blocks/progress/__info/progress__info.css);
+@import url(../blocks/progress/__link/progress__link.css);
+

@@ -123,6 +123,7 @@
       <span class="input-case__error-message">Поле обязательное</span>
     </div>
 
+
     <section class="popup fixed">
       <div class="popup__container">
         <h2 class="popup__title">Выберите фрагмент изображения</h2>
@@ -144,6 +145,124 @@
       </div>
       <button class="popup__button-close popup__button-close_type_notification"></button>
     </section>
+
+    <!--теги-->
+    <div class="tag tag_color_dark" tabindex="-1">
+      <p class="tag__text">STATUS</p>
+      <p class="tag__mark">?</p>
+    </div>
+    <div class="tag tag_color_orange" tabindex="-1">
+      <p class="tag__text">STATUS</p>
+      <p class="tag__mark">?</p>
+    </div>
+    <div class="tag tag_color_blue" tabindex="-1">
+      <p class="tag__text">STATUS</p>
+      <p class="tag__mark">?</p>
+    </div>
+
+    <!--меню ЛК, настроек и регистрации-->
+    <section class="stepper">
+      <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+          <p class="navigation__text">/</p>
+          <p class="navigation__text"> Профиль волонтёра</p>
+      </div>
+      <ul class="menu" id="AccountMenu">
+          <li class="menu__item menu__item_active">
+              <p class="menu__number">1</p>
+              <p class="menu__text">Личные данные</p>
+          </li>
+          <li class="menu__item">
+              <p class="menu__number">2</p>
+              <p class="menu__text">Компетенции</p>
+          </li>
+          <li class="menu__item">
+              <p class="menu__number">3</p>
+              <p class="menu__text">Мотивация</p>
+          </li>
+          <li class="menu__item">
+              <p class="menu__number">4</p>
+              <p class="menu__text">Портфолио</p>
+          </li>
+          <li class="menu__item">
+              <p class="menu__number">5</p>
+              <p class="menu__text">Социальные сети</p>
+          </li>
+      </ul>
+  </section>
+
+  <section class="stepper">
+      <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+          <p class="navigation__text">/</p>
+          <p class="navigation__text">Настройки</p>
+      </div>
+  <ul class="menu" id="SettingsMenu">
+      <li class="menu__item menu__item_active">
+          <p class="menu__number">1</p>
+          <p class="menu__text">Уведомления</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">2</p>
+          <p class="menu__text">Профиль</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">3</p>
+          <p class="menu__text">Смена пароля</p>
+      </li>
+  </ul>
+  </section>
+
+  <section class="stepper stepper_place_registration">
+      <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+          <p class="navigation__text">Шаг 1 из 5</p>
+          <p class="navigation__text">Регистрация волонтёра</p>
+      </div>
+  <ul class="menu" id="RegistrationMenu">
+      <li class="menu__item menu__item_active">
+          <p class="menu__number"></p>
+          <p class="menu__text">Регистрация</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">1</p>
+          <p class="menu__text">Личные данные</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">2</p>
+          <p class="menu__text">Компетенции</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">3</p>
+          <p class="menu__text">Мотивация</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">4</p>
+          <p class="menu__text">Портфолио</p>
+      </li>
+      <li class="menu__item">
+          <p class="menu__number">5</p>
+          <p class="menu__text">Социальные сети</p>
+      </li>
+  </ul>
+  </section>
+
+  <section class="status">
+    <p class="status__title">Статус профиля</p>
+    <div class="status__tag tag tag_color_dark" tabindex="-1">
+      <p class="tag__text">Скрыт</p>
+      <p class="tag__mark">?</p>
+    </div>
+  </section>
+
+  <section class="progress">
+    <p class="progress__complete">
+      Профиль заполнен на <spen class="progress-value">66</spen>%
+    </p>
+    <progress class="progress__bar" max="100" value="66"></progress>
+    <button class="progress__reload" tipe="button" aria-label="перезагрузка прогресса"></button>
+    <p class="progress__info">
+      Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
+      выбрали исполнителем
+    </p>
+  </section>
 
   </main>
 
