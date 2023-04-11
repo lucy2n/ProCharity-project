@@ -1,0 +1,22 @@
+.navigation {
+    margin: 24px 0 22px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B878F;
+}
+
+@media screen and (max-width: 796px) {
+    .navigation {
+        margin: 8px 0 0;
+
+        width: 310px;
+
+        color: #7B878F;
+    }
+}

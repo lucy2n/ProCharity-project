@@ -1,0 +1,12 @@
+.tag_color_orange {
+    background-color: #E65609;
+    color: #E65609;
+}
+
+.tag_color_orange:focus {
+    outline: 2px solid #CC4D00;
+}
+
+.tag_color_orange:active {
+    opacity: 1;
+}

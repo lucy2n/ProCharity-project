@@ -1,0 +1,10 @@
+.header__menu-img {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .header__menu-img {
+    display: block;
+    width: 6.7%;
+    min-width: 24px;
+  }
+}
