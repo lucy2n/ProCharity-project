@@ -1,0 +1,17 @@
+.form-container__subtitle {
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 12px;
+  margin: 0;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #58646A;
+}
+ 
+.form-container p:nth-child(3) {
+  padding-top: 32px;
+} 
