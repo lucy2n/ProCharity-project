@@ -6,7 +6,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 856px){
   .footer__copyright{
 		grid-template-columns: 1fr;
 		row-gap: 44px;
