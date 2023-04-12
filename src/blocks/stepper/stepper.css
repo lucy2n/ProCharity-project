@@ -1,6 +1,3 @@
-.stepper{
-    margin: 24px 0 24px 160px;
-}
 @media screen and (max-width: 796px) {
     .stepper {
         display: flex;
