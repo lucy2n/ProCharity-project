@@ -1,4 +1,18 @@
 .progress__link {
   cursor: pointer;
   color: #048aa7;
+  transition: .3s;
+}
+
+.progress__link:hover {
+  text-decoration: none;
+}
+
+.progress__link:active {
+  color: #374146;
+  text-decoration: none;
+}
+.progress__link:visited {
+  color: #7b878f;
+  text-decoration: none;
 }
