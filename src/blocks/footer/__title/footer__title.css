@@ -9,7 +9,7 @@
 	margin: 0;
 	margin-bottom: 22px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 856px) {
   .footer__title{
     display: none;
   }
