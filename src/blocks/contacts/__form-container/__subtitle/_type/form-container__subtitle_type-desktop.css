@@ -1,0 +1,9 @@
+.form-container__subtitle_type-desktop {
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 856px) {
+  .form-container__subtitle_type-desktop {
+    display: none;
+  }
+}

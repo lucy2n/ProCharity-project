@@ -5,15 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
   <title>Document</title>
   <style>
-    /* .status {
-      margin: 24px 0 24px 0px;
-    }
 
-    .progress {
-      margin: 0;
-    } */
   </style>
 </head>
 
@@ -40,56 +36,54 @@
   </header>
   <main class="content">
     <section class="contacts">
-      <!-- <div class="contacts__menu-container"> -->
-        <section class="stepper">
-          <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
-            <p class="navigation__text">/</p>
-            <p class="navigation__text">Мои данные</p>
-          </div>
-          <ul class="menu" id="AccountMenu">
-            <li class="menu__item menu__item_active">
-              <p class="menu__number">1</p>
-              <p class="menu__text">Личные данные</p>
-            </li>
-            <li class="menu__item">
-              <p class="menu__number">2</p>
-              <p class="menu__text">Компетенции</p>
-            </li>
-            <li class="menu__item">
-              <p class="menu__number">3</p>
-              <p class="menu__text">Мотивация</p>
-            </li>
-            <li class="menu__item">
-              <p class="menu__number">4</p>
-              <p class="menu__text">Портфолио</p>
-            </li>
-            <li class="menu__item">
-              <p class="menu__number">5</p>
-              <p class="menu__text">Социальные сети</p>
-            </li>
-          </ul>
-        </section>
+      <section class="stepper">
+        <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+          <p class="navigation__text">/</p>
+          <p class="navigation__text">Мои данные</p>
+        </div>
+        <ul class="menu" id="AccountMenu">
+          <li class="menu__item menu__item_active">
+            <p class="menu__number">1</p>
+            <p class="menu__text">Личные данные</p>
+          </li>
+          <li class="menu__item">
+            <p class="menu__number">2</p>
+            <p class="menu__text">Компетенции</p>
+          </li>
+          <li class="menu__item">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Мотивация</p>
+          </li>
+          <li class="menu__item">
+            <p class="menu__number">4</p>
+            <p class="menu__text">Портфолио</p>
+          </li>
+          <li class="menu__item">
+            <p class="menu__number">5</p>
+            <p class="menu__text">Социальные сети</p>
+          </li>
+        </ul>
+      </section>
 
-        <section class="status" style="margin: 24px 0 24px 0px;">
-          <p class="status__title">Статус профиля</p>
-          <div class="status__tag tag tag_color_dark" tabindex="-1">
-            <p class="tag__text">Скрыт</p>
-            <p class="tag__mark">?</p>
-          </div>
-        </section>
+      <section class="status">
+        <p class="status__title">Статус профиля</p>
+        <div class="status__tag tag tag_color_dark" tabindex="-1">
+          <p class="tag__text">Скрыт</p>
+          <p class="tag__mark">?</p>
+        </div>
+      </section>
 
-        <section class="progress" style="margin: 0">
-          <p class="progress__complete">
-            Профиль заполнен на <spen class="progress-value">66</spen>%
-          </p>
-          <progress class="progress__bar" max="100" value="66"></progress>
-          <button class="progress__reload" tipe="button" aria-label="перезагрузка прогресса"></button>
-          <p class="progress__info">
-            Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
-            выбрали исполнителем
-          </p>
-        </section>
-      <!-- </div> -->
+      <section class="progress" style="margin: 0">
+        <p class="progress__complete">
+          Профиль заполнен на <spen class="progress-value">66</spen>%
+        </p>
+        <progress class="progress__bar" max="100" value="66"></progress>
+        <button class="progress__reload" tipe="button" aria-label="перезагрузка прогресса"></button>
+        <p class="progress__info">
+          Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
+          выбрали исполнителем
+        </p>
+      </section>
 
       <div class="form-container">
         <h1 class="form-container__title">Личные данные</h1>
@@ -127,7 +121,9 @@
               <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
             </div>
           </fieldset>
-          <p class="form-container__subtitle">Контакты будут видны фондам, которые выберут тебя исполнителем задания</p>
+          <p class="form-container__subtitle form-container__subtitle_type-desktop">Контакты будут видны фондам, которые
+            выберут тебя исполнителем задания</p>
+          <p class="form-container__subtitle form-container__subtitle_type-mobile">Контактные данные</p>
           <fieldset class="form__inputs-container">
             <div class="input-case">
               <input class="input" type="email" placeholder="Электронная почта">
@@ -172,7 +168,7 @@
           <fieldset class="form__inputs-container">
             <div class="input-case">
               <div class="input-case__dropdown">
-                <input class="input input_type_error input_type_error" type="text" placeholder="Выбрать компанию">
+                <input class="input " type="text" placeholder="Выбрать компанию">
                 <span class="input-case__subtitle">Выбрать компанию</span>
                 <div class="input-case__dropdown-content">
                   <a href="#">Яндекс</a>
@@ -181,13 +177,13 @@
                 </div>
               </div>
               <div class="input-case__ico input-case__ico_type_arrow"></div>
-              <span class="input-case__error-message input-case-error-message_type-active">Поле обязательное</span>
+              <span class="input-case__error-message">Поле обязательное</span>
             </div>
             <div class="input-case">
-              <input class="input input_type_error" type="text" placeholder="Должность">
+              <input class="input" type="text" placeholder="Должность">
               <span class="input-case__subtitle">Должность</span>
               <div class="input-case__ico input-case__ico_type_cross"></div>
-              <span class="input-case__error-message input-case-error-message_type-active">Поле обязательное</span>
+              <span class="input-case__error-message">Поле обязательное</span>
             </div>
           </fieldset>
           <textarea class="form__textarea" name="" id="" placeholder="Как ты о нас узнал?"></textarea>
@@ -196,6 +192,101 @@
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <h3 class="footer__title">О проекте</h3>
+      <h3 class="footer__title">Задания</h3>
+      <h3 class="footer__title">Волонтерам</h3>
+      <h3 class="footer__title">Фондам</h3>
+      <h3 class="footer__title">Бизнесу</h3>
+      <h3 class="footer__title">FAQ</h3>
+      <nav class="footer__links">
+        <a href="#" target="_blank" class="footer__link">О платформе</a>
+        <a href="#" target="_blank" class="footer__link">Команда</a>
+        <a href="#" target="_blank" class="footer__link">Новости</a>
+        <a href="#" target="_blank" class="footer__link">Документы</a>
+        <a href="#" target="_blank" class="footer__link">Партнеры</a>
+        <a href="#" target="_blank" class="footer__link">Отзывы</a>
+        <a href="#" target="_blank" class="footer__link">Контакты</a>
+        <a href="#" target="_blank" class="footer__link">Пожертвовать в фонды</a>
+      </nav>
+      <nav class="footer__links">
+        <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+        <a href="#" target="_blank" class="footer__link">В работе</a>
+        <a href="#" target="_blank" class="footer__link">Выполненные</a>
+      </nav>
+      <nav class="footer__links">
+        <a href="#" target="_blank" class="footer__link">Как помочь</a>
+        <a href="#" target="_blank" class="footer__link">Задания</a>
+        <a href="#" target="_blank" class="footer__link">Список НКО</a>
+        <a href="#" target="_blank" class="footer__link">Бонусы</a>
+        <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+        <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+      </nav>
+      <nav class="footer__links">
+        <a href="#" target="_blank" class="footer__link">Как получить помощь</a>
+        <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+        <a href="#" target="_blank" class="footer__link">Компании-волонтеры</a>
+        <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+        <a href="#" target="_blank" class="footer__link">Вебинары</a>
+      </nav>
+      <nav class="footer__links">
+        <a href="#" target="_blank" class="footer__link">Как помочь</a>
+        <a href="#" target="_blank" class="footer__link">Список НКО</a>
+        <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+      </nav>
+      <ul class="footer__icons">
+        <li class="footer__icon-container">
+          <p class="footer__icon-title">Создатель проекта</p>
+          <img class="footer__icon" src="./images/logo_druzya.svg" alt="логотип фонда друзья">
+        </li>
+        <li class="footer__icon-container">
+          <p class="footer__icon-title">Генеральный партнёр</p>
+          <img class="footer__icon" src="./images/logo_mastercard.svg" alt="логотип mastercard">
+        </li>
+        <li class="footer__icon-container">
+          <img class="footer__icon" src="./images/pgrants_logo.svg" alt="логотип фонда президенстских грантов">
+        </li>
+        <li class="footer__icon-container">
+          <a href="#" target="_blank" class="footer__social-link"><img src="./images/facebook.svg" alt="FaceBook"
+              class="footer__social-icon"></a>
+          <a href="#" target="_blank" class="footer__social-link"><img src="./images/instragram.svg" alt="Instragram"
+              class="footer__social-icon"></a>
+          <a href="#" target="_blank" class="footer__social-link"><img src="./images/vk.svg" alt="VK"
+              class="footer__social-icon"></a>
+        </li>
+      </ul>
+      <div class="footer__copyright">
+        <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+        <p class="footer__information">
+          Юридическая информация и защита персональных данных
+        </p>
+        <img class="footer__logo" src="./images/logo_buroburo.svg" alt="логотип бюро">
+      </div>
+    </div>
+  </footer>
+  <section class="popup fixed">
+    <div class="popup__container">
+      <h2 class="popup__title">Выберите фрагмент изображения</h2>
+      <div class="popup__cropper-container">
+        <div class="popup__div">
+          <img id="popup__avatar" src="<%=require('./images/popup_image.png')%>" alt="" class="popup__image">
+        </div>
+      </div>
+      <button class="button button_type_save">Сохранить</button>
+      <button class="popup__button-close"></button>
+    </div>
+  </section>
+  <section class="popup__notification fixed">
+    <img src="<%=require('./images/popup__notification.png')%>" alt="" class="popup__image-notification">
+    <div class="popup__container-notification">
+      <h2 class="popup__title-notification">Профиль на модерации</h2>
+      <p class="popup__text-notification">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на
+        email.</p>
+    </div>
+    <button class="popup__button-close popup__button-close_type_notification"></button>
+  </section>
+
 </body>
 
 </html>

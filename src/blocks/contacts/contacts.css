@@ -1,7 +1,7 @@
 .contacts {
   justify-content: center;
   margin: auto;
-  padding: 0 30px;
+  padding: 0 30px 120px 30px;
   display: grid;
   max-width: 1024px;
   grid-template-columns: min-content auto;
@@ -36,7 +36,6 @@
 
   .contacts>.status {
     grid-row: 3/4;
+    margin: 32px 0 0;
   }
-
-
 }

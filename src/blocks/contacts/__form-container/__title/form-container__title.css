@@ -1,0 +1,26 @@
+.form-container__title {
+  padding-top: 64px;
+  padding-bottom: 24px;
+  margin: 0;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #374045;
+}
+
+
+@media screen and (max-width: 856px) {
+  .form-container__title {
+    padding-top: 32px;
+    padding-bottom: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #374045;
+  }
+}
