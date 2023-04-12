@@ -47,14 +47,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
   display: block;
 }
 
-.input:focus~.input-case__ico_type_quest-mark::after {
+.input:focus~.input-case__ico_type_quest-mark::before {
   display: inline-block;
   content: "";
   position: relative;
   right: 24px;
   width: 24px;
   height: 24px;
-  background-image: url(../../images/input-cross-white-ico.svg);
+  background-image: url(../../images/input-clear-ico.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
