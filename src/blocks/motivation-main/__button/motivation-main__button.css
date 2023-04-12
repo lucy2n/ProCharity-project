@@ -1,0 +1,8 @@
+.motivation-main__button {
+  grid-column: 2;
+}
+@media screen and (max-width: 796px) {
+  .motivation-main__button {
+    grid-column: 1;
+  }
+}

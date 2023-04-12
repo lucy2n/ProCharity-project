@@ -44,7 +44,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/UIKit.html'
+      template: 'src/v_account_motivation.html'
+      // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
