@@ -1,4 +1,4 @@
-.form__inputs-container {
+.contacts__form__inputs-container {
   border: none;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .form__inputs-container {
+  .contacts__form__inputs-container {
     grid-template-columns: 311px;
     gap: 16px;
   }

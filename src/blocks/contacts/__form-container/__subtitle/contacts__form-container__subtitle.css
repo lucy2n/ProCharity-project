@@ -1,4 +1,4 @@
-.form-container__subtitle {
+.contacts__form-container__subtitle {
   margin: 0;
   padding-top: 24px;
   padding-bottom: 12px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .form-container__subtitle {
+  .contacts__form-container__subtitle {
     max-width: 311px;
     padding-top: 32px;
   }

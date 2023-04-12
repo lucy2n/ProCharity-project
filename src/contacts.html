@@ -27,8 +27,7 @@
         <a class="header__link" href="#">FAQ</a>
         <button class="header__search" type="button" aria-label="поиск"></button>
       </nav>
-      <button class="header__personal-area" type="button"
-        aria-label="регистрация">
+      <button class="header__personal-area" type="button" aria-label="регистрация">
         <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
         <p class="header__title header__title_add_user">Присоедениться</p>
         <div class="header__avatar header__avatar_add_user"></div>
@@ -42,6 +41,7 @@
   </header>
   <main class="content">
     <section class="contacts">
+
       <section class="stepper">
         <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
           <p class="navigation__text">/</p>
@@ -91,17 +91,17 @@
         </p>
       </section>
 
-      <div class="form-container">
-        <h1 class="form-container__title">Личные данные</h1>
-        <div class="form-container__avatar-box">
-          <div class="form-container__avatar-box__avatar">
-            <a class="form-container__avatar-box__link" href="#">Добавить фотографию</a>
+      <div class="contacts__form-container">
+        <h1 class="contacts__form-container__title">Личные данные</h1>
+        <div class="contacts__form-container__avatar-box">
+          <div class="contacts__form-container__avatar-box__avatar">
+            <a class="contacts__form-container__avatar-box__link" href="#">Добавить фотографию</a>
           </div>
-          <span class="form-container__avatar-box__avatar-info">Jpg, png <br> объемом не более 5 Мб</span>
+          <span class="contacts__form-container__avatar-box__avatar-info">Jpg, png <br> объемом не более 5 Мб</span>
         </div>
         <form action="" class="form">
-          <p class="form-container__subtitle">Фонды увидят эти данные на твоей странице</p>
-          <fieldset class="form__inputs-container">
+          <p class="contacts__form-container__subtitle">Фонды увидят эти данные на твоей странице</p>
+          <fieldset class="contacts__form__inputs-container">
             <div class="input-case">
               <input class="input" type="text" placeholder="Имя">
               <span class="input-case__subtitle">Имя</span>
@@ -127,10 +127,12 @@
               <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
             </div>
           </fieldset>
-          <p class="form-container__subtitle form-container__subtitle_type-desktop">Контакты будут видны фондам, которые
+          <p class="contacts__form-container__subtitle contacts__form-container__subtitle_type-desktop">Контакты будут
+            видны фондам, которые
             выберут тебя исполнителем задания</p>
-          <p class="form-container__subtitle form-container__subtitle_type-mobile">Контактные данные</p>
-          <fieldset class="form__inputs-container">
+          <p class="contacts__form-container__subtitle contacts__form-container__subtitle_type-mobile">Контактные данные
+          </p>
+          <fieldset class="contacts__form__inputs-container">
             <div class="input-case">
               <input class="input" type="email" placeholder="Электронная почта">
               <span class="input-case__subtitle">Электронная почта</span>
@@ -146,7 +148,6 @@
             <div class="input-case">
               <input class="input" type="text" placeholder="Ник в Telegram">
               <span class="input-case__subtitle">Ник в Telegram</span>
-              <!-- <div class="input-case__ico input-case__ico_type_cross"></div> -->
               <div class="input-case__ico input-case__ico_type_quest-mark"></div>
               <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
             </div>
@@ -165,13 +166,14 @@
                 и специальные символы</span>
             </div>
           </fieldset>
-          <div class="form-container__radio-buttons-box">
+          <div class="contacts__form-container__radio-buttons-box">
             <button type="button"
-              class="form-container__radio-buttons-box__button form-container__radio-buttons-box__button_type-active">я
+              class="contacts__form-container__radio-buttons-box__button contacts__form-container__radio-buttons-box__button_type-active">я
               Частное лицо</button>
-            <button type="button" class="form-container__radio-buttons-box__button">я представляю компанию</button>
+            <button type="button" class="contacts__form-container__radio-buttons-box__button">я представляю
+              компанию</button>
           </div>
-          <fieldset class="form__inputs-container">
+          <fieldset class="contacts__form__inputs-container">
             <div class="input-case">
               <div class="input-case__dropdown">
                 <input class="input " type="text" placeholder="Выбрать компанию">
@@ -192,10 +194,12 @@
               <span class="input-case__error-message">Поле обязательное</span>
             </div>
           </fieldset>
-          <textarea class="form__textarea" name="" id="" placeholder="Как ты о нас узнал?"></textarea>
+          <textarea class="contacts__form__textarea" name="" id="" placeholder="Как ты о нас узнал?"></textarea>
           <button type="submit" class="button button_type_save">Сохранить</button>
         </form>
       </div>
+
+
     </section>
   </main>
   <footer class="footer">
