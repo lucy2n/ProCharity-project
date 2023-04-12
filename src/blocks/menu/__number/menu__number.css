@@ -16,9 +16,10 @@
     color: white;
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
     .menu__number {
-        width: 42px;
+        width: 100%;
+        min-width: 42px;
         height: 8px;
         border-radius: 4px;
         font-size: 0;
