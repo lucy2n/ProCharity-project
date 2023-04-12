@@ -2,7 +2,8 @@
   width: 25.3%;
   max-width: 218px;
   min-width: 200px;
-  display: flex;
+  min-height: 48px;
+  display: none;
   justify-content: space-between;
   cursor: pointer;
   border: none;
