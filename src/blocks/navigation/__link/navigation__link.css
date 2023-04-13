@@ -8,7 +8,7 @@
     opacity: .7;
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
     .navigation__link {
         display: none;
     }
