@@ -1,12 +1,11 @@
 .status {
-  width: 160px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 56px;
   margin: 24px 0px;
   grid-column: 1;
-	grid-row: 2;
+  grid-row: 2;
 }
 
 @media screen and (max-width: 796px) {

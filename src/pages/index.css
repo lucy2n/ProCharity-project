@@ -86,12 +86,5 @@
 @import url(../blocks/progress/__info/progress__info.css);
 @import url(../blocks/progress/__link/progress__link.css);
 
-/*v_account_motivation*/
-@import url(../blocks/content/content.css);
-@import url(../blocks/motivation-main/motivation-main.css);
-@import url(../blocks/input/_type/input_type_textarea.css);
-@import url(../blocks/input-case/_type/input-case_type_textearea.css);
-@import url(../blocks/input-case/__result/input-case__result.css);
-@import url(../blocks/motivation-main/__title/motivation-main__title.css);
-@import url(../blocks/motivation-main/__subtitle/motivation-main__subtitle.css);
-@import url(../blocks/motivation-main/__button/motivation-main__button.css);
+/*v_account_profile*/
+@import url(./index_profile.css);
