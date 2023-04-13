@@ -1,6 +1,6 @@
 .motivation-main{
 	grid-column: 2/-1;
-	grid-row: 1/4;
+	grid-row: 1/5;
 }
 @media screen and (max-width: 856px) {
   .motivation-main {
