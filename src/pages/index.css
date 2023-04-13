@@ -94,6 +94,7 @@
 
 /*v_account_motivation*/
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/_config/content_config-contacts.css);
 @import url(../blocks/motivation-main/motivation-main.css);
 @import url(../blocks/input/_type/input_type_textarea.css);
 @import url(../blocks/input-case/_type/input-case_type_textearea.css);

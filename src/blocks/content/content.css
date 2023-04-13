@@ -5,9 +5,9 @@
   display: grid;
   grid-template-columns: 258px 1fr;
   grid-template-rows: 328px 104px 1fr;
-	column-gap: 32px;
-   margin-bottom: 120px;
-   background-color: #fff;
+  column-gap: 32px;
+  margin-bottom: 120px;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 856px) {
