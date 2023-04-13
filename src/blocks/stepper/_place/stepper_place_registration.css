@@ -19,7 +19,7 @@
     color: #7B878F;
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
     .stepper_place_registration .menu__item_active .menu__number {
         background: linear-gradient(to right, #E65609 50%, #F1F5F9 50%);
     }

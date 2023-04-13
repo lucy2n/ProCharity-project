@@ -12,7 +12,7 @@
     color: #7B878F;
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
     .menu__text {
         display: none;
     }
