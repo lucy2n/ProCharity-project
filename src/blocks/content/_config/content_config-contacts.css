@@ -1,5 +1,6 @@
 .content_config-contacts {
+  justify-content: center;
   display: flex;
-  margin: 0;
   width: 100%;
+  max-width: 100%;
 }

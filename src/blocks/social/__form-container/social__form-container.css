@@ -1,0 +1,11 @@
+  .social__form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 856px) {
+    .contacts__form-container {
+      max-width: 312px;
+      
+    }
+  }

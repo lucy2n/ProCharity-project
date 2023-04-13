@@ -1,0 +1,5 @@
+.input-case_type_social {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
