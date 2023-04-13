@@ -1,6 +1,7 @@
 .notification__checkbox-container{
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0 0;
+    display:flex
 }
 .notification__checkbox-container:first-of-type{
     padding-top: 12px;

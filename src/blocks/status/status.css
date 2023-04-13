@@ -1,6 +1,8 @@
 .status{
   margin: 24px 0 0;
   grid-column: 1;
+  grid-row: 2/4;
+
 }
 @media screen and (max-width: 876px) {
   .status {

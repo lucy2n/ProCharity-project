@@ -22,7 +22,7 @@
         </nav>
         <button class="header__personal-area" type="button" aria-label="регистрация">
           <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
-          <p class="header__title">Присоедениться</p>
+          <p class="header__title">Присоединиться</p>
           <div class="header__avatar"></div>
         </button>
       </div>
@@ -58,11 +58,11 @@
             </section>
             <section class="notification__container">
                 <h2 class="notification__title">Уведомления</h2>
-                <p class="notification__text">Отметь события, оповещения о которых ты хотел бы получать на email:</p>
+                <p class="notification__text notification__text_position">Отметь события, оповещения о которых ты хотел бы получать на email:</p>
                 <div class="notification__content">
                     <div class="notification__checkbox-container">
                         <input type="checkbox" class="notification__checkbox" name="notification" id="status-change" value="status-change">
-                        <label class='notification__text' for="status-change">изменения по моим заданиям</label>
+                        <label class='notification__text' for="status-change">изменения по моим заданиям</label><img src="<%=require('./images/notification__question.png')%>" class="notification__image_question">
                     </div>
                     <div class="notification__checkbox-container">
                         <input type="checkbox" class="notification__checkbox" name="notification" id="executor-change" value="executor-change">
@@ -78,9 +78,11 @@
                     </div>
                 </div>
                 <div class="notification__follow-container">
-                    <p class='notification__text'>Получай уведомления о новых заданиях от бота ProCharity в Telegram.
+                    <p class='notification__text notification__text_position'>Получай уведомления о новых заданиях от бота ProCharity в Telegram.
                         При этом рекомендуем отключить уведомления на email из пункта выше.</p>
+                    <button class="button button__type_telegram"><img class="notification__image_telegram" src="<%=require('./images/telegram.png')%>">Подключить</button>
                 </div>
+                <button class="button button_type_save">Cохранить</button>
             </section>
         </section>
     </main>
