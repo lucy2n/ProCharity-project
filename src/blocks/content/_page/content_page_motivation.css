@@ -1,4 +1,4 @@
-.content {
+.content_page_motivation {
   margin: 0 auto;
   width: 71.1%;
   max-width: 1024px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .content {
+  .content_page_motivation {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, minmax(32px, 1fr));
     column-gap: 0;
