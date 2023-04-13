@@ -1,0 +1,15 @@
+.main__checkbox-input {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+.main__checkbox-input:checked + .main__checkbox-stile::before {
+  content: "";
+  background: url(../../../images/check.svg) no-repeat center;
+	background-color: #72d0dc;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}

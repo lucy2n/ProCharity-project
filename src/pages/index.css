@@ -89,5 +89,9 @@
 @import url(../blocks/progress/__info/progress__info.css);
 @import url(../blocks/progress/__link/progress__link.css);
 
+
+/*v_account_profile*/
+@import url(./index_profile.css);
+
 /*v_account_motivation*/
 @import url(./index_motivation.css);
