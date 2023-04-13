@@ -2,3 +2,11 @@
     display: flex;
     flex-direction: column;
 }
+.notification__mark{
+    position: static;
+}
+.notification__mark:hover::after{
+    position: absolute;
+    top:0;
+    right: 0;
+}
