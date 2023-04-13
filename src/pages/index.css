@@ -39,9 +39,10 @@
 @import url(../blocks/button/_type/button_type_half-width.css);
 @import url(../blocks/button/_type/button_type_save.css);
 
-/* Header */
 
-@import url(./index__header_footer.css);
+
+@import url(./index__header_footer.css);/* Header */
+@import url(./social.css);/* Social */
 
 /* Popup */
 @import url(../blocks/popup/popup.css);
