@@ -4,7 +4,7 @@
   border-radius: 6px;
   border: none;
   min-height: 48px;
-  width: 736px;
+  width: 100%;
   gap: 8px;
   --tag-bg: #FF6100;
   --tag-border-radius: 20px;
