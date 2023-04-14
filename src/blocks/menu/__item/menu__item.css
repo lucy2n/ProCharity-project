@@ -5,7 +5,7 @@
     align-items: center;
 
     transition: all .2s linear;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .menu__item:hover {
