@@ -1,4 +1,4 @@
-.motivation-main__title {
+.main__title {
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -9,7 +9,7 @@
   color: #374045;
 }
 @media screen and (max-width: 856px) {
-  .motivation-main__title{
+  .main__title{
     font-size: 24px;
     line-height: 1.33;
     margin-top: 32px;
