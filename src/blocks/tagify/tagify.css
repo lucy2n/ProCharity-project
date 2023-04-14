@@ -14,7 +14,6 @@
   align-items: center;
 }
 
-
 :root {
   --tagify-dd-color-primary: none;
 }
@@ -25,7 +24,7 @@
 
 .tagify__dropdown__itemsGroup {
   padding-left: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   max-height: 40px;
 }
 
@@ -52,7 +51,6 @@
 .tagify_subgroup {
   position: absolute;
   left: 362px;
-  top: 10px;
   border: none;
   box-shadow: 0 4px 24px rgba(0, 77, 95, 0.24);
   border-radius: 8px;
@@ -60,7 +58,6 @@
 }
 
 .tagify__dropdown__item {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -78,6 +75,7 @@
 
 .group__span {
   align-self: center;
+  min-width: 300px;
 }
 
 .multilevel-input {
