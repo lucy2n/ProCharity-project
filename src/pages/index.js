@@ -99,7 +99,6 @@ function tagTemplate(tagData){
 }
 
 function suggestionItemTemplate(tagData){
-    console.log("tag data :", tagData)
     return `
         <div ${this.getAttributes(tagData)}
             class='tagify__dropdown__item ${tagData.class ? tagData.class : ""}'
@@ -117,12 +116,13 @@ function suggestionItemTemplate(tagData){
 }
 
 let tagify = new Tagify(inputElm, {
-    tagTextProp: 'name', // very important since a custom template is used with this property as text
-    // enforceWhitelist: true,
+    enforceWhitelist: true,
     dropdown: {
         closeOnSelect: false,
         enabled: 0,
         maxItems: Infinity,
+        placeAbove: false,
+        includeSelectedTags: true,
         classname: 'groupList',
         searchKeys: ['group']
     },
@@ -131,7 +131,6 @@ let tagify = new Tagify(inputElm, {
         dropdownItem: suggestionItemTemplate,
     },
     whitelist: whitelistValue,
-    duplicates: true,
 })
 
 tagify.dropdown.createListHTML = sugegstionsList  => {
