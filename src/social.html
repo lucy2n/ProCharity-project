@@ -40,7 +40,7 @@
     </div>
   </header>
 
-  <main class="content content_page_profile">
+  <main class="content">
     <!-- content_config-contacts -->
     <section class="stepper">
       <div class="navigation">
@@ -72,44 +72,46 @@
       </ul>
     </section>
 
-    <section class="motivation-main">
+    <section class="main">
       <h1 class="social__form-container__title">Социальные сети</h1>
       <h2 class="social__form-container__subtitle">Можешь прикрепить ссылки на свои профили в соцсетях — так
         представители фондов смогут лучше тебя узнать. А еще это может быть дополнительным способом с тобой связаться.
       </h2>
-      <fieldset class="social__form-container__input-container">
-        <div class="input-case input-case_type_social">
-          <img class="input-case__logo" src="<%=require('./images/logo-linkedin.svg')%>"></img>
-          <input class="input input_type_social" type="text" placeholder="https://linkedin.com/username/">
-          <div class="input-case__ico input-case__ico_type_cross"></div>
-        </div>
-        <div class="input-case input-case_type_social">
-          <img class="input-case__logo" src="<%=require('./images/logo-vk.svg')%>"></img>
-          <input class="input input_type_social" type="text" placeholder="https://vk.com/username/">
-          <div class="input-case__ico input-case__ico_type_cross"></div>
-        </div>
-        <div class="input-case input-case_type_social">
-          <img class="input-case__logo" src="<%=require('./images/logo-ok.svg')%>"></img>
-          <input class="input input_type_social" type="text" placeholder="https://ok.com/username/">
-          <div class="input-case__ico input-case__ico_type_cross"></div>
-        </div>
-        <div class="input-case input-case_type_social">
-          <img class="input-case__logo" src="<%=require('./images/logo-instagram.svg')%>"></img>
-          <input class="input input_type_social" type="text" placeholder="https://instagram.com/username/">
-          <div class="input-case__ico input-case__ico_type_cross"></div>
-        </div>
-        <div class="input-case input-case_type_social">
-          <img class="input-case__logo" src="<%=require('./images/logo-facebook.svg')%>"></img>
-          <input class="input input_type_social" type="text" placeholder="https://facebook.com/username/">
-          <div class="input-case__ico input-case__ico_type_cross"></div>
-        </div>
-      </fieldset>
-      <p class="social__form-container__paragraph">Facebook и Instagram — продукты Meta Platforms Inc. <br> Meta
-        Platforms Inc. признана экстремистской
-        организацией, запрещена на территории России</p>
-    </section>
-    <button class="button button_type_save motivation-main__button">Сохранить</button>
+      <form class="main__form">
+        <fieldset class="social__form-container__input-container">
+          <div class="input-case input-case_type_social">
+            <img class="input-case__logo" src="<%=require('./images/logo-linkedin.svg')%>"></img>
+            <input class="input input_type_social" type="text" placeholder="https://linkedin.com/username/">
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+          </div>
+          <div class="input-case input-case_type_social">
+            <img class="input-case__logo" src="<%=require('./images/logo-vk.svg')%>"></img>
+            <input class="input input_type_social" type="text" placeholder="https://vk.com/username/">
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+          </div>
+          <div class="input-case input-case_type_social">
+            <img class="input-case__logo" src="<%=require('./images/logo-ok.svg')%>"></img>
+            <input class="input input_type_social" type="text" placeholder="https://ok.com/username/">
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+          </div>
+          <div class="input-case input-case_type_social">
+            <img class="input-case__logo" src="<%=require('./images/logo-instagram.svg')%>"></img>
+            <input class="input input_type_social" type="text" placeholder="https://instagram.com/username/">
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+          </div>
+          <div class="input-case input-case_type_social">
+            <img class="input-case__logo" src="<%=require('./images/logo-facebook.svg')%>"></img>
+            <input class="input input_type_social" type="text" placeholder="https://facebook.com/username/">
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+          </div>
+        </fieldset>
+        <p class="social__form-container__paragraph">Facebook и Instagram — продукты Meta Platforms Inc. <br> Meta
+          Platforms Inc. признана экстремистской
+          организацией, запрещена на территории России</p>
+        <button type="submit" class="button button_type_save motivation-main__button">Сохранить</button>
+      </form>
 
+    </section>
 
     <section class="status">
       <p class="status__title">Статус профиля</p>
