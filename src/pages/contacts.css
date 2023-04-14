@@ -1,16 +1,10 @@
 /* contacts */
-@import url(../blocks/contacts/contacts.css);
-@import url(../blocks/contacts/__form-container//contacts__form-container.css);
 @import url(../blocks/contacts/__form-container/__avatar-box/contacts__form-container__avatar-box.css);
 @import url(../blocks/contacts/__form-container/__avatar-box/__avatar/contacts__form-container__avatar-box__avatar.css);
 @import url(../blocks/contacts/__form-container/__avatar-box/__avatar-info/contacts__form-container__avatar-box__avatar-info.css);
 @import url(../blocks/contacts/__form-container/__radio-buttons-box/contacts__form-container__radio-buttons-box.css);
 @import url(../blocks/contacts/__form-container/__radio-buttons-box/__button/contacts__form-container__radio-buttons-box__button.css);
 @import url(../blocks/contacts/__form-container/__radio-buttons-box/__button/_type-active/contacts__form-container__radio-buttons-box__button_type-active.css);
-@import url(../blocks/contacts/__form-container/__title/contacts__form-container__title.css);
 @import url(../blocks/contacts/__form-container/__subtitle/contacts__form-container__subtitle.css);
 @import url(../blocks/contacts/__form-container/__subtitle/_type/contacts__form-container__subtitle_type-mobile.css);
 @import url(../blocks/contacts/__form-container/__subtitle/_type/contacts__form-container__subtitle_type-desktop.css);
-@import url(../blocks/contacts/__form/__inputs-container/contacts__form__inputs-container.css);
-@import url(../blocks/contacts/__form/__textarea/contacts__form__textarea.css);
-@import url(../blocks/contacts/__form/contacts__form.css);
