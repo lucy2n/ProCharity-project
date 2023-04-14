@@ -108,7 +108,7 @@
 @import url(../blocks/main/__form/__input-container/main__form__input-container.css);
 @import url(../blocks/main/__textarea/main__textarea.css);
 @import url(../blocks/main/__form/__input-container/main__form__input-container.css);
-@import url(../blocks/main/__form/__input-container/_type/main__form__input-container_type-grid.css);
+@import url(../blocks/main/__form/__input-container/_type/main__form__input-container_type_grid.css);
 
 /*v_account_motivation*/
 @import url(./index_motivation.css);
