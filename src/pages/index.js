@@ -1,11 +1,12 @@
 import Tagify from '@yaireo/tagify'
 import '../pages/index.css'
+import '../pages/index__notifications.css'
 
 let inputElement = document.querySelector('.input_tags-manual-suggestions');
 
 // init Tagify script on the above inputs
 var tagify = new Tagify(inputElement, {
-  whitelist: ["Аудит сайта", "Создание", "доработка сайта"," Настройка сайта", "Аналитика", "Администрирование", "Создание чат-ботов"],
+  whitelist: ["Аудит сайта", "Создание", "доработка сайта", " Настройка сайта", "Аналитика", "Администрирование", "Создание чат-ботов"],
   dropdown: {
     position: "manual",
     maxItems: Infinity,
@@ -46,7 +47,7 @@ import Cropper from 'cropperjs';
 
 const image = document.getElementById('popup__avatar');
 const cropper = new Cropper(image, {
-  aspectRatio: 1/1,
+  aspectRatio: 1 / 1,
   autoCropArea: 1
 
 });

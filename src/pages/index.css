@@ -85,17 +85,3 @@
 @import url(../blocks/progress/__reload/progress__reload.css);
 @import url(../blocks/progress/__info/progress__info.css);
 @import url(../blocks/progress/__link/progress__link.css);
-
-/*notifications*/
-@import url(../blocks/notifications/notifications.css);
-@import url(../blocks/notification/__container/notification__container.css);
-@import url(../blocks/notification/__content/notification__content.css);
-@import url(../blocks/notification/__text/notification__text.css);
-@import url(../blocks/notification/__text/_position/notification__text_position.css);
-@import url(../blocks/notification/__title/notification__title.css);
-@import url(../blocks/notification/__checkbox-container/notification__checkbox-container.css);
-@import url(../blocks/notification/__checkbox/notification__checkbox.css);
-@import url(../blocks/notification/__follow-container/notification__follow-container.css);
-@import url(../blocks/notification/__image/_question/notification__image_question.css);
-@import url(../blocks/notification/__image/_telegram/notification__image_telegram.css);
-@import url(../blocks/button/_type/button_type_telegram.css);

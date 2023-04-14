@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Уведомления</title>
 </head>
+
 <body class="page">
     <header class="header">
-      <div class="header__container">
-        <img class="header__menu-img" src="<%=require('./images/menu.svg')%>" alt="меню">
-        <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="ProCharity">
-        <nav class="header__menu">
-          <a class="header__link" href="#">О проекте</a>
-          <a class="header__link" href="#">Задания</a>
-          <a class="header__link" href="#">Волонтерам</a>
-          <a class="header__link" href="#">Для НКО</a>
-          <a class="header__link" href="#">Бизнесу</a>
-          <a class="header__link" href="#">FAQ</a>
-          <button class="header__search" type="button" aria-label="поиск"></button>
-        </nav>
-        <button class="header__personal-area" type="button" aria-label="регистрация">
-          <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
-          <p class="header__title">Присоединиться</p>
-          <div class="header__avatar"></div>
-        </button>
-      </div>
+        <div class="header__container">
+            <img class="header__menu-img" src="<%=require('./images/menu.svg')%>" alt="меню">
+            <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="ProCharity">
+            <nav class="header__menu">
+                <a class="header__link" href="#">О проекте</a>
+                <a class="header__link" href="#">Задания</a>
+                <a class="header__link" href="#">Волонтерам</a>
+                <a class="header__link" href="#">Для НКО</a>
+                <a class="header__link" href="#">Бизнесу</a>
+                <a class="header__link" href="#">FAQ</a>
+                <button class="header__search" type="button" aria-label="поиск"></button>
+            </nav>
+            <button class="header__personal-area" type="button" aria-label="регистрация">
+                <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
+                <p class="header__title">Присоединиться</p>
+                <div class="header__avatar"></div>
+            </button>
+        </div>
     </header>
     <main class="content">
         <section class="notifications">
@@ -34,57 +36,68 @@
                     <p class="navigation__text">/</p>
                     <p class="navigation__text">Настройки</p>
                 </div>
-            <ul class="menu" id="SettingsMenu">
-                <li class="menu__item menu__item_active">
-                    <p class="menu__number">1</p>
-                    <p class="menu__text">Уведомления</p>
-                </li>
-                <li class="menu__item">
-                    <p class="menu__number">2</p>
-                    <p class="menu__text">Профиль</p>
-                </li>
-                <li class="menu__item">
-                    <p class="menu__number">3</p>
-                    <p class="menu__text">Смена пароля</p>
-                </li>
-            </ul>
+                <ul class="menu" id="SettingsMenu">
+                    <li class="menu__item menu__item_active">
+                        <p class="menu__number">1</p>
+                        <p class="menu__text">Уведомления</p>
+                    </li>
+                    <li class="menu__item">
+                        <p class="menu__number">2</p>
+                        <p class="menu__text">Профиль</p>
+                    </li>
+                    <li class="menu__item">
+                        <p class="menu__number">3</p>
+                        <p class="menu__text">Смена пароля</p>
+                    </li>
+                </ul>
             </section>
             <section class="status">
                 <p class="status__title">Статус профиля</p>
                 <div class="tag tag_color_orange" tabindex="-1">
                     <p class="tag__text">Подтвержден</p>
                     <p class="tag__mark">?</p>
-                  </div>
+                </div>
             </section>
             <section class="notification__container">
                 <h2 class="notification__title">Уведомления</h2>
-                <p class="notification__text notification__text_position">Отметь события, оповещения о которых ты хотел бы получать на email:</p>
+                <p class="notification__text notification__text_position">Отметь события, оповещения о которых ты хотел
+                    бы получать на email:</p>
                 <div class="notification__content">
                     <div class="notification__checkbox-container">
-                        <input type="checkbox" class="notification__checkbox" name="notification" id="status-change" value="status-change">
-                        <label class='notification__text' for="status-change">изменения по моим заданиям</label><div class="input-case__ico input-case__ico_type_quest-mark notification__mark"></div>
+                        <input type="checkbox" class="notification__checkbox" name="notification" id="status-change"
+                            value="status-change">
+                        <label class='notification__text' for="status-change">изменения по моим заданиям</label>
+                        <div class="input-case__ico input-case__ico_type_quest-mark notification__mark"></div>
                     </div>
                     <div class="notification__checkbox-container">
-                        <input type="checkbox" class="notification__checkbox" name="notification" id="executor-change" value="executor-change">
-                        <label class='notification__text' for="executor-change">фонд выбрал другого исполнителя</label>   
+                        <input type="checkbox" class="notification__checkbox" name="notification" id="executor-change"
+                            value="executor-change">
+                        <label class='notification__text' for="executor-change">фонд выбрал другого исполнителя</label>
                     </div>
                     <div class="notification__checkbox-container">
-                        <input type="checkbox" class="notification__checkbox" name="notification" id="selection-tasks" value="selection-tasks">
-                        <label class='notification__text' for="selection-tasks">подборка заданий по моим компетенциям (раз в неделю)</label> 
+                        <input type="checkbox" class="notification__checkbox" name="notification" id="selection-tasks"
+                            value="selection-tasks">
+                        <label class='notification__text' for="selection-tasks">подборка заданий по моим компетенциям
+                            (раз в неделю)</label>
                     </div>
                     <div class="notification__checkbox-container">
-                        <input type="checkbox" class="notification__checkbox" name="notification" id="new-tasks" value="new-tasks">
-                        <label class='notification__text' for="new-tasks">новые задания по моим компетенциям (по мере появления)</label>
+                        <input type="checkbox" class="notification__checkbox" name="notification" id="new-tasks"
+                            value="new-tasks">
+                        <label class='notification__text' for="new-tasks">новые задания по моим компетенциям (по мере
+                            появления)</label>
                     </div>
                 </div>
                 <div class="notification__follow-container">
-                    <p class='notification__text notification__text_position'>Получай уведомления о новых заданиях от бота ProCharity в Telegram.
+                    <p class='notification__text notification__text_position'>Получай уведомления о новых заданиях от
+                        бота ProCharity в Telegram.
                         При этом рекомендуем отключить уведомления на email из пункта выше.</p>
-                    <button class="button button__type_telegram"><img class="notification__image_telegram" src="<%=require('./images/telegram.png')%>">Подключить</button>
+                    <button class="button button__type_telegram"><img class="notification__image_telegram"
+                            src="<%=require('./images/telegram.png')%>">Подключить</button>
                 </div>
                 <button class="button button_type_save">Cохранить</button>
             </section>
         </section>
     </main>
 </body>
+
 </html>
