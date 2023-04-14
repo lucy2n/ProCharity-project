@@ -41,7 +41,7 @@ function renderSuggestionsList() {
 }
 
 /* Cropper */
-
+/*
 import Cropper from 'cropperjs';
 
 const image = document.getElementById('popup__avatar');
@@ -56,4 +56,4 @@ cropper.options.dragMode = "move";
 cropper.options.guides = false;
 cropper.options.center = false;
 cropper.options.cropBoxMovable = false;
-cropper.options.background = false;
+cropper.options.background = false;*/

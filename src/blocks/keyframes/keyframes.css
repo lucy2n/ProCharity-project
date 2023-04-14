@@ -1,0 +1,54 @@
+@keyframes fly1 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 10px;
+        left: 0px;
+    }
+
+    50% {
+        top: 12px;
+        left: 5px;
+    }
+
+    75% {
+        top: 0px;
+        left: 10px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes fly2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 0px;
+        left: 5px;
+
+    }
+
+    50% {
+        top: 5px;
+        left: 3px;
+    }
+
+    75% {
+        top: 6px;
+        left: 0px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
