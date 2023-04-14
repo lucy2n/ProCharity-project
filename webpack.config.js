@@ -44,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/social.html'
+      template: 'src/contacts.html'
       // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),
