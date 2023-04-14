@@ -1,5 +1,5 @@
-.social__form-container__input-container {
-  padding: 0;
+.main__form__input-container {
+  padding: 12px 0 0 0;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .social__form-container__input-container {
+  .main__form__input-container {
     row-gap: 16px;
   }
 }

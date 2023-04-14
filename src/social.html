@@ -73,44 +73,43 @@
     </section>
 
     <section class="main">
-      <h1 class="social__form-container__title">Социальные сети</h1>
-      <h2 class="social__form-container__subtitle">Можешь прикрепить ссылки на свои профили в соцсетях — так
+      <h1 class="main__title">Социальные сети</h1>
+      <h2 class="main__subtitle">Можешь прикрепить ссылки на свои профили в соцсетях — так
         представители фондов смогут лучше тебя узнать. А еще это может быть дополнительным способом с тобой связаться.
       </h2>
       <form class="main__form">
-        <fieldset class="social__form-container__input-container">
-          <div class="input-case input-case_type_social">
+        <fieldset class="main__form__input-container">
+          <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-linkedin.svg')%>"></img>
-            <input class="input input_type_social" type="text" placeholder="https://linkedin.com/username/">
+            <input class="input input_type_full-width" type="text" placeholder="https://linkedin.com/username/">
             <div class="input-case__ico input-case__ico_type_cross"></div>
           </div>
-          <div class="input-case input-case_type_social">
+          <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-vk.svg')%>"></img>
-            <input class="input input_type_social" type="text" placeholder="https://vk.com/username/">
+            <input class="input input_type_full-width" type="text" placeholder="https://vk.com/username/">
             <div class="input-case__ico input-case__ico_type_cross"></div>
           </div>
-          <div class="input-case input-case_type_social">
+          <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-ok.svg')%>"></img>
-            <input class="input input_type_social" type="text" placeholder="https://ok.com/username/">
+            <input class="input input_type_full-width" type="text" placeholder="https://ok.com/username/">
             <div class="input-case__ico input-case__ico_type_cross"></div>
           </div>
-          <div class="input-case input-case_type_social">
+          <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-instagram.svg')%>"></img>
-            <input class="input input_type_social" type="text" placeholder="https://instagram.com/username/">
+            <input class="input input_type_full-width" type="text" placeholder="https://instagram.com/username/">
             <div class="input-case__ico input-case__ico_type_cross"></div>
           </div>
-          <div class="input-case input-case_type_social">
+          <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-facebook.svg')%>"></img>
-            <input class="input input_type_social" type="text" placeholder="https://facebook.com/username/">
+            <input class="input input_type_full-width" type="text" placeholder="https://facebook.com/username/">
             <div class="input-case__ico input-case__ico_type_cross"></div>
           </div>
         </fieldset>
-        <p class="social__form-container__paragraph">Facebook и Instagram — продукты Meta Platforms Inc. <br> Meta
-          Platforms Inc. признана экстремистской
-          организацией, запрещена на территории России</p>
-        <button type="submit" class="button button_type_save motivation-main__button">Сохранить</button>
       </form>
-
+      <p class="main__paragraph">Facebook и Instagram — продукты Meta Platforms Inc. <br> Meta
+        Platforms Inc. признана экстремистской
+        организацией, запрещена на территории России</p>
+      <button type="submit" class="button button_type_save motivation-main__button">Сохранить</button>
     </section>
 
     <section class="status">
@@ -121,7 +120,7 @@
       </div>
     </section>
 
-    <section class="progress" style="margin: 0">
+    <section class="progress">
       <p class="progress__complete">
         Профиль заполнен на <spen class="progress-value">66</spen>%
       </p>
