@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 856px) {
   .contacts__form__inputs-container {
-    grid-template-columns: 311px;
+    grid-template-columns: auto;
     gap: 16px;
   }
 }
