@@ -1,0 +1,25 @@
+.create-account_image_horn-razor {
+    position: absolute;
+    top: -64px;
+
+    width: 336px;
+    height: 414px;
+    background-image: url('../../../images/horn-razor.png');
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: contain;
+    transform: scale(0.93);
+    transition: all .2s linear;
+
+    z-index: 1;
+}
+
+@media screen and (max-width: 520px) {
+    .create-account_image_horn-razor {
+        position: absolute;
+        top: -4px;
+
+        width: 168px;
+        height: 207px;
+    }
+}

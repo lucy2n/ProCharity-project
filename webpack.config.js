@@ -44,8 +44,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      template: 'src/reg-create_account.html'
       // template: 'src/v_account_motivation.html'
-      template: 'src/v_account_profile.html'
+      //template: 'src/v_account_profile.html'
       // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),
