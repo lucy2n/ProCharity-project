@@ -1,0 +1,9 @@
+.footer__logo { 
+  justify-self: end;
+}
+
+@media screen and (max-width: 856px){
+  .footer__logo{
+		display: none;
+  }
+}

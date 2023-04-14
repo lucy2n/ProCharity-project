@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
+    <title>Profile</title>
+    <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          class="header__menu-img"
+          src="<%=require('./images/menu.svg')%>"
+          alt="меню"
+        />
+        <img
+          class="header__logo"
+          src="<%=require('./images/logo.svg')%>"
+          alt="ProCharity"
+        />
+        <nav class="header__menu">
+          <a class="header__link" href="#">О проекте</a>
+          <a class="header__link" href="#">Задания</a>
+          <a class="header__link" href="#">Волонтерам</a>
+          <a class="header__link" href="#">Для НКО</a>
+          <a class="header__link" href="#">Бизнесу</a>
+          <a class="header__link" href="#">FAQ</a>
+          <button
+            class="header__search"
+            type="button"
+            aria-label="поиск"
+          ></button>
+        </nav>
+        <button
+          class="header__personal-area"
+          type="button"
+          aria-label="регистрация"
+        >
+          <img
+            class="header__add-img"
+            src="<%=require('./images/add.svg')%>"
+            alt="присодениться"
+          />
+          <p class="header__title">Присоедениться</p>
+          <div class="header__avatar"></div>
+        </button>
+        <button
+          class="header__personal-area header__personal-area_add_user header__personal-area_active"
+          type="button"
+          aria-label="Личный кабинет"
+        >
+          <p class="header__title header__title_add_user">Личный кабинет</p>
+          <div class="header__avatar header__avatar_add_user"></div>
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+      <!--меню ЛК, настроек и регистрации-->
+      <section class="stepper">
+        <div class="navigation">
+          <a class="navigation__link" href="" title="Личный кабинет"
+            >Личный кабинет</a
+          >
+          <p class="navigation__text">/</p>
+          <p class="navigation__text">Настройки</p>
+        </div>
+        <ul class="menu" id="SettingsMenu">
+          <li class="menu__item">
+            <p class="menu__number">1</p>
+            <p class="menu__text">Уведомления</p>
+          </li>
+          <li class="menu__item menu__item_active">
+            <p class="menu__number">2</p>
+            <p class="menu__text">Профиль</p>
+          </li>
+          <li class="menu__item">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Смена пароля</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main">
+        <h1 class="main__title">Профиль</h1>
+        <p class="main__subtitle">
+          Приватный профиль будет скрыт для неавторизованных пользователей
+          в списке волонтеров и в поиске по сайту
+        </p>
+        <div class="main__checkbox">
+          <label
+            class="main__checkbox-content"
+          >
+            <input type="checkbox" class="main__checkbox-input"/>
+            <!--Если статус профиля отличается от “Подтвержден” то чек-бокс включающий приватный статус неактивен.
+						то есть необходимо добавить в label class="main__checkbox-content_not-active" в input-> disabled 
+						и в секции status с "Подтвержден" добавить к "status__tag" class="tag_color_blue" и изменить текст в tag__text на "на модерации"-->
+            <span class="main__checkbox-stile"></span>
+            Мой профиль виден только пользователям ProCharity
+          </label>
+        </div>
+        <p class="main__subtitle">
+          Если ты не хочешь больше быть волонтером ProCharity, можешь
+          заблокировать свой профиль. Это значит:
+        </p>
+        <ul class="main__list">
+          <li class="main__element-list">
+            ты не сможешь откликаться на задания;
+          </li>
+          <li class="main__element-list">
+            твой профиль будет скрыт для всех пользователей
+          </li>
+          <li class="main__element-list">
+            ты не будешь получать от нас никаких писем.
+          </li>
+        </ul>
+        <p class="main__subtitle">
+          Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми
+          "Сохранить"
+        </p>
+        <div class="main__checkbox">
+          <label class="main__checkbox-content">
+            <input type="checkbox" class="main__checkbox-input" />
+            <span class="main__checkbox-stile"></span>
+            Заблокировать профил
+          </label>
+        </div>
+        <button class="button button_type_save" aria-label="Сохранение">
+          Сохранить
+        </button>
+      </section>
+
+      <section class="status">
+        <p class="status__title">Статус профиля</p>
+        <div class="status__tag tag tag_color_orange" tabindex="-1">
+          <p class="tag__text">Подтвержден</p>
+          <p class="tag__mark">?</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <h3 class="footer__title">О проекте</h3>
+        <h3 class="footer__title">Задания</h3>
+        <h3 class="footer__title">Волонтерам</h3>
+        <h3 class="footer__title">Фондам</h3>
+        <h3 class="footer__title">Бизнесу</h3>
+        <h3 class="footer__title">FAQ</h3>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">О платформе</a>
+          <a href="#" target="_blank" class="footer__link">Команда</a>
+          <a href="#" target="_blank" class="footer__link">Новости</a>
+          <a href="#" target="_blank" class="footer__link">Документы</a>
+          <a href="#" target="_blank" class="footer__link">Партнеры</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы</a>
+          <a href="#" target="_blank" class="footer__link">Контакты</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Пожертвовать в фонды</a
+          >
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+          <a href="#" target="_blank" class="footer__link">В работе</a>
+          <a href="#" target="_blank" class="footer__link">Выполненные</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Задания</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Бонусы</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+          <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link"
+            >Как получить помощь</a
+          >
+          <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Компании-волонтеры</a
+          >
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+          <a href="#" target="_blank" class="footer__link">Вебинары</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+        </nav>
+        <ul class="footer__icons">
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Создатель проекта</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_druzya.svg')%>"
+              alt="логотип фонда друзья"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Генеральный партнёр</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_mastercard.svg')%>"
+              alt="логотип mastercard"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/pgrants_logo.svg')%>"
+              alt="логотип фонда президенстских грантов"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/facebook.svg')%>"
+                alt="FaceBook"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/instragram.svg')%>"
+                alt="Instragram"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/vk.svg')%>"
+                alt="VK"
+                class="footer__social-icon"
+            /></a>
+          </li>
+        </ul>
+        <div class="footer__copyright">
+          <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+          <p class="footer__information">
+            Юридическая информация и защита персональных данных
+          </p>
+          <img
+            class="footer__logo"
+            src="<%=require('./images/logo_buroburo.svg')%>"
+            alt="логотип бюро"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

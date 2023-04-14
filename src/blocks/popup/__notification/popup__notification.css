@@ -1,0 +1,10 @@
+.popup__notification {
+    display: flex;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 352px;
+    max-height: 108px;
+}

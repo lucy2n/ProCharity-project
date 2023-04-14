@@ -1,0 +1,13 @@
+.header__title_add_user{
+	background-color: #73B6C0;
+	width: 100%;
+	padding-right: 68px;
+	padding-left: 26px;
+	border-radius: 24px;
+}
+
+@media screen and (max-width: 1100px) {
+  .header__title_add_user {
+		display: none;
+  }
+}

@@ -1,0 +1,7 @@
+@import url(../blocks/main/__list/main__list.css);
+@import url(../blocks/main/__element-list/main__element-list.css);
+@import url(../blocks/main/__checkbox/main__checkbox.css);
+@import url(../blocks/main/__checkbox-content/main__checkbox-content.css);
+@import url(../blocks/main/__chechbox-input/main__checkbox-input.css);
+@import url(../blocks/main/__checkbox-stile/main__checkbox-stile.css);
+@import url(../blocks/main/__checkbox-content/_not-active/main__checkbox-content_not-active.css);
