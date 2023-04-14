@@ -10,7 +10,14 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
 }
 .input_type_textarea:focus~.input-case__result {
   display: block;
+}
+
+@media screen and (max-width: 856px) {
+  .input_type_textarea {
+    max-width: none;
+  }
 }

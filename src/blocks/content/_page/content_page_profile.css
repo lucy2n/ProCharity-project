@@ -1,26 +1,22 @@
-.content {
-  width: 71.1%;
+.content_page_profile {
+  margin: 0 auto;
+  /* width: 71.1%; */
   max-width: 1024px;
   display: grid;
   grid-template-columns: 258px 1fr;
+  /* grid-template-rows: ; */
   column-gap: 32px;
-  padding: 0 30px;
-  margin: 0 15.7% 120px 9.03%;
-}
-@media screen and (min-width: 1450px) {
-  .content {
-    padding: 0 60px 0 0;
-    margin: 0 auto 120px auto;
-  }
+  margin-bottom: 120px;
 }
 
+
 @media screen and (max-width: 856px) {
-  .content {
+  .content_page_profile {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, minmax(32px, 1fr));
     column-gap: 0;
-    margin: 24px auto 0;
+    margin-top: 24px;
+    margin-bottom: 0;
     width: 86.7%;
-    padding: 0;
   }
 }

@@ -44,7 +44,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/contacts.html',
+      template: 'src/social.html'
+      // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
