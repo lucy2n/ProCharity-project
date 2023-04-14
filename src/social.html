@@ -77,7 +77,7 @@
       <h2 class="main__subtitle">Можешь прикрепить ссылки на свои профили в соцсетях — так
         представители фондов смогут лучше тебя узнать. А еще это может быть дополнительным способом с тобой связаться.
       </h2>
-      <form class="main__form">
+      <form class="main__form" id="main-form">
         <fieldset class="main__form__input-container">
           <div class="input-case input-case_type_row">
             <img class="input-case__logo" src="<%=require('./images/logo-linkedin.svg')%>"></img>
@@ -109,7 +109,7 @@
       <p class="main__paragraph">Facebook и Instagram — продукты Meta Platforms Inc. <br> Meta
         Platforms Inc. признана экстремистской
         организацией, запрещена на территории России</p>
-      <button type="submit" class="button button_type_save">Сохранить</button>
+      <button type="submit" form="main-form" class="button button_type_save">Сохранить</button>
     </section>
 
     <section class="status">
