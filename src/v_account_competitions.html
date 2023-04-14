@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
-    <title>Motivation</title>
+    <title>Competitions</title>
     <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
   </head>
 
@@ -75,64 +75,39 @@
         </div>
         <nav class="menu" id="AccountMenu">
           <a class="menu__item" href="#">
-              <p class="menu__number">1</p>
-              <p class="menu__text">Личные данные</p>
-          </a>
-          <a class="menu__item" href="#">
-              <p class="menu__number">2</p>
-              <p class="menu__text">Компетенции</p>
+            <p class="menu__number">1</p>
+            <p class="menu__text">Личные данные</p>
           </a>
           <a class="menu__item menu__item_active" href="#">
-              <p class="menu__number">3</p>
-              <p class="menu__text">Мотивация</p>
+            <p class="menu__number">2</p>
+            <p class="menu__text">Компетенции</p>
           </a>
           <a class="menu__item" href="#">
-              <p class="menu__number">4</p>
-              <p class="menu__text">Портфолио</p>
+            <p class="menu__number">3</p>
+            <p class="menu__text">Мотивация</p>
           </a>
           <a class="menu__item" href="#">
-              <p class="menu__number">5</p>
-              <p class="menu__text">Социальные сети</p>
+            <p class="menu__number">4</p>
+            <p class="menu__text">Портфолио</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">5</p>
+            <p class="menu__text">Социальные сети</p>
           </a>
         </nav>
       </section>
 
       <section class="main">
-        <h1 class="main__title">Моя мотивация и сильные стороны</h1>
-        <form class="main__form">
+        <h1 class="main__title">Мои компетенции</h1>
+        <form class="main__form" action="#">
           <p class="main__subtitle">
-            Расскажи немного о себе и причинах, по которым стремишься помогать
-            другим
+            Укажи, какие категории заданий тебе интересны и соответствуют твоим
+            навыкам
           </p>
-          <div class="input-case input-case_type_textearea">
-            <textarea
-              class="input input_type_textarea"
-              type="text"
-              placeholder="Почему я хочу стать волонтером?"
-              maxlength="2000"
-            ></textarea>
-            <span class="input-case__subtitle"
-              >Почему я хочу стать волонтером?</span
-            >
-            <div class="input-case__ico input-case__ico_type_cross"></div>
-            <p class="input-case__result">486/2000</p>
-          </div>
-          <p class="main__subtitle">
-            Опиши свой опыт и навыки подробнее. Например, если ты выбрал
-            категорию перевода, укажи язык, которым владеешь
-          </p>
-          <div class="input-case input-case_type_textearea">
-            <textarea
-              class="input input_type_textarea"
-              type="text"
-              placeholder="Какие мои знания и навыки будут полезны фондам?"
-              maxlength="2000"
-            ></textarea>
-            <span class="input-case__subtitle"
-              >Какие мои знания и навыки будут полезны фондам?</span
-            >
-            <div class="input-case__ico input-case__ico_type_cross"></div>
-            <p class="input-case__result">486/2000</p>
+          <div class="main__multilevel-input multilevel-input">
+            <input name="tags-manual-suggestions" placeholder="Выбрать" />
+            <div class="input-case__ico input-case__ico_type_arrow"></div>
+            <span class="input-case__error-message">Поле обязательное</span>
           </div>
           <button class="button button_type_save" aria-label="Сохранение">
             Сохранить
@@ -163,7 +138,46 @@
           чтобы тебя выбрали исполнителем
         </p>
       </section>
+
+      <section class="competiton-popup competiton-popup_opened">
+        <button class="competiton-popup__close" type="button"></button>
+        <form action="#" class="competiton-popup__form">
+          <h2 class="competiton-popup__title">Выбор компетенции</h2>
+          <ul class="competiton-popup__list">
+            <div class="input-case">
+              <div class="input-case__dropdown">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Маркетинг и коммуникации"
+                />
+                <div class="input-case__dropdown-content">
+                  <div>
+                    <p>Сбросить</p>
+                    <p>Выбрать все</p>
+                  </div>
+                  <a href="#">Социальные сети</a>
+                  <a href="#">Работа с текстами</a>
+                  <a href="#">Email-рассылки</a>
+                  <a href="#">Организация мероприятий</a>
+                  <a href="#">Реклама</a>
+                </div>
+              </div>
+              <div class="input-case__ico input-case__ico_type_arrow"></div>
+            </div>
+          </ul>
+          <button class="button button_type_save competiton-popup__selection">
+            Выбрать
+          </button>
+          <button
+            class="button button_type_back competiton-popup__reset-selection"
+          >
+            Сбросить выбор
+          </button>
+        </form>
+      </section>
     </main>
+
     <footer class="footer">
       <div class="footer__container">
         <h3 class="footer__title">О проекте</h3>
