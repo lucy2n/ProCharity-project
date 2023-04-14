@@ -91,51 +91,51 @@
 
       <section class="main">
         <h1 class="main__title">Профиль</h1>
-        <p class="main__subtitle">
-          Приватный профиль будет скрыт для неавторизованных пользователей
-          в списке волонтеров и в поиске по сайту
-        </p>
-        <div class="main__checkbox">
-          <label
-            class="main__checkbox-content"
-          >
-            <input type="checkbox" class="main__checkbox-input"/>
-            <!--Если статус профиля отличается от “Подтвержден” то чек-бокс включающий приватный статус неактивен.
+        <form class="main__form">
+          <p class="main__subtitle">
+            Приватный профиль будет скрыт для неавторизованных пользователей
+            в списке волонтеров и в поиске по сайту
+          </p>
+          <div class="main__checkbox">
+            <label class="main__checkbox-content">
+              <input type="checkbox" class="main__checkbox-input" />
+              <!--Если статус профиля отличается от “Подтвержден” то чек-бокс включающий приватный статус неактивен.
 						то есть необходимо добавить в label class="main__checkbox-content_not-active" в input-> disabled 
 						и в секции status с "Подтвержден" добавить к "status__tag" class="tag_color_blue" и изменить текст в tag__text на "на модерации"-->
-            <span class="main__checkbox-stile"></span>
-            Мой профиль виден только пользователям ProCharity
-          </label>
-        </div>
-        <p class="main__subtitle">
-          Если ты не хочешь больше быть волонтером ProCharity, можешь
-          заблокировать свой профиль. Это значит:
-        </p>
-        <ul class="main__list">
-          <li class="main__element-list">
-            ты не сможешь откликаться на задания;
-          </li>
-          <li class="main__element-list">
-            твой профиль будет скрыт для всех пользователей
-          </li>
-          <li class="main__element-list">
-            ты не будешь получать от нас никаких писем.
-          </li>
-        </ul>
-        <p class="main__subtitle">
-          Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми
-          "Сохранить"
-        </p>
-        <div class="main__checkbox">
-          <label class="main__checkbox-content">
-            <input type="checkbox" class="main__checkbox-input" />
-            <span class="main__checkbox-stile"></span>
-            Заблокировать профил
-          </label>
-        </div>
-        <button class="button button_type_save" aria-label="Сохранение">
-          Сохранить
-        </button>
+              <span class="main__checkbox-stile"></span>
+              Мой профиль виден только пользователям ProCharity
+            </label>
+          </div>
+          <p class="main__subtitle">
+            Если ты не хочешь больше быть волонтером ProCharity, можешь
+            заблокировать свой профиль. Это значит:
+          </p>
+          <ul class="main__list">
+            <li class="main__element-list">
+              ты не сможешь откликаться на задания;
+            </li>
+            <li class="main__element-list">
+              твой профиль будет скрыт для всех пользователей
+            </li>
+            <li class="main__element-list">
+              ты не будешь получать от нас никаких писем.
+            </li>
+          </ul>
+          <p class="main__subtitle">
+            Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми
+            "Сохранить"
+          </p>
+          <div class="main__checkbox">
+            <label class="main__checkbox-content">
+              <input type="checkbox" class="main__checkbox-input" />
+              <span class="main__checkbox-stile"></span>
+              Заблокировать профил
+            </label>
+          </div>
+          <button class="button button_type_save" aria-label="Сохранение">
+            Сохранить
+          </button>
+        </form>
       </section>
 
       <section class="status">
