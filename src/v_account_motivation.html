@@ -16,8 +16,16 @@
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <img class="header__menu-img" src="<%=require('./images/menu.svg')%>" alt="меню">
-        <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="ProCharity">
+        <img
+          class="header__menu-img"
+          src="<%=require('./images/menu.svg')%>"
+          alt="меню"
+        />
+        <img
+          class="header__logo"
+          src="<%=require('./images/logo.svg')%>"
+          alt="ProCharity"
+        />
         <nav class="header__menu">
           <a class="header__link" href="#">О проекте</a>
           <a class="header__link" href="#">Задания</a>
@@ -25,22 +33,37 @@
           <a class="header__link" href="#">Для НКО</a>
           <a class="header__link" href="#">Бизнесу</a>
           <a class="header__link" href="#">FAQ</a>
-          <button class="header__search" type="button" aria-label="поиск"></button>
+          <button
+            class="header__search"
+            type="button"
+            aria-label="поиск"
+          ></button>
         </nav>
-        <button class="header__personal-area" type="button" aria-label="регистрация">
-          <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
+        <button
+          class="header__personal-area"
+          type="button"
+          aria-label="регистрация"
+        >
+          <img
+            class="header__add-img"
+            src="<%=require('./images/add.svg')%>"
+            alt="присодениться"
+          />
           <p class="header__title">Присоедениться</p>
           <div class="header__avatar"></div>
         </button>
-        <button class="header__personal-area header__personal-area_add_user header__personal-area_active" type="button" aria-label="Личный кабинет">
+        <button
+          class="header__personal-area header__personal-area_add_user header__personal-area_active"
+          type="button"
+          aria-label="Личный кабинет"
+        >
           <p class="header__title header__title_add_user">Личный кабинет</p>
           <div class="header__avatar header__avatar_add_user"></div>
         </button>
       </div>
     </header>
 
-    <main class="content content_page_profile">
-
+    <main class="content">
       <!--меню ЛК, настроек и регистрации-->
       <section class="stepper">
         <div class="navigation">
@@ -48,7 +71,7 @@
             >Личный кабинет</a
           >
           <p class="navigation__text">/</p>
-          <p class="navigation__text">Профиль волонтёра</p>
+          <p class="navigation__text">Мои данные</p>
         </div>
         <ul class="menu" id="AccountMenu">
           <li class="menu__item">
@@ -73,31 +96,53 @@
           </li>
         </ul>
       </section>
-      <section class="motivation-main">
-        <h1 class="motivation-main__title">Моя мотивация и сильные стороны</h1>
-        <p class="motivation-main__subtitle">
+
+      <section class="main">
+        <h1 class="main__title">Моя мотивация и сильные стороны</h1>
+        <p class="main__subtitle">
           Расскажи немного о себе и причинах, по которым стремишься помогать
           другим
         </p>
+
         <div class="input-case input-case_type_textearea">
-        <textarea class="input input_type_textarea" type="text" placeholder="Почему я хочу стать волонтером?" maxlength="2000"></textarea>
-          <span class="input-case__subtitle">Почему я хочу стать волонтером?</span>
+          <textarea
+            class="input input_type_textarea"
+            type="text"
+            placeholder="Почему я хочу стать волонтером?"
+            maxlength="2000"
+          ></textarea>
+          <span class="input-case__subtitle"
+            >Почему я хочу стать волонтером?</span
+          >
           <div class="input-case__ico input-case__ico_type_cross"></div>
           <p class="input-case__result">486/2000</p>
         </div>
-        <p class="motivation-main__subtitle">
+
+        <p class="main__subtitle">
           Опиши свой опыт и навыки подробнее. Например, если ты выбрал категорию
           перевода, укажи язык, которым владеешь
         </p>
-        <div class="input-case input-case_type_textearea">
-          <textarea class="input input_type_textarea" type="text" placeholder="Какие мои знания и навыки будут полезны фондам?" maxlength="2000"></textarea>
-            <span class="input-case__subtitle">Какие мои знания и навыки будут полезны фондам?</span>
-            <div class="input-case__ico input-case__ico_type_cross"></div>
-            <p class="input-case__result">486/2000</p>
-          </div>
-      </section>
 
-      <button class="button button_type_save motivation-main__button" aria-label="Сохранение">Сохранить</button>
+        <div class="input-case input-case_type_textearea">
+          <textarea
+            class="input input_type_textarea"
+            type="text"
+            placeholder="Какие мои знания и навыки будут полезны фондам?"
+            maxlength="2000"
+          ></textarea>
+          <span class="input-case__subtitle"
+            >Какие мои знания и навыки будут полезны фондам?</span
+          >
+          <div class="input-case__ico input-case__ico_type_cross"></div>
+          <p class="input-case__result">486/2000</p>
+        </div>
+        <button
+          class="button button_type_save"
+          aria-label="Сохранение"
+        >
+          Сохранить
+        </button>
+      </section>
 
       <section class="status">
         <p class="status__title">Статус профиля</p>
@@ -139,7 +184,9 @@
           <a href="#" target="_blank" class="footer__link">Партнеры</a>
           <a href="#" target="_blank" class="footer__link">Отзывы</a>
           <a href="#" target="_blank" class="footer__link">Контакты</a>
-          <a href="#" target="_blank" class="footer__link">Пожертвовать в фонды</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Пожертвовать в фонды</a
+          >
         </nav>
         <nav class="footer__links">
           <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
@@ -155,9 +202,13 @@
           <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
         </nav>
         <nav class="footer__links">
-          <a href="#" target="_blank" class="footer__link">Как получить помощь</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Как получить помощь</a
+          >
           <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
-          <a href="#" target="_blank" class="footer__link">Компании-волонтеры</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Компании-волонтеры</a
+          >
           <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
           <a href="#" target="_blank" class="footer__link">Вебинары</a>
         </nav>
@@ -169,22 +220,46 @@
         <ul class="footer__icons">
           <li class="footer__icon-container">
             <p class="footer__icon-title">Создатель проекта</p>
-            <img class="footer__icon" src="<%=require('./images/logo_druzya.svg')%>" alt="логотип фонда друзья">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_druzya.svg')%>"
+              alt="логотип фонда друзья"
+            />
           </li>
           <li class="footer__icon-container">
             <p class="footer__icon-title">Генеральный партнёр</p>
-            <img class="footer__icon" src="<%=require('./images/logo_mastercard.svg')%>" alt="логотип mastercard">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_mastercard.svg')%>"
+              alt="логотип mastercard"
+            />
           </li>
           <li class="footer__icon-container">
-            <img class="footer__icon" src="<%=require('./images/pgrants_logo.svg')%>" alt="логотип фонда президенстских грантов">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/pgrants_logo.svg')%>"
+              alt="логотип фонда президенстских грантов"
+            />
           </li>
           <li class="footer__icon-container">
-            <a href="#" target="_blank" class="footer__social-link"><img src="<%=require('./images/facebook.svg')%>" alt="FaceBook"
-                class="footer__social-icon"></a>
-            <a href="#" target="_blank" class="footer__social-link"><img src="<%=require('./images/instragram.svg')%>" alt="Instragram"
-                class="footer__social-icon"></a>
-            <a href="#" target="_blank" class="footer__social-link"><img src="<%=require('./images/vk.svg')%>" alt="VK"
-                class="footer__social-icon"></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/facebook.svg')%>"
+                alt="FaceBook"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/instragram.svg')%>"
+                alt="Instragram"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/vk.svg')%>"
+                alt="VK"
+                class="footer__social-icon"
+            /></a>
           </li>
         </ul>
         <div class="footer__copyright">
@@ -192,7 +267,11 @@
           <p class="footer__information">
             Юридическая информация и защита персональных данных
           </p>
-          <img class="footer__logo" src="<%=require('./images/logo_buroburo.svg')%>" alt="логотип бюро">
+          <img
+            class="footer__logo"
+            src="<%=require('./images/logo_buroburo.svg')%>"
+            alt="логотип бюро"
+          />
         </div>
       </div>
     </footer>

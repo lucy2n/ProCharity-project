@@ -63,7 +63,7 @@
       </div>
     </header>
 
-    <main class="content content_page_profile">
+    <main class="content">
       <!--меню ЛК, настроек и регистрации-->
       <section class="stepper">
         <div class="navigation">
@@ -89,25 +89,25 @@
         </ul>
       </section>
 
-      <section class="motivation-main">
-        <h1 class="motivation-main__title">Профиль</h1>
-        <p class="motivation-main__subtitle">
+      <section class="main">
+        <h1 class="main__title">Профиль</h1>
+        <p class="main__subtitle">
           Приватный профиль будет скрыт для неавторизованных пользователей
           в списке волонтеров и в поиске по сайту
         </p>
         <div class="main__checkbox">
           <label
-            class="main__checkbox-content main__checkbox-content_not-active"
+            class="main__checkbox-content"
           >
-            <input type="checkbox" class="main__checkbox-input" disabled />
+            <input type="checkbox" class="main__checkbox-input"/>
             <!--Если статус профиля отличается от “Подтвержден” то чек-бокс включающий приватный статус неактивен.
 						то есть необходимо добавить в label class="main__checkbox-content_not-active" в input-> disabled 
-						и к секции status с "Подтвержден" добавить class="status_not-active"-->
+						и в секции status с "Подтвержден" добавить к "status__tag" class="tag_color_blue" и изменить текст в tag__text на "на модерации"-->
             <span class="main__checkbox-stile"></span>
             Мой профиль виден только пользователям ProCharity
           </label>
         </div>
-        <p class="motivation-main__subtitle">
+        <p class="main__subtitle">
           Если ты не хочешь больше быть волонтером ProCharity, можешь
           заблокировать свой профиль. Это значит:
         </p>
@@ -122,7 +122,7 @@
             ты не будешь получать от нас никаких писем.
           </li>
         </ul>
-        <p class="motivation-main__subtitle">
+        <p class="main__subtitle">
           Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми
           "Сохранить"
         </p>
@@ -133,29 +133,20 @@
             Заблокировать профил
           </label>
         </div>
+        <button class="button button_type_save" aria-label="Сохранение">
+          Сохранить
+        </button>
       </section>
-      <button
-        class="button button_type_save motivation-main__button"
-        aria-label="Сохранение"
-      >
-        Сохранить
-      </button>
 
-      <section class="status status_not-active">
+      <section class="status">
         <p class="status__title">Статус профиля</p>
         <div class="status__tag tag tag_color_orange" tabindex="-1">
           <p class="tag__text">Подтвержден</p>
           <p class="tag__mark">?</p>
         </div>
       </section>
-      <section class="status">
-        <p class="status__title">Статус профиля</p>
-        <div class="status__tag tag tag_color_blue" tabindex="-1">
-          <p class="tag__text">На модерации</p>
-          <p class="tag__mark">?</p>
-        </div>
-      </section>
     </main>
+
     <footer class="footer">
       <div class="footer__container">
         <h3 class="footer__title">О проекте</h3>
@@ -210,7 +201,7 @@
             <p class="footer__icon-title">Создатель проекта</p>
             <img
               class="footer__icon"
-              src="./images/logo_druzya.svg"
+              src="<%=require('./images/logo_druzya.svg')%>"
               alt="логотип фонда друзья"
             />
           </li>
@@ -218,32 +209,35 @@
             <p class="footer__icon-title">Генеральный партнёр</p>
             <img
               class="footer__icon"
-              src="./images/logo_mastercard.svg"
+              src="<%=require('./images/logo_mastercard.svg')%>"
               alt="логотип mastercard"
             />
           </li>
           <li class="footer__icon-container">
             <img
               class="footer__icon"
-              src="./images/pgrants_logo.svg"
+              src="<%=require('./images/pgrants_logo.svg')%>"
               alt="логотип фонда президенстских грантов"
             />
           </li>
           <li class="footer__icon-container">
             <a href="#" target="_blank" class="footer__social-link"
               ><img
-                src="./images/facebook.svg"
+                src="<%=require('./images/facebook.svg')%>"
                 alt="FaceBook"
                 class="footer__social-icon"
             /></a>
             <a href="#" target="_blank" class="footer__social-link"
               ><img
-                src="./images/instragram.svg"
+                src="<%=require('./images/instragram.svg')%>"
                 alt="Instragram"
                 class="footer__social-icon"
             /></a>
             <a href="#" target="_blank" class="footer__social-link"
-              ><img src="./images/vk.svg" alt="VK" class="footer__social-icon"
+              ><img
+                src="<%=require('./images/vk.svg')%>"
+                alt="VK"
+                class="footer__social-icon"
             /></a>
           </li>
         </ul>
@@ -254,7 +248,7 @@
           </p>
           <img
             class="footer__logo"
-            src="./images/logo_buroburo.svg"
+            src="<%=require('./images/logo_buroburo.svg')%>"
             alt="логотип бюро"
           />
         </div>
