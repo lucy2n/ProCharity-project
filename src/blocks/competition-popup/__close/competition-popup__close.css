@@ -1,4 +1,4 @@
-.competiton-popup__close {
+.competition-popup__close {
   width: 20px;
   min-height: 20px;
   border: none;
@@ -11,6 +11,6 @@
   transition: 0.2s;
   cursor: pointer;
 }
-.competiton-popup__close:hover {
+.competition-popup__close:hover {
   opacity: 0.6;
 }

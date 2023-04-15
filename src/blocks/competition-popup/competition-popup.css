@@ -1,5 +1,5 @@
-.competiton-popup {
-  background-color: #F5F5F5;
+.competition-popup {
+  background-color: #F1F5F9;
   position: fixed;
   display: flex;
   box-sizing: border-box;
@@ -15,7 +15,7 @@
   transition: visibility 0s, opacity 0.5s linear;
 }
 @media screen and (min-width: 856px) {
-  .competiton-popup {
+  .competition-popup {
     display: none;
   }
 }
