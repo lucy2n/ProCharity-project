@@ -1,6 +1,13 @@
-.notification__container{
+.notification__container {
     display: flex;
     flex-direction: column;
-    grid-row:1/3;
-    grid-column: 2;
+    grid-row: 1/5;
+    grid-column: 2/-1;
+}
+
+@media screen and (max-width: 856px) {
+    .notification__container {
+        grid-column: 1;
+        grid-row: 2;
+    }
 }

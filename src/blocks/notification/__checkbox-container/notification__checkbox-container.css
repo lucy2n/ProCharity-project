@@ -1,8 +1,10 @@
 .notification__checkbox-container {
-    position: relative;
-    margin: 0;
-    padding: 20px 0 0;
-    display: flex;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    padding-top: 20px;
 }
 
 .notification__checkbox-container:first-of-type {

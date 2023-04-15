@@ -1,9 +1,0 @@
-.notifications{
-    display: grid;
-    grid-template-columns: min-content auto;
-    grid-template-rows: auto auto;
-    column-gap: 32px;
-    margin: auto;
-    max-width: 1024px;
-    padding: 0 30px 120px;
-}

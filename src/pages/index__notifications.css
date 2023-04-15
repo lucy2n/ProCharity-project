@@ -1,9 +1,5 @@
 /*notifications*/
-@import url(../blocks/notifications/notifications.css);
 @import url(../blocks/notification/__container/notification__container.css);
-@import url(../blocks/notification/__content/notification__content.css);
-@import url(../blocks/notification/__text/notification__text.css);
-@import url(../blocks/notification/__text/_position/notification__text_position.css);
 @import url(../blocks/notification/__title/notification__title.css);
 @import url(../blocks/notification/__checkbox-container/notification__checkbox-container.css);
 @import url(../blocks/notification/__checkbox/notification__checkbox.css);
@@ -12,3 +8,8 @@
 @import url(../blocks/notification/__image/_telegram/notification__image_telegram.css);
 @import url(../blocks/notification/__mark/notification__mark.css);
 @import url(../blocks/button/_type/button_type_telegram.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/notification/__subtitle/notification__subtitle.css);
+@import url(../blocks/notification/__checkbox-content/notification__checkbox-content.css);
+@import url(../blocks/notification/__checkbox-style/notification__checkbox-style.css);
