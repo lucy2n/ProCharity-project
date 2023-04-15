@@ -1,0 +1,19 @@
+.volunteer__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 736px) {
+    .volunteer__buttons {
+        flex-direction: column-reverse;
+    }
+
+    .volunteer__buttons .button {
+        width: 312px;
+        max-width: 312px;
+    }
+
+    .volunteer__buttons .button:first-of-type {
+        margin-top: 16px;
+    }
+}

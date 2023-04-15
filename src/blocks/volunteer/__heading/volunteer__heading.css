@@ -1,0 +1,11 @@
+.volunteer__heading {
+    margin: 0 0 24px;
+    color: #374045;
+}
+
+@media screen and (max-width: 736px) {
+    .volunteer__heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

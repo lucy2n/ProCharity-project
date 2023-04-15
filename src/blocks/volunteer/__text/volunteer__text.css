@@ -1,0 +1,21 @@
+.volunteer__text {
+    margin: 32px 0 12px;
+    max-width: 736px;
+    color: #58646A;
+}
+
+@media screen and (max-width: 1047px) {
+    .volunteer__text {
+        margin: 32px 0 12px;
+        max-width: 467px;
+        color: #58646A;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .volunteer__text {
+        width: 312px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

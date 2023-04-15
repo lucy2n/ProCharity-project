@@ -1,0 +1,16 @@
+.volunteer__inputs {
+    margin-left: 32px;
+}
+
+@media screen and (max-width: 1047px) {
+    .volunteer__inputs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .volunteer__inputs {
+        margin: 24px 0 0;
+    }
+}

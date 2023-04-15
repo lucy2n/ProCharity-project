@@ -29,12 +29,21 @@
   color: #374045;
 }
 
-.input:focus~span {
+.input:focus~.input-case__subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 1;
+}
+
+.input:focus~.input-case__error-message {
   visibility: visible;
 }
 
 .input:focus~.input-case__ico_type_cross {
-  display: block;
+  /*display: block;*/
+  visibility: visible;
+  opacity: 1;
+ transform: rotate(90deg);
 }
 
 .input:focus~.input-case__dropdown-content {
