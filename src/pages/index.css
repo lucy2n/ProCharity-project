@@ -9,6 +9,7 @@
 /* tagrify block */
 @import url(../../node_modules/@yaireo/tagify/dist/tagify.css);
 @import url(../blocks/tagify/tagify.css);
+@import url(../blocks/multilevel-input/_type/multilevel-input_type_error.css);
 
 /* inputs block */
 @import url(../blocks/input/input.css);

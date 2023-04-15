@@ -99,4 +99,4 @@ export const whitelistValue = [
     },
   ].map(item => ({ ...item, class: `group_${hashCode(item.group)}` }));
 
- export const inputElm = document.querySelector('input[name=tags-manual-suggestions]')
+ export const inputElm = document.querySelector('.multilevel-input')
