@@ -95,8 +95,8 @@
 /*v_account_profile*/
 @import url(index_profile.css);
 /*v_account_password*/
-@import url(index_password.css);
+@import url(./index_password.css);
+@import url(./index__notifications.css);
 /*v_account_competition*/
 @import url(index_competition.css);
-
 
