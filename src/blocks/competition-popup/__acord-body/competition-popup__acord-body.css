@@ -1,0 +1,9 @@
+.competition-popup__acord-body {
+  width: 100%;
+  height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

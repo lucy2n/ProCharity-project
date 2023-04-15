@@ -34,7 +34,7 @@
 
 /* Header */
 
-@import url(./index__header_footer.css);
+@import url(index__header_footer.css);
 
 /* Popup */
 @import url(../blocks/popup/popup.css);
@@ -90,10 +90,12 @@
 @import url(../blocks/main/__subtitle/main__subtitle.css);
 
 /*v_account_motivation*/
-@import url(./index_motivation.css);
+@import url(index_motivation.css);
 /*v_account_profile*/
-@import url(./index_profile.css);
+@import url(index_profile.css);
 /*v_account_password*/
-@import url(./index_password.css);
+@import url(index_password.css);
+/*v_account_competition*/
+@import url(index_competition.css);
 
 
