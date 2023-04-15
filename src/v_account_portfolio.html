@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
-    <title>Motivation</title>
+    <title>Competitions</title>
     <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
   </head>
 
@@ -75,65 +75,79 @@
         </div>
         <nav class="menu" id="AccountMenu">
           <a class="menu__item" href="#">
-              <p class="menu__number">1</p>
-              <p class="menu__text">Личные данные</p>
+            <p class="menu__number">1</p>
+            <p class="menu__text">Личные данные</p>
           </a>
           <a class="menu__item" href="#">
-              <p class="menu__number">2</p>
-              <p class="menu__text">Компетенции</p>
+            <p class="menu__number">2</p>
+            <p class="menu__text">Компетенции</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Мотивация</p>
           </a>
           <a class="menu__item menu__item_active" href="#">
-              <p class="menu__number">3</p>
-              <p class="menu__text">Мотивация</p>
+            <p class="menu__number">4</p>
+            <p class="menu__text">Портфолио</p>
           </a>
           <a class="menu__item" href="#">
-              <p class="menu__number">4</p>
-              <p class="menu__text">Портфолио</p>
-          </a>
-          <a class="menu__item" href="#">
-              <p class="menu__number">5</p>
-              <p class="menu__text">Социальные сети</p>
+            <p class="menu__number">5</p>
+            <p class="menu__text">Социальные сети</p>
           </a>
         </nav>
       </section>
 
       <section class="main">
-        <h1 class="main__title">Моя мотивация и сильные стороны</h1>
-        <form class="main__form">
+        <h1 class="main__title">Мое портфолио</h1>
+        <form class="main__form" action="#">
           <p class="main__subtitle">
-            Расскажи немного о себе и причинах, по которым стремишься помогать
-            другим
+            Наличие резюме или портфолио увеличит доверие к тебе как к
+            профессионалу
           </p>
-          <div class="input-case input-case_type_textearea">
-            <textarea
-              class="input input_type_textarea"
-              type="text"
-              placeholder="Почему я хочу стать волонтером?"
-              maxlength="2000"
-            ></textarea>
-            <span class="input-case__subtitle"
-              >Почему я хочу стать волонтером?</span
-            >
-            <div class="input-case__ico input-case__ico_type_cross"></div>
-            <p class="input-case__result">486/2000</p>
+          <div class="main__add-file">
+            <p class="main__name-file">Резюме или примеры работ</p>
+            <div class="main__container-file">
+              <label
+                ><input type="file" />Выберите файл<span
+                  >или перетащите его сюда</span
+                ></label
+              >
+            </div>
+            <p class="main__format">Jpg, png, pdf объемом не более 20 Мб</p>
           </div>
-          <p class="main__subtitle">
-            Опиши свой опыт и навыки подробнее. Например, если ты выбрал
-            категорию перевода, укажи язык, которым владеешь
-          </p>
-          <div class="input-case input-case_type_textearea">
-            <textarea
-              class="input input_type_textarea"
-              type="text"
-              placeholder="Какие мои знания и навыки будут полезны фондам?"
-              maxlength="2000"
-            ></textarea>
-            <span class="input-case__subtitle"
-              >Какие мои знания и навыки будут полезны фондам?</span
-            >
-            <div class="input-case__ico input-case__ico_type_cross"></div>
-            <p class="input-case__result">486/2000</p>
+
+          <p class="main__subtitle">Дипломы и сертификаты</p>
+          <div class="main__add-file">
+            <p class="main__name-file">Резюме или примеры работ</p>
+            <div class="main__container-file">
+              <label
+                ><input type="file" />Выберите файл<span
+                  >или перетащите его сюда</span
+                ></label
+              >
+            </div>
+            <p class="main__format">Jpg, png, tiff объемом не более 16 Мб</p>
           </div>
+          <p class="main__name-file">Ссылки</p>
+          <div class="input-case">
+            <input class="input" type="text" placeholder="Текст ссылки" />
+            <span class="input-case__subtitle">Текст ссылки</span>
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+            <span class="input-case__error-message"
+              >Может содержать только буквы и специальные символы</span
+            >
+          </div>
+          <div class="input-case">
+            <input class="input" type="url" placeholder="https://" />
+            <span class="input-case__subtitle">https://</span>
+            <div class="input-case__ico input-case__ico_type_cross"></div>
+            <span class="input-case__error-message"
+              >Может содержать только буквы и специальные символы</span
+            >
+          </div>
+          <button class="main__add-link" aria-label="Добавить ссылки">
+            Добавить ссылку
+          </button>
           <button class="button button_type_save" aria-label="Сохранение">
             Сохранить
           </button>
@@ -164,6 +178,7 @@
         </p>
       </section>
     </main>
+
     <footer class="footer">
       <div class="footer__container">
         <h3 class="footer__title">О проекте</h3>
