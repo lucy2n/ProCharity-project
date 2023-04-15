@@ -48,6 +48,7 @@ module.exports = {
       // template: 'src/v_account_motivation.html'
       // template: 'src/v_account_profile.html'
       // template: 'src/v_account_password.html'
+      // template: 'src/v_account_competitions.html'
       // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),
