@@ -1,0 +1,15 @@
+.footer__autor {
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #7B878F;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 856px){
+  .footer__autor{
+		grid-row: 2;
+  }
+}

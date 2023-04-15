@@ -1,0 +1,14 @@
+.footer__copyright{
+	grid-row: 4;
+  grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: 0.8fr 2fr 2fr;
+	justify-content: space-between;
+	align-items: center;
+}
+@media screen and (max-width: 856px){
+  .footer__copyright{
+		grid-template-columns: 1fr;
+		row-gap: 44px;
+  }
+}

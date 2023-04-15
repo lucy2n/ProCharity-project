@@ -1,0 +1,12 @@
+.input-case__result {
+  margin: 0;
+  text-align: right;
+  margin-top: -24px;
+  padding-right: 12px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #7b878f;
+}

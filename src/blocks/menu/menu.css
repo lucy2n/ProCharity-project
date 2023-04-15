@@ -12,12 +12,12 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 856px) {
     .menu {
         border: none;
         padding: 0;
         grid-auto-flow: column;
         gap: 12px;
-        width: fit-content;
+        width: 100%;
     }
 }

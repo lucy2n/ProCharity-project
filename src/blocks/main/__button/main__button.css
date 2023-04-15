@@ -1,0 +1,10 @@
+.main__button{
+	grid-row: 3;
+	margin-top: 12px;
+}
+@media screen and (max-width: 856px) {
+  .main__button {
+		grid-row: 4;
+		margin-top: 16px;
+  }
+}
