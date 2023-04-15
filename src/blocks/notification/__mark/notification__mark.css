@@ -1,5 +1,6 @@
 .notification__mark {
-    position: static;
+    top: 0;
+    left: 250px
 }
 
 
@@ -8,7 +9,7 @@
     height: 64px;
     position: absolute;
     top: 20px;
-    right: 180px;
+    right: -250px;
     z-index: 1;
     content: 'Мы будем присылать на email все важные уведомления по твоим заданиям';
 }
