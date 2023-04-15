@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
+    <title>Competitions</title>
+    <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          class="header__menu-img"
+          src="<%=require('./images/menu.svg')%>"
+          alt="меню"
+        />
+        <img
+          class="header__logo"
+          src="<%=require('./images/logo.svg')%>"
+          alt="ProCharity"
+        />
+        <nav class="header__menu">
+          <a class="header__link" href="#">О проекте</a>
+          <a class="header__link" href="#">Задания</a>
+          <a class="header__link" href="#">Волонтерам</a>
+          <a class="header__link" href="#">Для НКО</a>
+          <a class="header__link" href="#">Бизнесу</a>
+          <a class="header__link" href="#">FAQ</a>
+          <button
+            class="header__search"
+            type="button"
+            aria-label="поиск"
+          ></button>
+        </nav>
+        <button
+          class="header__personal-area"
+          type="button"
+          aria-label="регистрация"
+        >
+          <img
+            class="header__add-img"
+            src="<%=require('./images/add.svg')%>"
+            alt="присодениться"
+          />
+          <p class="header__title">Присоедениться</p>
+          <div class="header__avatar"></div>
+        </button>
+        <button
+          class="header__personal-area header__personal-area_add_user header__personal-area_active"
+          type="button"
+          aria-label="Личный кабинет"
+        >
+          <p class="header__title header__title_add_user">Личный кабинет</p>
+          <div class="header__avatar header__avatar_add_user"></div>
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+      <!--меню ЛК, настроек и регистрации-->
+      <section class="stepper">
+        <div class="navigation">
+          <a class="navigation__link" href="#" title="Личный кабинет"
+            >Личный кабинет</a
+          >
+          <p class="navigation__text">/</p>
+          <p class="navigation__text">Мои данные</p>
+        </div>
+        <nav class="menu" id="AccountMenu">
+          <a class="menu__item" href="#">
+            <p class="menu__number">1</p>
+            <p class="menu__text">Личные данные</p>
+          </a>
+          <a class="menu__item menu__item_active" href="#">
+            <p class="menu__number">2</p>
+            <p class="menu__text">Компетенции</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Мотивация</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">4</p>
+            <p class="menu__text">Портфолио</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">5</p>
+            <p class="menu__text">Социальные сети</p>
+          </a>
+        </nav>
+      </section>
+
+      <section class="main">
+        <h1 class="main__title">Мои компетенции</h1>
+        <form class="main__form" action="#">
+          <p class="main__subtitle">
+            Укажи, какие категории заданий тебе интересны и соответствуют твоим
+            навыкам
+          </p>
+          <div class="main__multilevel-input multilevel-input">
+            <input name="tags-manual-suggestions" placeholder="Выбрать" />
+            <div class="input-case__ico input-case__ico_type_arrow"></div>
+            <span class="input-case__error-message">Поле обязательное</span>
+          </div>
+          <button class="button button_type_save" aria-label="Сохранение">
+            Сохранить
+          </button>
+        </form>
+      </section>
+
+      <section class="status">
+        <p class="status__title">Статус профиля</p>
+        <div class="status__tag tag tag_color_dark" tabindex="-1">
+          <p class="tag__text">Скрыт</p>
+          <p class="tag__mark">?</p>
+        </div>
+      </section>
+
+      <section class="progress">
+        <p class="progress__complete">
+          Профиль заполнен на <spen class="progress-value">66</spen>%
+        </p>
+        <progress class="progress__bar" max="100" value="66"></progress>
+        <button
+          class="progress__reload"
+          tipe="button"
+          aria-label="перезагрузка прогресса"
+        ></button>
+        <p class="progress__info">
+          Узнай, <a href="#" class="progress__link">как заполнить профиль</a>,
+          чтобы тебя выбрали исполнителем
+        </p>
+      </section>
+<!--секция popup, для активации добавить класс "competition-popup_opened"-->
+      <section class="competition-popup competition-popup_opened">
+        <button class="competition-popup__close" type="button"></button>
+        <form action="#" class="competition-popup__form">
+          <h2 class="competition-popup__title">Выбор компетенции</h2>
+
+          <ul class="competition-popup__list">
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                HR
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip">Пускай что-то будет</p>
+                </div>
+              </label>
+            </li>
+
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Обучение и тренинги
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Чему-нибудь да обучу</p>
+                </div>
+              </label>
+            </li>
+
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Стратегический консалтинг
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Стратегии-стратегии</p>
+                </div>
+              </label>
+            </li>
+            
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Юридические услуги
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Знаю законы</p>
+                </div>
+              </label>
+            </li>
+
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                IT
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Что-то</p>
+                  <p class="competition-popup__chip">То-то</p>
+                  <p class="competition-popup__chip">Еще что-то</p>
+                </div>
+              </label>
+            </li>
+
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Дизайн и верстка
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Соцсети, инфографика, презентации</p>
+                  <p class="competition-popup__chip">Дизайн полиграфии</p>
+                  <p class="competition-popup__chip">Фирменный стиль</p>
+                  <p class="competition-popup__chip">Дизайн сайтов</p>
+                  <p class="competition-popup__chip">Иллюстрации, живопись</p>
+                  <p class="competition-popup__chip">3D-графика, анимация</p>
+                  <p class="competition-popup__chip">Интерьерный и ландшафтный дизайн</p>
+                </div>
+              </label>
+            </li>
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Финансы и фандрайзинг
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip">Финансирую</p>
+                </div>
+              </label>
+            </li>
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Маркетинг и коммуникации
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Социальные сети</p>
+                  <p class="competition-popup__chip">Работа с текстами</p>
+                  <p class="competition-popup__chip">Email-рассылки</p>
+                  <p class="competition-popup__chip">Организация мероприятий</p>
+                  <p class="competition-popup__chip">Реклама</p>
+                </div>
+              </label>
+            </li>
+            <li class="competition-popup__container">
+              <label class="competition-popup__acoprd-content">
+                <input
+                  class="competition-popup__input"
+                  type="radio"
+                  name="acord"
+                />
+                <span class="competition-popup__input-stile"></span>
+                Фото и видео
+                <div class="competition-popup__acord-body">
+                  <div class="competition-popup__buttons">
+                    <button type="button" class="competiton-popup__button">
+                      Сбросить
+                    </button>
+                    <button type="button" class="competiton-popup__button">
+                      Выбрать все
+                    </button>
+                  </div>
+                  <p class="competition-popup__chip competition-popup__chip_active">Умею включать камеру</p>
+                </div>
+              </label>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="button button_type_save competition-popup__selection"
+          >
+            Выбрать
+          </button>
+          <button
+            type="button"
+            class="button button_type_back competition-popup__reset-selection"
+          >
+            Сбросить выбор
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <h3 class="footer__title">О проекте</h3>
+        <h3 class="footer__title">Задания</h3>
+        <h3 class="footer__title">Волонтерам</h3>
+        <h3 class="footer__title">Фондам</h3>
+        <h3 class="footer__title">Бизнесу</h3>
+        <h3 class="footer__title">FAQ</h3>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">О платформе</a>
+          <a href="#" target="_blank" class="footer__link">Команда</a>
+          <a href="#" target="_blank" class="footer__link">Новости</a>
+          <a href="#" target="_blank" class="footer__link">Документы</a>
+          <a href="#" target="_blank" class="footer__link">Партнеры</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы</a>
+          <a href="#" target="_blank" class="footer__link">Контакты</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Пожертвовать в фонды</a
+          >
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+          <a href="#" target="_blank" class="footer__link">В работе</a>
+          <a href="#" target="_blank" class="footer__link">Выполненные</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Задания</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Бонусы</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+          <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link"
+            >Как получить помощь</a
+          >
+          <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Компании-волонтеры</a
+          >
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+          <a href="#" target="_blank" class="footer__link">Вебинары</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+        </nav>
+        <ul class="footer__icons">
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Создатель проекта</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_druzya.svg')%>"
+              alt="логотип фонда друзья"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Генеральный партнёр</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_mastercard.svg')%>"
+              alt="логотип mastercard"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/pgrants_logo.svg')%>"
+              alt="логотип фонда президенстских грантов"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/facebook.svg')%>"
+                alt="FaceBook"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/instragram.svg')%>"
+                alt="Instragram"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/vk.svg')%>"
+                alt="VK"
+                class="footer__social-icon"
+            /></a>
+          </li>
+        </ul>
+        <div class="footer__copyright">
+          <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+          <p class="footer__information">
+            Юридическая информация и защита персональных данных
+          </p>
+          <img
+            class="footer__logo"
+            src="<%=require('./images/logo_buroburo.svg')%>"
+            alt="логотип бюро"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
