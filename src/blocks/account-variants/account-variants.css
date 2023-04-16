@@ -1,0 +1,12 @@
+.account-variants {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    gap: 4px;
+}
+
+@media screen and (max-width: 1415px) {
+    .account-variants {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 50%);
+    }
+}
