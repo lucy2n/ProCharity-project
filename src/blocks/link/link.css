@@ -1,4 +1,6 @@
 .link {
+    position: relative;
+
     text-decoration: none;
     color: #7DCDD7;
     background-image: linear-gradient(currentColor, currentColor);
