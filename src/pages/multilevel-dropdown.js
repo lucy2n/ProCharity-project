@@ -1,5 +1,4 @@
 import Tagify from '@yaireo/tagify'
-import Cropper from 'cropperjs';
 import '../pages/index.css'
 
 import img from '../images/path.svg'
@@ -64,18 +63,3 @@ tagify.dropdown.createListHTML = sugegstionsList  => {
       </div>
     </div>`;
 }
-
-/* Cropper */
-
-const image = document.getElementById('popup__avatar');
-const cropper = new Cropper(image, {
-  aspectRatio: 1/1,
-  autoCropArea: 1
-});
-
-cropper.options.highlight = false;
-cropper.options.dragMode = "move";
-cropper.options.guides = false;
-cropper.options.center = false;
-cropper.options.cropBoxMovable = false;
-cropper.options.background = false;
