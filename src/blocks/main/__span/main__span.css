@@ -1,0 +1,8 @@
+.main__span {
+  color: #7b878f;
+}
+@media screen and (max-width: 856px) {
+  .main__span {
+    display: none;
+  }
+}

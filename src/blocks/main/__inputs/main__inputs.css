@@ -1,0 +1,18 @@
+.main__inputs {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.main__inputs:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 856px) {
+  .main__inputs {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
+    <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="pages/index__header_footer.css"> -->
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          class="header__menu-img"
+          src="<%=require('./images/menu.svg')%>"
+          alt="меню"
+        />
+        <img
+          class="header__logo"
+          src="<%=require('./images/logo.svg')%>"
+          alt="ProCharity"
+        />
+        <nav class="header__menu">
+          <a class="header__link" href="#">О проекте</a>
+          <a class="header__link" href="#">Задания</a>
+          <a class="header__link" href="#">Волонтерам</a>
+          <a class="header__link" href="#">Для НКО</a>
+          <a class="header__link" href="#">Бизнесу</a>
+          <a class="header__link" href="#">FAQ</a>
+          <button
+            class="header__search"
+            type="button"
+            aria-label="поиск"
+          ></button>
+        </nav>
+        <button
+          class="header__personal-area"
+          type="button"
+          aria-label="регистрация"
+        >
+          <img
+            class="header__add-img"
+            src="<%=require('./images/add.svg')%>"
+            alt="присодениться"
+          />
+          <p class="header__title">Присоедениться</p>
+          <div class="header__avatar"></div>
+        </button>
+        <button
+          class="header__personal-area header__personal-area_add_user header__personal-area_active"
+          type="button"
+          aria-label="Личный кабинет"
+        >
+          <p class="header__title header__title_add_user">Личный кабинет</p>
+          <div class="header__avatar header__avatar_add_user"></div>
+        </button>
+      </div>
+    </header>
+
+    <main class="content page__content">
+      <!--меню ЛК, настроек и регистрации-->
+      <section class="stepper">
+        <div class="navigation">
+          <a class="navigation__link" href="#" title="Личный кабинет"
+            >Личный кабинет</a
+          >
+          <p class="navigation__text">/</p>
+          <p class="navigation__text">Мои данные</p>
+        </div>
+        <nav class="menu" id="AccountMenu">
+          <a class="menu__item" href="#">
+            <p class="menu__number">1</p>
+            <p class="menu__text">Личные данные</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">2</p>
+            <p class="menu__text">Компетенции</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">3</p>
+            <p class="menu__text">Мотивация</p>
+          </a>
+          <a class="menu__item menu__item_active" href="#">
+            <p class="menu__number">4</p>
+            <p class="menu__text">Портфолио</p>
+          </a>
+          <a class="menu__item" href="#">
+            <p class="menu__number">5</p>
+            <p class="menu__text">Социальные сети</p>
+          </a>
+        </nav>
+      </section>
+
+      <section class="main">
+        <h1 class="main__title">Мое портфолио</h1>
+        <form class="main__form" action="#">
+          <p class="main__subtitle">
+            Наличие резюме или портфолио увеличит доверие к тебе как к
+            профессионалу
+          </p>
+          <div class="main__add-file">
+            <p class="main__examples-file">Резюме или примеры работ</p>
+            <div class="main__container-file">
+              <label class="main__file-content">
+                <input
+                  class="main__file-input"
+                  type="file"
+                  accept=".jpg,.png,.pdf"
+                />
+                <span class="main__subtitle-input">
+                  Выберите файл
+                  <span class="main__span">или перетащите его сюда</span>
+                </span>
+              </label>
+              <span class="main__file-format">
+                Jpg, png, pdf объемом не более 20 Мб
+              </span>
+
+              <ul class="main__files main__files_add">
+                <li class="main__file">
+                  <div
+                    class="main__image-container main__image-container_type_loader"
+                  ></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div class="main__name-container">
+                    <p class="main__name-file">CV.pdf</p>
+                    <p class="main__file-error-message"></p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+                <li class="main__file">
+                  <div
+                    class="main__image-container main__image-container_type_error"
+                  ></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div
+                    class="main__name-container main__name-containertype_type_error"
+                  >
+                    <p class="main__name-file">CV.pdf</p>
+                    <p class="main__file-error-message">
+                      Размер файла не должен превышать 20 Мб
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+                <li class="main__file">
+                  <div class="main__image-container"></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div class="main__name-container">
+                    <p class="main__name-file">fffffffff678dsffffffffffffffffffffff7dfssssssssssssssssssssssssssssssssssssssss686868ffffffffffsfsf.pdf</p>
+                    <p class="main__file-error-message"></p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main__add-file">
+            <p class="main__examples-file">Дипломы и сертификаты</p>
+            <div class="main__container-file">
+              <label class="main__file-content">
+                <input
+                  class="main__file-input"
+                  type="file"
+                  accept=".jpg,.png,.tiff"
+                />
+                <span class="main__subtitle-input">
+                  Выберите файл
+                  <span class="main__span">или перетащите его сюда</span>
+                </span>
+              </label>
+              <span class="main__file-format">
+                Jpg, png, tiff объемом не более 16 Мб
+              </span>
+
+              <ul class="main__files">
+                <li class="main__file">
+                  <div
+                    class="main__image-container main__image-container_type_loader"
+                  ></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div class="main__name-container">
+                    <p class="main__name-file">CV.pdf</p>
+                    <p class="main__file-error-message"></p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+                <li class="main__file">
+                  <div
+                    class="main__image-container main__image-container_type_error"
+                  ></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div
+                    class="main__name-container main__name-containertype_type_error"
+                  >
+                    <p class="main__name-file">CV.pdf</p>
+                    <p class="main__file-error-message">
+                      Размер файла не должен превышать 20 Мб
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+                <li class="main__file">
+                  <div class="main__image-container"></div>
+                  <img
+                    class="main__image-file"
+                    src="<%=require('./images/file.png')%>"
+                    alt="файл"
+                  />
+                  <div class="main__name-container">
+                    <p class="main__name-file">CV.pdf</p>
+                    <p class="main__file-error-message"></p>
+                  </div>
+                  <button
+                    type="button"
+                    class="main__delete-file"
+                    aria-label="удаление файла"
+                  ></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="main__links">
+            <p class="main__examples-file">Ссылки</p>
+            <div class="main__inputs">
+              <div class="input-case">
+                <input class="input" type="text" placeholder="Текст ссылки" />
+                <span class="input-case__subtitle">Текст ссылки</span>
+                <div class="input-case__ico input-case__ico_type_cross"></div>
+                <span class="input-case__error-message"></span>
+              </div>
+              <div class="input-case">
+                <input class="input" type="url" placeholder="https://" />
+                <span class="input-case__subtitle">https://</span>
+                <div class="input-case__ico input-case__ico_type_cross"></div>
+                <span class="input-case__error-message"></span>
+              </div>
+            </div>
+            <button type="button" class="main__add-link" aria-label="Добавить ссылки">
+              Добавить ссылку
+            </button>
+          </div>
+          <button class="button button_type_save" aria-label="Сохранение">
+            Сохранить
+          </button>
+        </form>
+      </section>
+
+      <section class="status">
+        <p class="status__title">Статус профиля</p>
+        <div class="status__tag tag tag_color_dark" tabindex="-1">
+          <p class="tag__text">Скрыт</p>
+          <p class="tag__mark">?</p>
+        </div>
+      </section>
+
+      <section class="progress">
+        <p class="progress__complete">
+          Профиль заполнен на <spen class="progress-value">66</spen>%
+        </p>
+        <progress class="progress__bar" max="100" value="66"></progress>
+        <button
+          class="progress__reload"
+          tipe="button"
+          aria-label="перезагрузка прогресса"
+        ></button>
+        <p class="progress__info">
+          Узнай, <a href="#" class="progress__link">как заполнить профиль</a>,
+          чтобы тебя выбрали исполнителем
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <h3 class="footer__title">О проекте</h3>
+        <h3 class="footer__title">Задания</h3>
+        <h3 class="footer__title">Волонтерам</h3>
+        <h3 class="footer__title">Фондам</h3>
+        <h3 class="footer__title">Бизнесу</h3>
+        <h3 class="footer__title">FAQ</h3>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">О платформе</a>
+          <a href="#" target="_blank" class="footer__link">Команда</a>
+          <a href="#" target="_blank" class="footer__link">Новости</a>
+          <a href="#" target="_blank" class="footer__link">Документы</a>
+          <a href="#" target="_blank" class="footer__link">Партнеры</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы</a>
+          <a href="#" target="_blank" class="footer__link">Контакты</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Пожертвовать в фонды</a
+          >
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+          <a href="#" target="_blank" class="footer__link">В работе</a>
+          <a href="#" target="_blank" class="footer__link">Выполненные</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Задания</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Бонусы</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+          <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link"
+            >Как получить помощь</a
+          >
+          <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+          <a href="#" target="_blank" class="footer__link"
+            >Компании-волонтеры</a
+          >
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+          <a href="#" target="_blank" class="footer__link">Вебинары</a>
+        </nav>
+        <nav class="footer__links">
+          <a href="#" target="_blank" class="footer__link">Как помочь</a>
+          <a href="#" target="_blank" class="footer__link">Список НКО</a>
+          <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+        </nav>
+        <ul class="footer__icons">
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Создатель проекта</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_druzya.svg')%>"
+              alt="логотип фонда друзья"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <p class="footer__icon-title">Генеральный партнёр</p>
+            <img
+              class="footer__icon"
+              src="<%=require('./images/logo_mastercard.svg')%>"
+              alt="логотип mastercard"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <img
+              class="footer__icon"
+              src="<%=require('./images/pgrants_logo.svg')%>"
+              alt="логотип фонда президенстских грантов"
+            />
+          </li>
+          <li class="footer__icon-container">
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/facebook.svg')%>"
+                alt="FaceBook"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/instragram.svg')%>"
+                alt="Instragram"
+                class="footer__social-icon"
+            /></a>
+            <a href="#" target="_blank" class="footer__social-link"
+              ><img
+                src="<%=require('./images/vk.svg')%>"
+                alt="VK"
+                class="footer__social-icon"
+            /></a>
+          </li>
+        </ul>
+        <div class="footer__copyright">
+          <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+          <p class="footer__information">
+            Юридическая информация и защита персональных данных
+          </p>
+          <img
+            class="footer__logo"
+            src="<%=require('./images/logo_buroburo.svg')%>"
+            alt="логотип бюро"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+/*notifications*/
+
+@import url(../blocks/notification/__follow-container/notification__follow-container.css);
+@import url(../blocks/notification/__image/_telegram/notification__image_telegram.css);
+@import url(../blocks/notification/__mark/notification__mark.css);
+@import url(../blocks/button/_type/button_type_telegram.css);
+@import url(../blocks/main/__checkbox/_notification/main__checkbox_notification.css);
