@@ -1,0 +1,25 @@
+.link {
+    position: relative;
+
+    text-decoration: none;
+    color: #7DCDD7;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+
+    transition: all .2s linear;
+}
+
+.link:active {
+    color: #374146;
+}
+
+link:visited {
+    color: #7B878F;
+}
+
+.link:hover,
+.link:focus {
+    background-size: 0% 1px;
+}

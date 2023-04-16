@@ -1,0 +1,19 @@
+.create-account__description {
+    margin-right: 96px;
+
+    width: 370px;
+
+    text-align: right;
+    color: white;
+
+    z-index: 2;
+}
+
+@media screen and (max-width: 693px) {
+    .create-account__description {
+        margin-right: 24px;
+        margin-left: 28px;
+
+        width: 270px;
+    }
+}

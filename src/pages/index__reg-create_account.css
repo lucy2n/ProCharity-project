@@ -1,0 +1,22 @@
+@import url(../blocks/account-variants/account-variants.css);
+
+@import url(../blocks/link/link.css);
+@import url(../blocks/break/break.css);
+
+@import url(../blocks/create-account/create-account.css);
+@import url(../blocks/create-account/__link/create-account__link.css);
+@import url(../blocks/create-account/_left/create-account_left.css);
+@import url(../blocks/create-account/_right/create-account_right.css);
+@import url(../blocks/create-account/__background/create-account__background.css);
+@import url(../blocks/create-account/__description/create-account__description.css);
+@import url(../blocks/create-account/__title/create-account__title.css);
+@import url(../blocks/create-account/__text/create-account__text.css);
+@import url(../blocks/create-account/__create/create-account__create.css);
+@import url(../blocks/create-account/_image/create-account_image_horn.css);
+@import url(../blocks/create-account/_image/create-account_image_horn-razor.css);
+@import url(../blocks/create-account/_image/create-account_image_life-preserver.css);
+@import url(../blocks/create-account/_image/create-account_image_bubbles.css);
+
+@import url(../blocks/registration/registration.css);
+@import url(../blocks/registration/__title/registration__title.css);
+@import url(../blocks/registration/__sign-in/registration__sing-in.css);

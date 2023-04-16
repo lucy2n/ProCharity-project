@@ -1,0 +1,14 @@
+.registration__sing-in {
+    margin: 64px 0 120px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #58646A;
+}
+
+@media screen and (max-width: 1415px) {
+    .registration__sing-in {
+        margin-bottom: 80px;
+    }
+}

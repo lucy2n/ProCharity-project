@@ -13,3 +13,9 @@
     z-index: 1;
     content: 'Мы будем присылать на email все важные уведомления по твоим заданиям';
 }
+
+@media screen and (max-width: 856px) {
+    .notification__mark:hover::after {
+        right: -78px;
+    }
+}
