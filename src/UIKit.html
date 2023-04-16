@@ -63,7 +63,7 @@
         </button>
       </div>
     </header>
-    <main class="content">
+    <main class="content content_page_uikit">
       <br />
       <!-- UIKit -->
       <!-- inputs& buttons -->
@@ -142,15 +142,24 @@
       <div class="input-case">
         <div class="input-case__dropdown">
           <input
-            class="input input_type_error"
+            class="input input_type_error input_type_select"
             type="text"
             placeholder="Предпочитаемый способ связи"
           />
           <span class="input-case__subtitle">Предпочитаемый способ связи</span>
           <div class="input-case__dropdown-content">
-            <a href="#">Telegram</a>
-            <a href="#">Email</a>
-            <a href="#">Моб.телефон</a>
+            <div class="input-case__option">
+              <span>Telegram</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active">
+            </div>
+            <div class="input-case__option">
+              <span>Email</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+            </div>
+            <div class="input-case__option">
+              <span>Моб.телефон</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+            </div>
           </div>
         </div>
 
@@ -164,15 +173,17 @@
 
       <!--инпут c выпадающим меню (библиотека tagify) -->
 
-      <div class="input-case">
-        <input
-          class="input_tags-manual-suggestions"
-          type="text"
-          placeholder="Выбрать"
-        />
-        <div class="input-case__ico input-case__ico_type_arrow"></div>
-        <span class="input-case__error-message">Поле обязательное</span>
-      </div>
+
+      <!--       <div class="input-case">
+        <div class="input-case__dropdown">
+          <select class="input input_type_select">
+            <option selected disabled>Предпочитаемый способ связи</option>
+            <option>Telegram</option>
+            <option>Email</option>
+            <option>Моб.телефон</option>
+          </select>
+          <span class="input-case__subtitle">Предпочитаемый способ связи</span>
+        </div> -->
 
       <section class="popup fixed">
         <div class="popup__container">
@@ -230,31 +241,31 @@
             >Личный кабинет</a
           >
           <p class="navigation__text">/</p>
-          <p class="navigation__text">Профиль волонтёра</p>
-        </div>
-        <ul class="menu" id="AccountMenu">
-          <li class="menu__item menu__item_active">
-            <p class="menu__number">1</p>
-            <p class="menu__text">Личные данные</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">2</p>
-            <p class="menu__text">Компетенции</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">3</p>
-            <p class="menu__text">Мотивация</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">4</p>
-            <p class="menu__text">Портфолио</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">5</p>
-            <p class="menu__text">Социальные сети</p>
-          </li>
-        </ul>
-      </section>
+          <p class="navigation__text"> Профиль волонтёра</p>
+      </div>
+      <nav class="menu" id="AccountMenu">
+          <a class="menu__item menu__item_active" href="#">
+              <p class="menu__number">1</p>
+              <p class="menu__text">Личные данные</p>
+          </a>
+          <a class="menu__item" href="#">
+              <p class="menu__number">2</p>
+              <p class="menu__text">Компетенции</p>
+          </a>
+          <a class="menu__item" href="#">
+              <p class="menu__number">3</p>
+              <p class="menu__text">Мотивация</p>
+          </a>
+          <a class="menu__item" href="#">
+              <p class="menu__number">4</p>
+              <p class="menu__text">Портфолио</p>
+          </a>
+          <a class="menu__item" href="#">
+              <p class="menu__number">5</p>
+              <p class="menu__text">Социальные сети</p>
+          </a>
+        </nav>
+  </section>
 
       <section class="stepper">
         <div class="navigation">
@@ -263,22 +274,22 @@
           >
           <p class="navigation__text">/</p>
           <p class="navigation__text">Настройки</p>
-        </div>
-        <ul class="menu" id="SettingsMenu">
-          <li class="menu__item menu__item_active">
-            <p class="menu__number">1</p>
-            <p class="menu__text">Уведомления</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">2</p>
-            <p class="menu__text">Профиль</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">3</p>
-            <p class="menu__text">Смена пароля</p>
-          </li>
-        </ul>
-      </section>
+      </div>
+  <nav class="menu" id="SettingsMenu">
+      <a class="menu__item menu__item_active" href="#">
+          <p class="menu__number">1</p>
+          <p class="menu__text">Уведомления</p>
+      </a>
+      <a class="menu__item" href="#">
+          <p class="menu__number">2</p>
+          <p class="menu__text">Профиль</p>
+      </a>
+      <a class="menu__item" href="#">
+          <p class="menu__number">3</p>
+          <p class="menu__text">Смена пароля</p>
+      </a>
+    </nav>
+  </section>
 
       <section class="stepper stepper_place_registration">
         <div class="navigation">
@@ -287,34 +298,36 @@
           >
           <p class="navigation__text">Шаг 1 из 5</p>
           <p class="navigation__text">Регистрация волонтёра</p>
-        </div>
-        <ul class="menu" id="RegistrationMenu">
-          <li class="menu__item menu__item_active">
-            <p class="menu__number"></p>
-            <p class="menu__text">Регистрация</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">1</p>
-            <p class="menu__text">Личные данные</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">2</p>
-            <p class="menu__text">Компетенции</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">3</p>
-            <p class="menu__text">Мотивация</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">4</p>
-            <p class="menu__text">Портфолио</p>
-          </li>
-          <li class="menu__item">
-            <p class="menu__number">5</p>
-            <p class="menu__text">Социальные сети</p>
-          </li>
-        </ul>
-      </section>
+      </div>
+  <nav class="menu" id="RegistrationMenu">
+      <a class="menu__item menu__item_active">
+          <p class="menu__number"></p>
+          <p class="menu__text">Регистрация</p>
+      </a>
+      <a class="menu__item">
+          <p class="menu__number">1</p>
+          <p class="menu__text">Личные данные</p>
+      </a>
+      <a class="menu__item">
+          <p class="menu__number">2</p>
+          <p class="menu__text">Компетенции</p>
+      </a>
+      <a class="menu__item">
+          <p class="menu__number">3</p>
+          <p class="menu__text">Мотивация</p>
+      </a>
+      <a class="menu__item">
+          <p class="menu__number">4</p>
+          <p class="menu__text">Портфолио</p>
+      </a>
+      <a class="menu__item">
+          <p class="menu__number">5</p>
+          <p class="menu__text">Социальные сети</p>
+      </a>
+    </nav>
+  </section>
+  </main>
+</body>
 
       <section class="status">
         <p class="status__title">Статус профиля</p>
@@ -339,6 +352,17 @@
           чтобы тебя выбрали исполнителем
         </p>
       </section>
+
+      <br>
+
+      <div class="tags-manual-suggestions">
+        <input class="multilevel-input multilevel-input_type_error" placeholder='Выбрать'>
+        <div class="input-case__ico input-case__ico_type_arrow"></div>
+        <span class="input-case__error-message">Поле обязательное</span>
+      </div>
+
+      <br>
+
     </main>
     <footer class="footer">
       <div class="footer__container">

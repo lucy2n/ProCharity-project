@@ -1,0 +1,6 @@
+.competition-popup__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 16px;
+  align-items: center;
+}
