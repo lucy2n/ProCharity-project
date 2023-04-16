@@ -51,7 +51,7 @@ module.exports = {
       // template: 'src/v_account_portfolio.html'
       // template: 'src/v_account_notifications.html'
       // template: 'src/v_account_competitions.html'
-         template: 'src/contacts.html'
+      //   template: 'src/contacts.html'
       // template: 'src/v_account_profile.html'
 
        template: 'src/reg_volunteer.html'
