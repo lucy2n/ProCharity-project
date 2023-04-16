@@ -1,4 +1,4 @@
-.email-info {
+.page__email-info {
     margin-bottom: 203px;
 
     position: relative;
@@ -7,14 +7,14 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
-    .email-info {
+@media screen and (max-width: 1270px) {
+    .page__email-info {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 682px) {
-    .email-info {
+    .page__email-info {
         margin-bottom: 68%;
     }
 }

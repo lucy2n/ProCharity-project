@@ -1,5 +1,5 @@
 import Tagify from '@yaireo/tagify'
-import Cropper from 'cropperjs';
+/*import Cropper from 'cropperjs';*/
 import '../pages/index.css'
 
 import img from '../images/path.svg'
@@ -78,4 +78,4 @@ cropper.options.dragMode = "move";
 cropper.options.guides = false;
 cropper.options.center = false;
 cropper.options.cropBoxMovable = false;
-cropper.options.background = false;*/
+cropper.options.background = false;

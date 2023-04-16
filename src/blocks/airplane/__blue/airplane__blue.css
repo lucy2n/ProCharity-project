@@ -9,7 +9,7 @@
     height: 48px;
     background-image: url(../../../images/airplane-blue.svg);
 
-    animation: fly1 2s infinite linear backwards;
+    animation: fly__blue 2s infinite linear backwards;
 }
 
 @media screen and (max-width: 682px) {

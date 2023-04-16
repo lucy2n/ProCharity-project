@@ -1,5 +1,5 @@
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_dark/link_dark.css);
+@import url(../blocks/link/_color/link_color_dark.css);
 
 @import url(../blocks/keyframes/keyframes.css);
 
@@ -10,31 +10,7 @@
 @import url(../blocks/airplane/__track/airplane__track.css);
 
 
-@import url(../blocks/email-info/email-info.css);
+@import url(../blocks/page/__email-info/page__email-info.css);
 @import url(../blocks/email-info/__text-content/email-info__text-content.css);
 @import url(../blocks/email-info/__heading/email-info__heading.css);
 @import url(../blocks/email-info/__text/email-info__text.css);
-
-
-body {
-    margin: 0;
-    background-color: #F1F7FF;
-}
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.content {
-    position: relative;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-@media screen and (max-width: 1024px) {
-    .content {
-        flex-direction: column;
-    }
-}

@@ -44,10 +44,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // template: 'src/reg-email_info.html'
+      template: 'src/reg-email_info.html'
       // template: 'src/v_account_motivation.html'
       // template: 'src/v_account_profile.html'
-      template: 'src/v_account_password.html'
+      // template: 'src/v_account_password.html'
       //template: 'src/v_account_profile.html'
       // template: 'src/UIKit.html'
     }),

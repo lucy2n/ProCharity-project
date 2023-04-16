@@ -1,4 +1,4 @@
-@keyframes fly1 {
+@keyframes fly__blue {
     0% {
         top: 0px;
         left: 0px;
@@ -25,7 +25,7 @@
     }
 }
 
-@keyframes fly2 {
+@keyframes fly__orange {
     0% {
         top: 0px;
         left: 0px;

@@ -12,7 +12,7 @@
     background-position: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
     .airplane {
         margin: 0 64px;
     }
@@ -24,10 +24,11 @@
 
         position: absolute;
         top: 255px;
-        left: -30px;
         min-width: 501;
         transform: scale(-1, 1);
         background-position: 83% 45%;
+        background-size: contain;
+        min-width: 340px;
 
         z-index: -1;
     }
