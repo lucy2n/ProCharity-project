@@ -142,15 +142,24 @@
       <div class="input-case">
         <div class="input-case__dropdown">
           <input
-            class="input input_type_error"
+            class="input input_type_error input_type_select"
             type="text"
             placeholder="Предпочитаемый способ связи"
           />
           <span class="input-case__subtitle">Предпочитаемый способ связи</span>
           <div class="input-case__dropdown-content">
-            <a href="#">Telegram</a>
-            <a href="#">Email</a>
-            <a href="#">Моб.телефон</a>
+            <div class="input-case__option">
+              <span>Telegram</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active">
+            </div>
+            <div class="input-case__option">
+              <span>Email</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+            </div>
+            <div class="input-case__option">
+              <span>Моб.телефон</span>
+              <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+            </div>
           </div>
         </div>
 
@@ -164,6 +173,17 @@
 
       <!--инпут c выпадающим меню (библиотека tagify) -->
 
+
+      <!--       <div class="input-case">
+        <div class="input-case__dropdown">
+          <select class="input input_type_select">
+            <option selected disabled>Предпочитаемый способ связи</option>
+            <option>Telegram</option>
+            <option>Email</option>
+            <option>Моб.телефон</option>
+          </select>
+          <span class="input-case__subtitle">Предпочитаемый способ связи</span>
+        </div> -->
 
       <section class="popup fixed">
         <div class="popup__container">
@@ -335,8 +355,8 @@
 
       <br>
 
-      <div class="multilevel-input">
-        <input name='tags-manual-suggestions' placeholder='Выбрать'>
+      <div class="tags-manual-suggestions">
+        <input class="multilevel-input multilevel-input_type_error" placeholder='Выбрать'>
         <div class="input-case__ico input-case__ico_type_arrow"></div>
         <span class="input-case__error-message">Поле обязательное</span>
       </div>
