@@ -1,0 +1,9 @@
+.main__form-subtitle_type_mobile {
+    display: none;
+  }
+  
+@media screen and (max-width: 856px) {
+    .main__form-subtitle_type_mobile {
+        display: block;
+    }
+}
