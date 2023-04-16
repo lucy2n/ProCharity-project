@@ -1,0 +1,31 @@
+.main__file-content {
+  width: 100%;
+  display: block;
+  background: #ffffff;
+  border: 1px dashed #c7d0da;
+  border-radius: 6px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 12px 0;
+  color: #048aa7;
+  margin: 12px 0 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main__file-content:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 856px) {
+  .main__file-content {
+    border: 1px solid #048aa7;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    text-decoration-line: underline;
+  }
+}

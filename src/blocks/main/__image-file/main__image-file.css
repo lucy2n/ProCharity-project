@@ -1,0 +1,6 @@
+.main__image-file {
+  margin: 12px 0 12px 12px;
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+}

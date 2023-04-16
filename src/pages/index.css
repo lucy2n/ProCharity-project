@@ -99,6 +99,7 @@
 
 /*общее для страницы*/
 @import url(../blocks/content/content.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/content/_page/content_page_uikit.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__title/main__title.css);
@@ -118,3 +119,6 @@
 @import url(./index__notifications.css);
 /*v_account_competition*/
 @import url(index_competition.css);
+
+/*v_account_portfolio*/
+@import url(index_portfolio.css);

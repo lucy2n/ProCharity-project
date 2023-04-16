@@ -63,7 +63,7 @@
       </div>
     </header>
 
-    <main class="content">
+    <main class="content page__content">
       <!--меню ЛК, настроек и регистрации-->
       <section class="stepper">
         <div class="navigation">
@@ -104,12 +104,17 @@
             Укажи, какие категории заданий тебе интересны и соответствуют твоим
             навыкам
           </p>
-          <div class="main__multilevel-input multilevel-input">
-            <input name="tags-manual-suggestions" placeholder="Выбрать" />
+
+          <div class="main__multilevel-input tags-manual-suggestions">
+            <input
+              class="multilevel-input multilevel-input_type_error"
+              placeholder="Выбрать"
+            />
             <div class="input-case__ico input-case__ico_type_arrow"></div>
             <span class="input-case__error-message">Поле обязательное</span>
           </div>
-          <button class="button button_type_save" aria-label="Сохранение">
+
+          <button class="button button_type_save " aria-label="Сохранение">
             Сохранить
           </button>
         </form>
@@ -138,7 +143,7 @@
           чтобы тебя выбрали исполнителем
         </p>
       </section>
-<!--секция popup, для активации добавить класс "competition-popup_opened"-->
+      <!--секция popup, для активации добавить класс "competition-popup_opened"-->
       <section class="competition-popup competition-popup_opened">
         <button class="competition-popup__close" type="button"></button>
         <form action="#" class="competition-popup__form">
@@ -186,7 +191,11 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Чему-нибудь да обучу</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Чему-нибудь да обучу
+                  </p>
                 </div>
               </label>
             </li>
@@ -209,11 +218,15 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Стратегии-стратегии</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Стратегии-стратегии
+                  </p>
                 </div>
               </label>
             </li>
-            
+
             <li class="competition-popup__container">
               <label class="competition-popup__acoprd-content">
                 <input
@@ -232,7 +245,11 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Знаю законы</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Знаю законы
+                  </p>
                 </div>
               </label>
             </li>
@@ -255,7 +272,11 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Что-то</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Что-то
+                  </p>
                   <p class="competition-popup__chip">То-то</p>
                   <p class="competition-popup__chip">Еще что-то</p>
                 </div>
@@ -280,13 +301,19 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Соцсети, инфографика, презентации</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Соцсети, инфографика, презентации
+                  </p>
                   <p class="competition-popup__chip">Дизайн полиграфии</p>
                   <p class="competition-popup__chip">Фирменный стиль</p>
                   <p class="competition-popup__chip">Дизайн сайтов</p>
                   <p class="competition-popup__chip">Иллюстрации, живопись</p>
                   <p class="competition-popup__chip">3D-графика, анимация</p>
-                  <p class="competition-popup__chip">Интерьерный и ландшафтный дизайн</p>
+                  <p class="competition-popup__chip">
+                    Интерьерный и ландшафтный дизайн
+                  </p>
                 </div>
               </label>
             </li>
@@ -330,7 +357,11 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Социальные сети</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Социальные сети
+                  </p>
                   <p class="competition-popup__chip">Работа с текстами</p>
                   <p class="competition-popup__chip">Email-рассылки</p>
                   <p class="competition-popup__chip">Организация мероприятий</p>
@@ -356,7 +387,11 @@
                       Выбрать все
                     </button>
                   </div>
-                  <p class="competition-popup__chip competition-popup__chip_active">Умею включать камеру</p>
+                  <p
+                    class="competition-popup__chip competition-popup__chip_active"
+                  >
+                    Умею включать камеру
+                  </p>
                 </div>
               </label>
             </li>
