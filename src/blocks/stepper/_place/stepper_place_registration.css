@@ -47,6 +47,10 @@
 
         color: #58646A;
     }
+
+    .stepper_place_registration {
+        margin-top: 24px;
+    }
 }
 
 @media screen and (max-width: 736px) {
