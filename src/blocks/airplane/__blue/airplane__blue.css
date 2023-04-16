@@ -1,0 +1,19 @@
+.airplane__blue {
+    top: 0px;
+    left: 0px;
+
+    margin: 240px 0 0;
+
+    position: absolute;
+    width: 106px;
+    height: 48px;
+    background-image: url(../../../images/airplane-blue.svg);
+
+    animation: fly__blue 2s infinite linear backwards;
+}
+
+@media screen and (max-width: 682px) {
+    .airplane__blue {
+        display: none;
+    }
+}

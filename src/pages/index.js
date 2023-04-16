@@ -1,5 +1,5 @@
 import Tagify from '@yaireo/tagify'
-//import Cropper from 'cropperjs';
+/*import Cropper from 'cropperjs';*/
 import '../pages/index.css'
 
 import img from '../images/path.svg'
