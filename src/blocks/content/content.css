@@ -22,3 +22,13 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 856px) {
+  .content {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    margin: 24px auto 0;
+    width: 86.7%;
+    padding: 0;
+  }
+}
