@@ -1,4 +1,4 @@
-.main__form__input-container {
+.main__input-container {
   padding: 12px 0 0 0;
   margin: 0;
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .main__form__input-container {
+  .main__input-container {
     row-gap: 16px;
   }
 }

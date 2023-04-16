@@ -1,10 +1,10 @@
 /* contacts */
-@import url(../blocks/contacts/__avatar-box/contacts__avatar-box.css);
-@import url(../blocks/contacts/__avatar-box/__avatar/contacts__avatar-box__avatar.css);
-@import url(../blocks/contacts/__avatar-box/__avatar-info/contacts__avatar-box__avatar-info.css);
-@import url(../blocks/contacts/__radio-buttons-box/contacts__radio-buttons-box.css);
-@import url(../blocks/contacts/__radio-buttons-box/__button/contacts__radio-buttons-box__button.css);
-@import url(../blocks/contacts/__radio-buttons-box/__button/_type-active/contacts__radio-buttons-box__button_type_active.css);
+@import url(../blocks/avatar-box/avatar-box.css);
+@import url(../blocks/avatar-box/__avatar/avatar-box__avatar.css);
+@import url(../blocks/avatar-box/__avatar-info/avatar-box__avatar-info.css);
+@import url(../blocks/radio-box/radio-box.css);
+@import url(../blocks/radio-box/__button/radio-box__button.css);
+@import url(../blocks/radio-box/__button/_type-active/radio-box__button_type_active.css);
 @import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
 @import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_mobile.css);
 @import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_desktop.css);
