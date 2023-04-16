@@ -1,0 +1,8 @@
+.main__image-container {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 3px;
+  z-index: 1;
+  margin: 12px 0 12px 12px;
+}

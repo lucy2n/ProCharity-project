@@ -1,0 +1,7 @@
+.main__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	width: 100%;
+  gap: 12px;
+}
