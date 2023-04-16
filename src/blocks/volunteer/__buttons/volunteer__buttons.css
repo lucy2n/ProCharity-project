@@ -16,4 +16,8 @@
     .volunteer__buttons .button:first-of-type {
         margin-top: 16px;
     }
+
+    .volunteer__buttons .button_type_save {
+        margin-left: 0;
+    }
 }
