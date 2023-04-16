@@ -1,9 +1,0 @@
-.contacts__subtitle_type_desktop {
-  padding-top: 32px;
-}
-
-@media screen and (max-width: 856px) {
-  .contacts__subtitle_type_desktop {
-    display: none;
-  }
-}

@@ -5,6 +5,6 @@
 @import url(../blocks/radio-box/radio-box.css);
 @import url(../blocks/radio-box/__button/radio-box__button.css);
 @import url(../blocks/radio-box/__button/_type-active/radio-box__button_type_active.css);
-@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
-@import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_mobile.css);
-@import url(../blocks/contacts/__subtitle/_type/contacts__subtitle_type_desktop.css);
+@import url(../blocks/main/__form-subtitle/main__form-subtitle.css);
+@import url(../blocks/main/__form-subtitle/_type/main__form-subtitle_type_desktop.css);
+@import url(../blocks/main/__form-subtitle/_type/main__form-subtitle_type_mobile.css);
