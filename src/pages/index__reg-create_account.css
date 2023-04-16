@@ -4,6 +4,7 @@
 @import url(../blocks/break/break.css);
 
 @import url(../blocks/create-account/create-account.css);
+@import url(../blocks/create-account/__link/create-account__link.css);
 @import url(../blocks/create-account/_left/create-account_left.css);
 @import url(../blocks/create-account/_right/create-account_right.css);
 @import url(../blocks/create-account/__background/create-account__background.css);
