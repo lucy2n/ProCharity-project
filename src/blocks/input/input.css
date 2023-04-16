@@ -28,7 +28,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #7B878F;
 }
 
-.input:not(.input_type_social):focus {
+.input:not(.input_type_full-width):focus {
   padding: 23px 36px 5px 16px;
   outline: 0;
 }
