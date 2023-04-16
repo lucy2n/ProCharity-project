@@ -6,7 +6,7 @@
 	border-radius: 24px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1106px) {
   .header__title_add_user {
 		display: none;
   }

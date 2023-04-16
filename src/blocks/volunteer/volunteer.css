@@ -1,0 +1,33 @@
+.volunteer .contacts__subtitle:first-of-type {
+    padding-top: 0;
+}
+
+.volunteer .main__checkbox {
+    margin: 32px 0;
+}
+
+.volunteer .main__buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 560px) {
+    .volunteer .main__buttons-container {
+        flex-direction: column-reverse;
+    }
+
+    .volunteer .button {
+        width: 100%;
+    }
+
+    .volunteer .button:first-of-type {
+        margin-top: 16px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 856px) {
+    .volunteer  .main__buttons-container {
+        margin-bottom: 40px;
+    }
+}

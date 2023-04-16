@@ -44,15 +44,18 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/reg-email_info.html'
+      // template: 'src/reg-email_info.html'
       // template: 'src/v_account_motivation.html'
       // template: 'src/v_account_profile.html'
       // template: 'src/v_account_password.html'
       // template: 'src/v_account_portfolio.html'
       // template: 'src/v_account_notifications.html'
       // template: 'src/v_account_competitions.html'
-         template: 'src/contacts.html'
+      //   template: 'src/contacts.html'
       // template: 'src/v_account_profile.html'
+
+       template: 'src/reg_volunteer.html'
+
       // template: 'src/UIKit.html'
     }),
     new CleanWebpackPlugin(),

@@ -23,6 +23,7 @@
 
 .button:not(.button_unactive):hover {
   cursor: pointer;
+  opacity: .5;
 }
 
 @media screen and (max-width: 796px) {

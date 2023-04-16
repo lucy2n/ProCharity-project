@@ -1,12 +1,15 @@
 .input-case__subtitle {
   position: absolute;
-  visibility: hidden;
+  opacity: 0;
+
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 0px;
   color: #7B878F;
   top: 5px;
   left: 16px;
+
+  transition: all .2s linear;
 }
