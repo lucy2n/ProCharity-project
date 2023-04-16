@@ -1,4 +1,4 @@
-.contacts__avatar-box {
+.avatar-box {
   display: grid;
   grid-template-columns: 138px auto;
   align-items: center;

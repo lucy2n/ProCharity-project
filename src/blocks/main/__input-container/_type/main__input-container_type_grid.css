@@ -1,4 +1,4 @@
-.main__form__input-container_type_grid {
+.main__input-container_type_grid {
   border: none;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 856px) {
-  .main__form__input-container_type_grid {
+  .main__input-container_type_grid {
     grid-template-columns: auto;
     gap: 16px;
   }

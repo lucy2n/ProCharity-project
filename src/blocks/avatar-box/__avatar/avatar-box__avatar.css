@@ -1,4 +1,4 @@
-.contacts__avatar-box__avatar {
+.avatar-box__avatar {
   width: 136px;
   height: 136px;
   border-radius: 50%;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.contacts__avatar-box__avatar>a {
+.avatar-box__avatar>a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

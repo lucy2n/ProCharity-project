@@ -1,11 +1,11 @@
-.contacts__radio-buttons-box {
+.radio-box {
   display: flex;
   margin: 32px 0 20px;
   border-radius: 20px;
 }
 
 @media screen and (max-width: 856px) {
-  .contacts__radio-buttons-box {
+  .radio-box {
     flex-direction: column;
     margin: 32px 0 16px;
   }
