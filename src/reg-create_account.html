@@ -25,16 +25,14 @@
         <a class="header__link" href="#">FAQ</a>
         <button class="header__search" type="button" aria-label="поиск"></button>
       </nav>
-      <button class="header__personal-area" type="button" aria-label="регистрация">
-        <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться" />
+      <div class="header__personal-area header__personal-area_active">
+        <img
+        class="header__add-img"
+        src="<%=require('./images/add.svg')%>"
+        alt="присодениться"/>
         <p class="header__title">Присоедениться</p>
         <div class="header__avatar"></div>
-      </button>
-      <button class="header__personal-area header__personal-area_add_user header__personal-area_active" type="button"
-        aria-label="Личный кабинет">
-        <p class="header__title header__title_add_user">Личный кабинет</p>
-        <div class="header__avatar header__avatar_add_user"></div>
-      </button>
+      </div>
     </div>
   </header>
 

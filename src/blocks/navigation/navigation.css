@@ -1,5 +1,4 @@
 .navigation {
-    margin: 24px 0 22px;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +12,6 @@
 
 @media screen and (max-width: 856px) {
     .navigation {
-        margin: 8px 0 0;
 
         width: 100%;
 

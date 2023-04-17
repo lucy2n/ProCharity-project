@@ -22,17 +22,16 @@
                 <a class="header__link" href="#">FAQ</a>
                 <button class="header__search" type="button" aria-label="поиск"></button>
             </nav>
-            <button class="header__personal-area header__personal-area_add_user header__personal-area_active"
-                type="button" aria-label="Личный кабинет">
+            <div class="header__personal-area header__personal-area_add_user header__personal-area_active">
                 <p class="header__title header__title_add_user">Личный кабинет</p>
                 <div class="header__avatar header__avatar_add_user"></div>
-            </button>
+            </div>
         </div>
     </header>
     <main class="content page__content">
         <!--меню ЛК, настроек и регистрации-->
         <section class="stepper">
-            <div class="navigation">
+            <div class="navigation stepper__navigation">
                 <a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
                 <p class="navigation__text">/</p>
                 <p class="navigation__text">Настройки</p>
@@ -65,7 +64,7 @@
                         <input type="checkbox" class="main__checkbox-input" />
                         <span class="main__checkbox-stile"></span>
                         изменения по моим заданиям
-                        <div class="input-case__ico input-case__ico_type_quest-mark notification__mark"></div>
+                        <span class="input-case__ico input-case__ico_type_quest-mark notification__mark"></span>
                     </label>
                 </div>
                 <div class="main__checkbox main__checkbox_notification">
@@ -95,8 +94,11 @@
                     <p class='main__subtitle'>Получай уведомления о новых заданиях от
                         бота ProCharity в Telegram.
                         При этом рекомендуем отключить уведомления на email из пункта выше.</p>
-                    <button class="button button__type_telegram"><img class="notification__image_telegram"
-                            src="<%=require('./images/telegram.png')%>">Подключить</button>
+                    <button class="button button__type_telegram">
+                        <img class="notification__image_telegram"
+                            src="<%=require('./images/telegram.png')%>" alt="telegram">
+                            Подключить
+                        </button>
                 </div>
                 <button class="button button_type_save" aria-label="Сохранение">
                     Сохранить

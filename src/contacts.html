@@ -27,22 +27,16 @@
         <a class="header__link" href="#">FAQ</a>
         <button class="header__search" type="button" aria-label="поиск"></button>
       </nav>
-      <button class="header__personal-area" type="button" aria-label="регистрация">
-        <img class="header__add-img" src="<%=require('./images/add.svg')%>" alt="присодениться">
-        <p class="header__title header__title_add_user">Присоедениться</p>
-        <div class="header__avatar header__avatar_add_user"></div>
-      </button>
-      <button class="header__personal-area header__personal-area_add_user header__personal-area_active" type="button"
-        aria-label="Личный кабинет">
+      <div class="header__personal-area header__personal-area_add_user header__personal-area_active">
         <p class="header__title header__title_add_user">Личный кабинет</p>
         <div class="header__avatar header__avatar_add_user"></div>
-      </button>
+      </div>
     </div>
   </header>
 
   <main class="content page__content">
     <section class="stepper">
-      <div class="navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+      <div class="navigation stepper__navigation"><a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
         <p class="navigation__text">/</p>
         <p class="navigation__text">Мои данные</p>
       </div>
@@ -95,7 +89,7 @@
             <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
           </div>
           <div class="input-case">
-            <input class="input" type="date" placeholder="Дата рождения" pattern="[0-9]{2}-[0-9]{4}-[0-9]{2}">
+            <input class="input" type="date">
             <span class="input-case__subtitle">Дата рождения</span>
             <span class="input-case__error-message">Может содержать только буквы и специальные символы</span>
           </div>
@@ -141,15 +135,15 @@
               <div class="input-case__dropdown-content">
                 <div class="input-case__option">
                   <span>Telegram</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active" alt="галочка">
                 </div>
                 <div class="input-case__option">
                   <span>Email</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image" alt="галочка">
                 </div>
                 <div class="input-case__option">
                   <span>Моб.телефон</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image" alt="галочка">
                 </div>
               </div>
             </div>
@@ -178,15 +172,15 @@
               <div class="input-case__dropdown-content">
                 <div class="input-case__option">
                   <span>Яндекс</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image input-case__image_active" alt="галочка">
                 </div>
                 <div class="input-case__option">
                   <span>Гугл</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image" alt="галочка">
                 </div>
                 <div class="input-case__option">
                   <span>Амазон</span>
-                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image">
+                  <img src="<%=require('./images/selected.svg')%>" class="input-case__image" alt="галочка">
                 </div>
               </div>
             </div>
@@ -200,7 +194,7 @@
             <span class="input-case__error-message">Поле обязательное</span>
           </div>
         </fieldset>
-        <textarea class="main__textarea" name="" id="" placeholder="Как ты о нас узнал?"></textarea>
+        <textarea class="main__textarea" placeholder="Как ты о нас узнал?"></textarea>
         <button type="submit" class="button button_type_save">Сохранить</button>
       </form>
     </div>
@@ -215,10 +209,10 @@
 
     <section class="progress" style="margin: 0">
       <p class="progress__complete">
-        Профиль заполнен на <spen class="progress-value">66</spen>%
+        Профиль заполнен на <span class="progress-value">66</span>%
       </p>
       <progress class="progress__bar" max="100" value="66"></progress>
-      <button class="progress__reload" tipe="button" aria-label="перезагрузка прогресса"></button>
+      <button class="progress__reload" type="button" aria-label="перезагрузка прогресса"></button>
       <p class="progress__info">
         Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
         выбрали исполнителем
