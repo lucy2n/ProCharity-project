@@ -12,7 +12,7 @@
    * <a href="https://www.npmjs.com/package/cropperjs">Cropperjs</a>
    * Webpack
    
-## 4. Участники проекта: 
+## 4. Другие участники проекта: 
    * <a href="https://github.com/Falor89">Бобырь Максим</a>
    * <a href="https://github.com/KlyukovaK">Клюкова Кристина</a>
    * <a href="https://github.com/Kukus89">Баранов Антон</a>
