@@ -3,9 +3,25 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const pages = {
+  contacts: "contacts",
+  reg_volunteer: "reg_volunteer",
+  reg_create_account: "reg_create_account",
+  reg_email_info: "reg-email_info",
+  social: "social",
+  competitions: "competitions",
+  motivation: "motivation",
+  notifications: "notifications",
+  password: "password",
+  portfolio: "portfolio",
+  profile: "profile"
+}
+
+const currentPage = pages.contacts
+
 module.exports = {
   entry: {
-    main: './src/pages/index.js'
+    main: `./src/pages/${ currentPage }/index.js`
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -44,19 +60,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // template: 'src/reg-email_info.html'
-      // template: 'src/v_account_motivation.html'
-      // template: 'src/v_account_profile.html'
-      // template: 'src/v_account_password.html'
-      // template: 'src/v_account_portfolio.html'
-      // template: 'src/v_account_notifications.html'
-      // template: 'src/v_account_competitions.html'
-      //   template: 'src/contacts.html'
-      // template: 'src/v_account_profile.html'
-
-       template: 'src/reg_volunteer.html'
-
-      // template: 'src/UIKit.html'
+       template: `src/pages/${ currentPage }/index.html`
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
