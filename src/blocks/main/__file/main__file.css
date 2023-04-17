@@ -2,9 +2,9 @@
   display: grid;
   text-decoration: none;
   background: #ffffff;
-  box-shadow: 1px 0px 0px #e3e9f0, -1px 0px 0px #e3e9f0, 0px -1px 0px #e3e9f0,
-    0px 1px 0px #e3e9f0;
-  border-radius: 0px;
+  box-shadow: 1px 0 0 #e3e9f0, -1px 0 0 #e3e9f0, 0 -1px 0 #e3e9f0,
+    0 1px 0 #e3e9f0;
+  border-radius: 0;
   grid-template-columns: 60px minmax(188px,612px) 52px;
   column-gap: 12px;
   position: relative;

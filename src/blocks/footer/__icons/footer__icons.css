@@ -6,7 +6,7 @@
   grid-template-columns: minmax(min-content, 234px) minmax(min-content, 293px) minmax(min-content, 143px) 1fr;
   column-gap: 5.8%;
   padding: 0;
-  margin: 64px 0px;
+  margin: 64px 0;
 }
 
 @media screen and (max-width: 1200px) {

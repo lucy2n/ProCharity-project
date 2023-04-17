@@ -7,8 +7,7 @@
 }
 .main__checkbox-input:checked + .main__checkbox-stile::before {
   content: "";
-  background: url(../../../images/check.svg) no-repeat center;
-  background-color: #72d0dc;
+  background: #72d0dc url(../../../images/check.svg) no-repeat center;
   border-radius: 2px;
   width: 16px;
   height: 16px;

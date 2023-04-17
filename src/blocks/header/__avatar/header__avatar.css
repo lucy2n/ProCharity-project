@@ -1,6 +1,5 @@
 .header__avatar {
-  background: url(../../../images/user.svg) no-repeat center; 
-  background-color: #73B6C0;
+  background: #73B6C0 url(../../../images/user.svg) no-repeat center;
   width: 48px;
   height: 48px;
   border-bottom-right-radius: 24px;

@@ -6,7 +6,6 @@
     height: 414px;
     background-image: url('../../../images/horn-razor.png');
     background-repeat: no-repeat;
-    background-position: auto;
     background-size: contain;
     transform: scale(0.93);
     transition: all .2s linear;

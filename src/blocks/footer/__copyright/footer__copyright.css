@@ -1,6 +1,6 @@
 .footer__copyright{
 	grid-row: 4;
-  grid-column: 1 / -1;
+    grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: 0.8fr 2fr 2fr;
 	justify-content: space-between;

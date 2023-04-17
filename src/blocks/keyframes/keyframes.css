@@ -1,12 +1,12 @@
 @keyframes fly__blue {
     0% {
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
     }
 
     25% {
         top: 10px;
-        left: 0px;
+        left: 0;
     }
 
     50% {
@@ -15,24 +15,24 @@
     }
 
     75% {
-        top: 0px;
+        top: 0;
         left: 10px;
     }
 
     100% {
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
     }
 }
 
 @keyframes fly__orange {
     0% {
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
     }
 
     25% {
-        top: 0px;
+        top: 0;
         left: 5px;
 
     }
@@ -44,11 +44,11 @@
 
     75% {
         top: 6px;
-        left: 0px;
+        left: 0;
     }
 
     100% {
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
     }
 }

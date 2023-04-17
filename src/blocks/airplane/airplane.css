@@ -24,7 +24,6 @@
 
         position: absolute;
         top: 255px;
-        min-width: 501;
         transform: scale(-1, 1);
         background-position: 83% 45%;
         background-size: contain;

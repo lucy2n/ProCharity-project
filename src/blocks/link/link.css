@@ -21,5 +21,5 @@ link:visited {
 
 .link:hover,
 .link:focus {
-    background-size: 0% 1px;
+    background-size: 0 1px;
 }
