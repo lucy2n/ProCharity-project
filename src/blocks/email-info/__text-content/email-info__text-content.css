@@ -1,11 +1,10 @@
 .email-info__text-content {
-    margin: 64px 160px 0;
-
-    max-width: 736px;
+  margin: 64px 160px 0;
+  max-width: 736px;
 }
 
 @media screen and (max-width: 1270px) {
-    .email-info__text-content {
-        margin: 24px 24px 0;
-    }
+  .email-info__text-content {
+    margin: 24px 24px 0;
+  }
 }
