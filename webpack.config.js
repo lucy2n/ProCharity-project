@@ -17,7 +17,7 @@ const pages = {
   profile: "profile"
 }
 
-const currentPage = pages.contacts
+const currentPage = pages.reg_create_account // Для смены страницы, меняйте эту переменную
 
 module.exports = {
   entry: {
