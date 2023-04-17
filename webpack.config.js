@@ -50,11 +50,11 @@ module.exports = {
       // template: 'src/v_account_password.html'
       // template: 'src/v_account_portfolio.html'
       // template: 'src/v_account_notifications.html'
-      // template: 'src/v_account_competitions.html'
+      template: 'src/v_account_competitions.html'
       //   template: 'src/contacts.html'
       // template: 'src/v_account_profile.html'
-
-       template: 'src/reg_volunteer.html'
+      // template: 'src/reg-create_account.html'
+      //  template: 'src/reg_volunteer.html'
 
       // template: 'src/UIKit.html'
     }),
