@@ -3,7 +3,7 @@
 }
 
 .input_type_social::placeholder {
-  font-family: 'Arial';
+  font-family: 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

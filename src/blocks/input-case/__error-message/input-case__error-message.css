@@ -1,7 +1,7 @@
 .input-case__error-message {
   display: none;
   width: 226px;
-  font-family: 'Arial';
+  font-family: 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
