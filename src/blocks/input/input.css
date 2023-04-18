@@ -10,16 +10,6 @@
   text-overflow: ellipsis;
 }
 
-input[type=date]::-webkit-calendar-picker-indicator {
-  opacity: 1;
-  background: url(../../images/input-calendar-ico.svg) no-repeat center;
-  background-size: contain;
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  color: #7B878F;
-}
-
 .input::placeholder {
   font-weight: 400;
   font-size: 16px;

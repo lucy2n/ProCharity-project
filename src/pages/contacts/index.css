@@ -29,6 +29,7 @@
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
 @import url(../../blocks/input-case/__error-message/_type/input-case-error-message_type-active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
+@import url(../../blocks/input/_type/input_type_date.css);
 
 /* buttons */
 @import url(../../blocks/button/button.css);
