@@ -36,7 +36,7 @@ function handleSelect(input) {
 
             const optionImage = option.querySelector(".input-case__image");
             optionImage.classList.add("input-case__image_active");
-            const optionTitle = option.querySelector(".option__title");
+            const optionTitle = option.querySelector(".input-case__option-title");
             input.value = optionTitle.textContent;
 
             dropdownContent.classList.remove("input-case__dropdown-content_active");
