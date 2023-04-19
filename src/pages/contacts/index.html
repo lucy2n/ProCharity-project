@@ -130,23 +130,21 @@
                                 class="input input_type_select"
                                 type="text"
                                 placeholder="Предпочитаемый способ связи"
+                                id="first_input"
                         />
                         <span class="input-case__subtitle">Предпочитаемый способ связи</span>
                         <div class="input-case__dropdown-content">
-                            <div class="input-case__option">
-                                <span>Telegram</span>
-                                <img src="<%=require('../../images/selected.svg')%>"
-                                     class="input-case__image input-case__image_active" alt="галочка">
+                            <div class="input-case__option" id="option_1">
+                                <span class="option__title">Telegram</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
-                            <div class="input-case__option">
-                                <span>Email</span>
-                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                     alt="галочка">
+                            <div class="input-case__option" id="option_2">
+                                <span class="option__title">Email</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
-                            <div class="input-case__option">
-                                <span>Моб.телефон</span>
-                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                     alt="галочка">
+                            <div class="input-case__option" id="option_3">
+                                <span class="option__title">Моб.телефон</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
                         </div>
                     </div>
@@ -171,24 +169,22 @@
                                 class="input input_type_select input_type_disabled"
                                 type="text"
                                 placeholder="Выбрать компанию"
+                                id="second_input"
                                 disabled
                         />
                         <span class="input-case__subtitle">Выбрать компанию</span>
                         <div class="input-case__dropdown-content">
-                            <div class="input-case__option">
-                                <span>Яндекс</span>
-                                <img src="<%=require('../../images/selected.svg')%>"
-                                     class="input-case__image input-case__image_active" alt="галочка">
+                            <div class="input-case__option" id="option1">
+                                <span class="option__title">Яндекс</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
-                            <div class="input-case__option">
-                                <span>Гугл</span>
-                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                     alt="галочка">
+                            <div class="input-case__option" id="option2">
+                                <span class="option__title">Гугл</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
-                            <div class="input-case__option">
-                                <span>Амазон</span>
-                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                     alt="галочка">
+                            <div class="input-case__option" id="option3">
+                                <span class="option__title">Амазон</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
                         </div>
                     </div>

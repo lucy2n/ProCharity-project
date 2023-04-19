@@ -18,7 +18,6 @@
 }
 
 .input:not(.input_type_full-width):focus {
-  /*padding: 23px 36px 5px 16px;*/
   padding: 23px 36px 5px 16px;
   outline: 0;
 }
@@ -39,7 +38,6 @@
 }
 
 .input:focus~.input-case__ico_type_cross {
-  /*display: block;*/
   visibility: visible;
   opacity: 1;
   transform: rotate(90deg);
@@ -55,9 +53,4 @@
   background-image: url(../../images/input-clear-ico.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-
-.input:focus~.input-case__dropdown-content {
-  display: block;
 }
