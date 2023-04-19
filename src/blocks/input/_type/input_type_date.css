@@ -7,3 +7,7 @@
     right: 12px;
     color: #7B878F;
 }
+
+.input_type_date~.input-case__ico_type_cross {
+    right: 38px;
+}

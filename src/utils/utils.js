@@ -9,10 +9,10 @@ export function hashCode(str) {
 }
 
 export function inputTextDelete() {
-    const deleteButtons = document.querySelectorAll('.input-case__ico_type_cross')
+    const deleteButtons = document.querySelectorAll('.input-case__ico_type_cross');
     deleteButtons.forEach(deleteButton => {
         deleteButton.addEventListener('click', (element) => {
-            const targetInput = element.target.closest('.input-case').querySelector('.input')
+            const targetInput = element.target.closest('.input-case').querySelector('.input');
             targetInput.value = ''
         })
     });
