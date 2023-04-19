@@ -1,5 +1,8 @@
 import './index.css';
 import Cropper from 'cropperjs';
+import { inputTextDelete } from '../../utils/utils';
+
+inputTextDelete()
 
 /* Popup open/close */
 
