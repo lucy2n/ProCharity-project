@@ -1,4 +1,8 @@
-.button__type_telegram {
+.button_type_telegram {
+
+    text-decoration: none;
+    box-sizing: border-box;
+
     width: 132px;
     height: 32px;
     font-family: Arial, sans-serif;
@@ -15,7 +19,7 @@
     padding: 0 12px 0 0;
 }
 
-.button__type_telegram:not(.button_unactive, .button_type_back):hover {
+.button_type_telegram:not(.button_unactive, .button_type_back):hover {
     background-color: #54a9ea;
     opacity: .8;
 }

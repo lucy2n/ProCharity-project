@@ -12,7 +12,9 @@
 <header class="header">
     <div class="header__container">
         <img class="header__menu-img" src="<%=require('../../images/menu.svg')%>" alt="меню">
-        <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+        <a href="#">
+            <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+        </a>
         <nav class="header__menu">
             <a class="header__link" href="#">О проекте</a>
             <a class="header__link" href="#">Задания</a>
@@ -71,28 +73,28 @@
             <fieldset class="main__input-container">
                 <div class="input-case input-case_type_row">
                     <img class="input-case__logo" src="<%=require('../../images/logo-linkedin.svg')%>" alt="linkedin">
-                    <input class="input input_type_full-width" type="text" placeholder="https://linkedin.com/username/">
+                    <input class="input input_type_full-width" type="url" placeholder="https://linkedin.com/username/">
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                 </div>
                 <div class="input-case input-case_type_row">
                     <img class="input-case__logo" src="<%=require('../../images/logo-vk.svg')%>" alt="vk">
-                    <input class="input input_type_full-width" type="text" placeholder="https://vk.com/username/">
+                    <input class="input input_type_full-width" type="url" placeholder="https://vk.com/username/">
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                 </div>
                 <div class="input-case input-case_type_row">
                     <img class="input-case__logo" src="<%=require('../../images/logo-ok.svg')%>" alt="ok">
-                    <input class="input input_type_full-width" type="text" placeholder="https://ok.com/username/">
+                    <input class="input input_type_full-width" type="url" placeholder="https://ok.com/username/">
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                 </div>
                 <div class="input-case input-case_type_row">
                     <img class="input-case__logo" src="<%=require('../../images/logo-instagram.svg')%>" alt="instagram">
-                    <input class="input input_type_full-width" type="text"
+                    <input class="input input_type_full-width" type="url"
                            placeholder="https://instagram.com/username/">
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                 </div>
                 <div class="input-case input-case_type_row">
                     <img class="input-case__logo" src="<%=require('../../images/logo-facebook.svg')%>" alt="facebook">
-                    <input class="input input_type_full-width" type="text" placeholder="https://facebook.com/username/">
+                    <input class="input input_type_full-width" type="url" placeholder="https://facebook.com/username/">
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                 </div>
             </fieldset>
@@ -203,18 +205,6 @@
         </div>
     </div>
 </footer>
-<section class="popup fixed">
-    <div class="popup__container">
-        <h2 class="popup__title">Выберите фрагмент изображения</h2>
-        <div class="popup__cropper-container">
-            <div class="popup__div">
-                <img id="popup__avatar" src="<%=require('../../images/popup_image.png')%>" alt="" class="popup__image">
-            </div>
-        </div>
-        <button class="button button_type_save">Сохранить</button>
-        <button class="popup__button-close"></button>
-    </div>
-</section>
 <section class="popup__notification">
     <img src="<%=require('../../images/popup__notification.png')%>" alt="" class="popup__image-notification">
     <div class="popup__container-notification">

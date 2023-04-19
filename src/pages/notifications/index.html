@@ -12,7 +12,9 @@
 <header class="header">
     <div class="header__container">
         <img class="header__menu-img" src="<%=require('../../images/menu.svg')%>" alt="меню">
-        <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+        <a href="#">
+            <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+        </a>
         <nav class="header__menu">
             <a class="header__link" href="#">О проекте</a>
             <a class="header__link" href="#">Задания</a>
@@ -94,11 +96,11 @@
                 <p class='main__subtitle'>Получай уведомления о новых заданиях от
                     бота ProCharity в Telegram.
                     При этом рекомендуем отключить уведомления на email из пункта выше.</p>
-                <button class="button button__type_telegram">
+                <a class="button button_type_telegram">
                     <img class="notification__image_telegram"
                          src="<%=require('../../images/telegram.png')%>" alt="telegram">
                     Подключить
-                </button>
+                </a>
             </div>
             <button class="button button_type_save" aria-label="Сохранение">
                 Сохранить
