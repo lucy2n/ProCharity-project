@@ -4,9 +4,3 @@
   border: 1px solid #A0ABB5;
   color: #374045;
 }
-
-@media screen and (max-width: 796px) {
-  .button_no-background {
-    width: 312px;
-  }
-}
