@@ -22,7 +22,12 @@ function handleSelect(input) {
     const dropdownContent = dropdown.querySelector(".input-case__dropdown-content");
     input.addEventListener('click', () => {
         dropdownContent.classList.add('input-case__dropdown-content_active');
-    })
+    });
+    document.addEventListener('click', (evt) => {
+        if (evt.target !== input) {
+            dropdownContent.classList.remove('input-case__dropdown-content_active');
+        }
+    });
     const options = dropdownContent.querySelectorAll(".input-case__option");
 
     options.forEach((option) => {
