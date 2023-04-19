@@ -93,6 +93,7 @@
 @import url(../../blocks/popup/__image/popup__image.css);
 @import url(../../blocks/popup/__button-close/popup__button-close.css);
 @import url(../../blocks/popup/__notification/popup__notification.css);
+@import url(../../blocks/popup/__notification/_opened/popup__notification_opened.css);
 @import url(../../blocks/popup/__container-notification/popup__container-notification.css);
 @import url(../../blocks/popup/__image-notification/popup__image-notification.css);
 @import url(../../blocks/popup/__title-notification/popup__title-notification.css);

@@ -7,3 +7,12 @@ export function hashCode(str) {
     }
     return hash;
 }
+
+export function closeNotification() {
+    const popup = document.querySelector(".popup__notification");
+    const closeButton = popup.querySelector(".popup__button-close");
+    closeButton.addEventListener('click', () => {
+        console.log(popup)
+        popup.classList.remove("popup__notification_opened")
+    })
+}
