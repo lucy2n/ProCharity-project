@@ -1,0 +1,9 @@
+.tagify__dropdown__itemsGroup {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-height: 40px;
+}
+
+.tagify__dropdown__itemsGroup:hover {
+    background: #F5F6F8;
+}

@@ -19,14 +19,14 @@
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_cross.css);
 @import url(../../blocks/input-case/input-case.css);
 @import url(../../blocks/input-case/__image/input-case__image.css);
-@import url(../../blocks/input-case/__image/_active/input-case__image__active.css);
+@import url(../../blocks/input-case/__image/_active/input-case__image_active.css);
 @import url(../../blocks/input-case/__error-message/input-case__error-message.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
 @import url(../../blocks/input-case/__title/input-case__title.css);
 @import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
 @import url(../../blocks/input-case/__option/input-case__option.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
-@import url(../../blocks/input-case/__error-message/_type/input-case-error-message_type-active.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case-error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
 
 /* buttons */
@@ -86,7 +86,6 @@
 /* Popup */
 @import url(../../blocks/popup/popup.css);
 @import url(../../blocks/popup/_opened/popup_opened.css);
-@import url(../../blocks/position/fixed.css);
 @import url(../../blocks/popup/__container/popup__container.css);
 @import url(../../blocks/popup/__title/popup__title.css);
 @import url(../../blocks/popup/__image/popup__image.css);

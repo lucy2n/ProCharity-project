@@ -15,6 +15,10 @@
     z-index: 1;
 }
 
+.create-account:hover .create-account_image_bubbles {
+    transform: rotate(-2deg);
+}
+
 @media screen and (max-width: 520px) {
     .create-account_image_bubbles {
         margin-top: 160px;

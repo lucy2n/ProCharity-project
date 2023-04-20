@@ -9,3 +9,7 @@
 
     transition: all .2s linear;
 }
+
+.create-account:hover .create-account__create {
+    color: #374146;
+}

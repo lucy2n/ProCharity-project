@@ -9,3 +9,8 @@
   right: 8px;
   top: 8px;
 }
+
+.competition-popup__input:checked + .competition-popup__input-stile {
+  content: "";
+  rotate: 180deg;
+}

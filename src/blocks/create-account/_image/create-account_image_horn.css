@@ -13,6 +13,12 @@
     z-index: 1;
 }
 
+.create-account:hover .create-account_image_horn {
+    transform-origin: bottom left;
+    transform: rotate(-2deg);
+    background-image: url('../../../images/horn-grey.png');
+}
+
 @media screen and (max-width: 520px) {
     .create-account_image_horn {
         position: absolute;

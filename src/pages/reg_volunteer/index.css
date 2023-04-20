@@ -19,14 +19,14 @@
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_cross.css);
 @import url(../../blocks/input-case/input-case.css);
 @import url(../../blocks/input-case/__image/input-case__image.css);
-@import url(../../blocks/input-case/__image/_active/input-case__image__active.css);
+@import url(../../blocks/input-case/__image/_active/input-case__image_active.css);
 @import url(../../blocks/input-case/__error-message/input-case__error-message.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_arrow.css);
 @import url(../../blocks/input-case/__title/input-case__title.css);
 @import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
 @import url(../../blocks/input-case/__option/input-case__option.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
-@import url(../../blocks/input-case/__error-message/_type/input-case-error-message_type-active.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case-error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
 
 /* buttons */
@@ -81,6 +81,7 @@
 @import url(../../blocks/main/__input-container/_type/main__input-container_type_grid.css);
 @import url(../../blocks/main/__input-container/main__input-container.css);
 @import url(../../blocks/main/__input-container/_type/main__input-container_type_grid.css);
+@import url(../../blocks/main/__buttons-container/main__buttons-container.css);
 
 @import url(../../blocks/main/__list/main__list.css);
 @import url(../../blocks/main/__element-list/main__element-list.css);

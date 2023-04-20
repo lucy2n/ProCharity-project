@@ -8,6 +8,12 @@
     text-decoration: none;
 }
 
+.stepper_place_registration .menu__item:hover {
+    opacity: 1;
+
+    cursor: default;
+}
+
 .menu__item:hover {
     opacity: .5;
 }

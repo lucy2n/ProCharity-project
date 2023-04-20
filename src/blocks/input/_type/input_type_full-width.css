@@ -1,12 +1,3 @@
 .input_type_full-width {
   max-width: 100%;
 }
-
-.input_type_social::placeholder {
-  font-family: 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #374045;
-}
