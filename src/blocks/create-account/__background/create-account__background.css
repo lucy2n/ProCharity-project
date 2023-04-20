@@ -14,12 +14,6 @@
     transition: all .4s linear;
 }
 
-@media screen and (min-width: 1700px) {
-    .create-account__background {
-        width: 800px;
-    }
-}
-
 @media screen and (max-width: 856px) {
     .create-account__background {
         width: 100vw;
