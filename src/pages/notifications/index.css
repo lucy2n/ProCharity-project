@@ -32,7 +32,6 @@
 
 /* buttons */
 @import url(../../blocks/button/button.css);
-@import url(../../blocks/button/_type/button_type_disabled.css);
 @import url(../../blocks/button/_type/button_type_back.css);
 @import url(../../blocks/button/_type/button_type_save.css);
 
@@ -89,7 +88,7 @@
 @import url(../../blocks/notification/__image/_telegram/notification__image_telegram.css);
 @import url(../../blocks/notification/__mark/notification__mark.css);
 @import url(../../blocks/button/_type/button_type_telegram.css);
-@import url(../../blocks/main/__checkbox/_notification/main__checkbox_notification.css);
+@import url(../../blocks/main/__checkbox/_type/main__checkbox_type_notification.css);
 
 @import url(../../blocks/main/__list/main__list.css);
 @import url(../../blocks/main/__element-list/main__element-list.css);

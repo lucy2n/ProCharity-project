@@ -6,6 +6,14 @@ import img from '../../images/path.svg'
 import { whitelistValue, inputElm } from '../../utils/constants.js';
 import { tagTemplate, suggestionItemTemplate } from '../../utils/tagify_templates.js';
 
+
+const popup = document.querySelector(".competition-popup");
+const closeButton = popup.querySelector(".competition-popup__close");
+closeButton.addEventListener('click', () => {
+    popup.classList.remove("competition-popup_opened")
+})
+
+
 let tagify = new Tagify(inputElm, {
     enforceWhitelist: true,
     dropdown: {

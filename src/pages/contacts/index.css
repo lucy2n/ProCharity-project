@@ -10,7 +10,7 @@
 @import url(../../blocks/input/input.css);
 @import url(../../blocks/input/_type/input_type_error.css);
 @import url(../../blocks/input/_type/input_type_full-width.css);
-@import url(../../blocks/input/_type/input_type_disabled.css);
+@import url(../../blocks/input/_disabled/input_disabled.css);
 @import url(../../blocks/input/_type/input_type_select.css);
 @import url(../../blocks/input/_type/input_type_telegram.css);
 @import url(../../blocks/input-case/__subtitle/input-case__subtitle.css);
@@ -35,7 +35,7 @@
 
 /* buttons */
 @import url(../../blocks/button/button.css);
-@import url(../../blocks/button/_type/button_type_disabled.css);
+@import url(../../blocks/button/_disabled/button_disabled.css);
 @import url(../../blocks/button/_type/button_type_back.css);
 @import url(../../blocks/button/_type/button_type_save.css);
 
@@ -48,7 +48,7 @@
 @import url(../../blocks/avatar-box/__avatar-info/avatar-box__avatar-info.css);
 @import url(../../blocks/radio-box/radio-box.css);
 @import url(../../blocks/radio-box/__button/radio-box__button.css);
-@import url(../../blocks/radio-box/__button/_type-active/radio-box__button_type_active.css);
+@import url(../../blocks/radio-box/__button/_active/radio-box__button_active.css);
 @import url(../../blocks/main/__form-subtitle/main__form-subtitle.css);
 @import url(../../blocks/main/__form-subtitle/_type/main__form-subtitle_type_desktop.css);
 @import url(../../blocks/main/__form-subtitle/_type/main__form-subtitle_type_mobile.css);

@@ -136,74 +136,79 @@
                     </div>
                     <div class="input-case">
                         <div class="input-case__dropdown">
-                            <input class="input input_type_select" type="text" placeholder="Предпочитаемый способ связи"
-                                id="first_input" />
+                            <input
+                                    class="input input_type_select"
+                                    type="text"
+                                    placeholder="Предпочитаемый способ связи"
+                                    id="contacts_input"
+                            />
                             <span class="input-case__subtitle">Предпочитаемый способ связи</span>
                             <div class="input-case__dropdown-content">
                                 <div class="input-case__option" id="option_1">
-                                    <span class="option__title">Telegram</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
+                                    <span class="input-case__option-title">Telegram</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                                 </div>
                                 <div class="input-case__option" id="option_2">
-                                    <span class="option__title">Email</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
+                                    <span class="input-case__option-title">Email</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                                 </div>
                                 <div class="input-case__option" id="option_3">
-                                    <span class="option__title">Моб.телефон</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
+                                    <span class="input-case__option-title">Моб.телефон</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                                 </div>
                             </div>
-                        </div>
-                        <div class="input-case__ico input-case__ico_type_arrow"></div>
-                        <span class="input-case__error-message">Может содержать только буквы
+                            <div class="input-case__ico input-case__ico_type_arrow"></div>
+                            <span class="input-case__error-message">Может содержать только буквы
                             и специальные символы</span>
+                        </div>
                     </div>
                 </fieldset>
-                <div class="radio-box">
-                    <button type="button" class="radio-box__button radio-box__button_type_active">я
-                        Частное лицо
-                    </button>
-                    <button type="button" class="radio-box__button">я представляю
-                        компанию
-                    </button>
-                </div>
-                <fieldset class="main__input-container main__input-container_type_grid">
-                    <div class="input-case">
-                        <div class="input-case__dropdown">
-                            <input class="input input_type_select input_type_disabled" type="text"
-                                placeholder="Выбрать компанию" id="second_input" disabled />
-                            <span class="input-case__subtitle">Выбрать компанию</span>
-                            <div class="input-case__dropdown-content">
-                                <div class="input-case__option" id="option1">
-                                    <span class="option__title">Яндекс</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
-                                </div>
-                                <div class="input-case__option" id="option2">
-                                    <span class="option__title">Гугл</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
-                                </div>
-                                <div class="input-case__option" id="option3">
-                                    <span class="option__title">Амазон</span>
-                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image"
-                                        alt="галочка">
-                                </div>
+            <div class="radio-box">
+                <button type="button"
+                        class="radio-box__button" id="radio_person">я
+                    Частное лицо
+                </button>
+                <button type="button" class="radio-box__button" id="radio_company">я представляю
+                    компанию
+                </button>
+            </div>
+            <fieldset class="main__input-container main__input-container_type_grid">
+                <div class="input-case">
+                    <div class="input-case__dropdown">
+                        <input
+                                class="input input_type_select input_disabled"
+                                type="text"
+                                placeholder="Выбрать компанию"
+                                id="company_input"
+                                disabled
+                        />
+                        <span class="input-case__subtitle">Выбрать компанию</span>
+                        <div class="input-case__dropdown-content">
+                            <div class="input-case__option" id="option1">
+                                <span class="input-case__option-title">Яндекс</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                            </div>
+                            <div class="input-case__option" id="option2">
+                                <span class="input-case__option-title">Гугл</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                            </div>
+                            <div class="input-case__option" id="option3">
+                                <span class="input-case__option-title">Амазон</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
                             </div>
                         </div>
                         <div class="input-case__ico input-case__ico_type_arrow"></div>
                         <span class="input-case__error-message">Поле обязательное</span>
                     </div>
-                    <div class="input-case">
-                        <input class="input input_type_disabled" type="text" placeholder="Должность" disabled>
-                        <span class="input-case__subtitle">Должность</span>
-                        <div class="input-case__ico input-case__ico_type_cross"></div>
-                        <span class="input-case__error-message">Поле обязательное</span>
-                    </div>
-                </fieldset>
+                </div>
+                <div class="input-case">
+                    <input class="input input_type_disabled" type="text" placeholder="Должность" id="proffession_input" disabled>
+                    <span class="input-case__subtitle">Должность</span>
+                    <div class="input-case__ico input-case__ico_type_cross"></div>
+                    <span class="input-case__error-message">Поле обязательное</span>
+                </div>
+
+            </fieldset>
                 <div class="input-case">
                     <textarea class="main__textarea" placeholder="Как ты о нас узнал?"></textarea>
                     <div class="input-case__ico input-case__ico_type_cross"></div>
