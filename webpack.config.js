@@ -17,7 +17,7 @@ const pages = {
   profile: "profile"
 }
 
-const currentPage = pages.social // Для смены страницы, меняйте эту переменную
+const currentPage = pages.contacts // Для смены страницы, меняйте эту переменную
 
 module.exports = {
   entry: {

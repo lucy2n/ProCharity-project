@@ -6,7 +6,7 @@
   border: none;
   background-color: #F1F5F9;
   resize: none;
-  padding: 12px 25px 12px 16px;
+  padding: 12px 30px 12px 16px;
   border-radius: 6px;
 
   font-family: 'Arial', sans-serif;
@@ -19,7 +19,7 @@
 
 .main__textarea:focus~.input-case__ico_type_cross {
   right: 15px;
-  top: 32px;
+  top: 45px;
   visibility: visible;
   opacity: 1;
   transform: rotate(90deg);
