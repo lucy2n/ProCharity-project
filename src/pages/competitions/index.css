@@ -15,7 +15,6 @@
 @import url(../../blocks/input/input.css);
 @import url(../../blocks/input/_type/input_type_error.css);
 @import url(../../blocks/input/_type/input_type_full-width.css);
-@import url(../../blocks/input/_type/input_type_disabled.css);
 @import url(../../blocks/input/_type/input_type_select.css);
 @import url(../../blocks/input-case/__subtitle/input-case__subtitle.css);
 @import url(../../blocks/input-case/__ico/input-case__ico.css);
