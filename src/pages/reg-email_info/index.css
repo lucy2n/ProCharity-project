@@ -32,7 +32,8 @@
 @import url(../../blocks/link/link.css);
 @import url(../../blocks/link/_color/link_color_dark.css);
 
-@import url(../../blocks/keyframes/keyframes.css);
+@import url(../../keyframes/fly__blue.css);
+@import url(../../keyframes/fly__orange.css);
 
 @import url(../../blocks/airplane/airplane.css);
 @import url(../../blocks/airplane/__blue/airplane__blue.css);

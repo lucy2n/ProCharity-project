@@ -5,12 +5,3 @@
   clip: rect(0 0 0 0);
   position: absolute;
 }
-.competition-popup__input:checked + .competition-popup__input-stile {
-  content: "";
-  rotate: 180deg;
-}
-.competition-popup__input:checked ~ .competition-popup__acord-body {
-  content: "";
-  height: 322px;
-}
-

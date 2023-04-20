@@ -1,0 +1,9 @@
+.tagify_subgroup {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    border: none;
+    box-shadow: 0 4px 24px rgba(0, 77, 95, 0.24);
+    border-radius: 8px;
+    background-color: white;
+}

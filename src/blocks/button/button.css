@@ -31,3 +31,14 @@
     width: 312px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .volunteer .button {
+    width: 100%;
+  }
+
+  .volunteer .button:first-of-type {
+    margin-top: 16px;
+    margin-bottom: 80px;
+  }
+}

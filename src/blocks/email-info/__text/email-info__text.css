@@ -7,6 +7,10 @@
     color: #58646A;
 }
 
+.email-info__text:last-of-type {
+    margin: 0;
+}
+
 @media screen and (max-width: 682px) {
     .email-info__text {
         margin-top: 23px;

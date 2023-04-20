@@ -8,7 +8,11 @@
     color: #58646A;
 }
 
-.menu__text__place_registration {
+.menu__item_active .menu__text {
+    color: #EA5A0A;
+}
+
+.stepper_place_registration .menu__text {
     color: #7B878F;
 }
 

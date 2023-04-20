@@ -14,10 +14,32 @@
     transition: all .4s linear;
 }
 
+.create-account:hover .create-account__background {
+    background-color: #EA5A0A;
+}
+
+.create-account_right .create-account__background {
+    align-items: start;
+}
+
+.create-account_right .create-account__background {
+    border-radius: 6px 0 0 6px;
+}
+
+@media screen and (min-width: 1700px) {
+    .create-account__background {
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 856px) {
     .create-account__background {
         width: 100vw;
         height: 288px;
         border-radius: 0 0 6px 6px;
+    }
+
+    .create-account_right .create-account__background {
+        border-radius: 6px 6px 0 0;
     }
 }

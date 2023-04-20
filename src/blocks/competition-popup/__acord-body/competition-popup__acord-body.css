@@ -7,3 +7,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.competition-popup__input:checked ~ .competition-popup__acord-body {
+  content: "";
+  height: 322px;
+}

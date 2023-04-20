@@ -10,3 +10,7 @@
   line-height: 1.14;
   color: #7b878f;
 }
+
+.input_type_textarea:focus~.input-case__result {
+  display: block;
+}

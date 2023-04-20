@@ -5,3 +5,9 @@
   opacity: 0;
   transform: rotate(45deg);
 }
+
+.input:focus~.input-case__ico_type_cross {
+  visibility: visible;
+  opacity: 1;
+  transform: rotate(90deg);
+}

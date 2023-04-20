@@ -1,0 +1,18 @@
+.tagify__dropdown__wrapper {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #58646A;
+    width: 50%;
+    border: none;
+    box-shadow: 0 4px 24px rgba(0, 77, 95, 0.24);
+    border-radius: 8px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 856px) {
+    .tagify__dropdown__wrapper {
+        display: none;
+    }
+}

@@ -3,34 +3,3 @@
     justify-content: flex-end;
     justify-self: end;
 }
-
-.create-account_right .create-account__description {
-    text-align: left;
-}
-
-.create-account_right .create-account__background {
-    align-items: start;
-}
-
-.create-account_right .create-account__description {
-    margin-left: 96px;
-    margin-right: 0;
-}
-
-.create-account_right .create-account__background {
-    border-radius: 6px 0 0 6px;
-}
-
-@media screen and (max-width: 856px) {
-    .create-account_right .create-account__background {
-        border-radius: 6px 6px 0 0;
-    }
-}
-
-@media screen and (max-width: 693px) {
-    .create-account_right .create-account__description {
-        margin-left: 24px;
-        margin-right: 0;
-        width: 312px;
-    }
-}

@@ -10,4 +10,10 @@
     .navigation__text:first-of-type {
         display: none;
     }
+
+    .stepper_place_registration .navigation__text:first-of-type {
+        display: block;
+
+        color: #58646A;
+    }
 }
