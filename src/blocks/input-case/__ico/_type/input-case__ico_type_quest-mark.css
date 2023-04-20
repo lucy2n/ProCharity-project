@@ -25,6 +25,9 @@
   color: #58646A;
 }
 
+.input-case__ico_type_quest-mark~.input-case__ico_type_cross {
+  right: 38px;
+}
 
 @media screen and (max-width: 856px) {
   .input-case__ico_type_quest-mark:hover::after {
