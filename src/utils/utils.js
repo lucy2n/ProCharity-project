@@ -13,7 +13,12 @@ export function inputTextDelete() {
     deleteButtons.forEach(deleteButton => {
         deleteButton.addEventListener('click', (element) => {
             const targetInput = element.target.closest('.input-case').querySelector('.input');
-            targetInput.value = ''
+            const targetTextArea = element.target.closest('.input-case').querySelector('textarea');
+            if (targetTextArea === null) {
+                targetInput.value = '';
+            } else {
+                targetTextArea.value = '';
+            }
         })
     });
 }
