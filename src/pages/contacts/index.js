@@ -51,11 +51,47 @@ function clearOptions(options) {
     });
 }
 
-const firstInput = document.querySelector("#first_input");
-handleSelect(firstInput);
+const contactsInput = document.querySelector("#contacts_input");
+handleSelect(contactsInput);
 
-const secondInput = document.querySelector("#second_input");
-handleSelect(secondInput);
+const companyInput = document.querySelector("#company_input");
+const proffessionInput = document.querySelector("#proffession_input");
+handleSelect(companyInput);
+
+/* Radio buttons */
+const radioButtons = document.querySelectorAll(".radio-box__button")
+radioButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        clearRadioButtons(radioButtons);
+        button.classList.add('radio-box__button_active');
+        if (button.id === "radio_company") {
+            activateInputs([companyInput, proffessionInput]);
+        } else {
+            blockInputs([companyInput, proffessionInput]);
+        }
+    })
+});
+
+function activateInputs(inputs) {
+    inputs.forEach((input) => {
+        input.disabled = false;
+        input.classList.remove('input_disabled');
+    })
+}
+
+function blockInputs(inputs) {
+    inputs.forEach((input) => {
+        input.value = ""
+        input.disabled = true;
+        input.classList.add('input_disabled');
+    })
+}
+
+function clearRadioButtons(radioButtons) {
+    radioButtons.forEach((button) => {
+        button.classList.remove('radio-box__button_active');
+    })
+}
 
 /* Cropper */
 

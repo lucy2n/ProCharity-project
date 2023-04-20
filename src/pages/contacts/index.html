@@ -130,7 +130,7 @@
                                 class="input input_type_select"
                                 type="text"
                                 placeholder="Предпочитаемый способ связи"
-                                id="first_input"
+                                id="contacts_input"
                         />
                         <span class="input-case__subtitle">Предпочитаемый способ связи</span>
                         <div class="input-case__dropdown-content">
@@ -155,10 +155,10 @@
             </fieldset>
             <div class="radio-box">
                 <button type="button"
-                        class="radio-box__button radio-box__button_type_active">я
+                        class="radio-box__button" id="radio_person">я
                     Частное лицо
                 </button>
-                <button type="button" class="radio-box__button">я представляю
+                <button type="button" class="radio-box__button" id="radio_company">я представляю
                     компанию
                 </button>
             </div>
@@ -166,10 +166,10 @@
                 <div class="input-case">
                     <div class="input-case__dropdown">
                         <input
-                                class="input input_type_select input_type_disabled"
+                                class="input input_type_select input_disabled"
                                 type="text"
                                 placeholder="Выбрать компанию"
-                                id="second_input"
+                                id="company_input"
                                 disabled
                         />
                         <span class="input-case__subtitle">Выбрать компанию</span>
@@ -192,7 +192,7 @@
                     <span class="input-case__error-message">Поле обязательное</span>
                 </div>
                 <div class="input-case">
-                    <input class="input input_type_disabled" type="text" placeholder="Должность" disabled>
+                    <input class="input input_disabled" type="text" placeholder="Должность" id="proffession_input" disabled>
                     <span class="input-case__subtitle">Должность</span>
                     <div class="input-case__ico input-case__ico_type_cross"></div>
                     <span class="input-case__error-message">Поле обязательное</span>
