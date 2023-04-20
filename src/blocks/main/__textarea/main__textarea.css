@@ -17,9 +17,12 @@
   color: #7B878F;
 }
 
-.main__textarea:focus~.input-case__ico_type_cross {
-  right: 15px;
+.main__textarea~.input-case__ico_type_cross {
+  right: 15px;  
   top: 45px;
+}
+
+.main__textarea:focus~.input-case__ico_type_cross {
   visibility: visible;
   opacity: 1;
   transform: rotate(90deg);
