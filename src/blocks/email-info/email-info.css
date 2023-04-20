@@ -1,0 +1,17 @@
+.email-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1450px) {
+    .email-info {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .email-info {
+        flex-direction: column;
+    }
+}
