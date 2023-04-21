@@ -18,11 +18,11 @@
     background-color: #EA5A0A;
 }
 
-.create-account_right .create-account__background {
+.create-account_role_nko .create-account__background {
     align-items: start;
 }
 
-.create-account_right .create-account__background {
+.create-account_role_nko .create-account__background {
     border-radius: 6px 0 0 6px;
 }
 
@@ -33,7 +33,7 @@
         border-radius: 0 0 6px 6px;
     }
 
-    .create-account_right .create-account__background {
+    .create-account_role_nko .create-account__background {
         border-radius: 6px 6px 0 0;
     }
 }

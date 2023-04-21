@@ -26,7 +26,7 @@
 @import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
 @import url(../../blocks/input-case/__option/input-case__option.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
-@import url(../../blocks/input-case/__error-message/_active/input-case-error-message_active.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case__error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
 
 /* buttons */
@@ -89,8 +89,8 @@
 
 @import url(../../blocks/create-account/create-account.css);
 @import url(../../blocks/create-account/__link/create-account__link.css);
-@import url(../../blocks/create-account/_left/create-account_left.css);
-@import url(../../blocks/create-account/_right/create-account_right.css);
+@import url(../../blocks/create-account/_role/create-account_role_volonteer.css);
+@import url(../../blocks/create-account/_role/create-account_role_nko.css);
 @import url(../../blocks/create-account/__background/create-account__background.css);
 @import url(../../blocks/create-account/__description/create-account__description.css);
 @import url(../../blocks/create-account/__title/create-account__title.css);

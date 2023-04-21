@@ -1,5 +1,5 @@
 import './index.css';
-import { inputTextDelete, closeNotification } from '../../utils/utils';
+import {inputTextDelete, handleClosePopup} from '../../utils/utils';
 
 inputTextDelete()
-closeNotification();
+handleClosePopup()

@@ -23,11 +23,12 @@ export function inputTextDelete() {
     });
 }
 
-export function closeNotification() {
-    const popup = document.querySelector(".popup__notification");
-    const closeButton = popup.querySelector(".popup__button-close");
-    closeButton.addEventListener('click', () => {
-        console.log(popup)
-        popup.classList.remove("popup__notification_opened")
+export function handleClosePopup() {
+    const popups = document.querySelectorAll(".popup");
+    popups.forEach((popup) => {
+        const closeButton = popup.querySelector(".popup__button-close");
+        closeButton.addEventListener('click', () => {
+            popup.classList.remove("popup_opened")
+        })
     })
 }

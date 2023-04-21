@@ -26,7 +26,7 @@
 @import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
 @import url(../../blocks/input-case/__option/input-case__option.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
-@import url(../../blocks/input-case/__error-message/_active/input-case-error-message_active.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case__error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
 
 /* buttons */
@@ -91,7 +91,7 @@
 @import url(../../blocks/main/__examples-file/main__examples-file.css);
 @import url(../../blocks/main/__file-format/main__file-format.css);
 @import url(../../blocks/main/__files/main__files.css);
-@import url(../../blocks/main/__files/_add/main__files_add.css);
+@import url(../../blocks/main/__files/_type/main__files_type_loaded.css);
 @import url(../../blocks/main/__file/main__file.css);
 @import url(../../blocks/main/__image-container/main__image-container.css);
 @import url(../../blocks/main/__image-container/_type/main__image-container_type_error.css);
@@ -100,7 +100,7 @@
 @import url(../../blocks/main/__name-container/main__name-container.css);
 @import url(../../blocks/main/__file-error-message/main__file-error-message.css);
 @import url(../../blocks/main/__delete-file/main__delete-file.css);
-@import url(../../blocks/main/__name-container/_type/main__name-containertype_type_error.css);
+@import url(../../blocks/main/__name-container/_type/main__name-container_type_error.css);
 @import url(../../blocks/main/__links/main__links.css);
 @import url(../../blocks/main/__inputs/main__inputs.css);
 @import url(../../blocks/main/__add-link/main__add-link.css);

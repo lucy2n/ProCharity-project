@@ -1,6 +1,6 @@
 import './index.css';
 import Cropper from 'cropperjs';
-import { inputTextDelete } from '../../utils/utils';
+import {handleClosePopup, inputTextDelete} from '../../utils/utils';
 
 inputTextDelete()
 
@@ -14,9 +14,7 @@ avatarButton.addEventListener('click', () => {
     popup.classList.add('popup_opened');
 });
 
-closeButton.addEventListener('click', () => {
-    popup.classList.remove('popup_opened')
-});
+handleClosePopup()
 
 /* Dropdown */
 

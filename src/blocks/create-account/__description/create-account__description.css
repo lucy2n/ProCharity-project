@@ -9,11 +9,11 @@
     z-index: 2;
 }
 
-.create-account_right .create-account__description {
+.create-account_role_nko .create-account__description {
     text-align: left;
 }
 
-.create-account_right .create-account__description {
+.create-account_role_nko .create-account__description {
     margin-left: 96px;
     margin-right: 0;
 }
@@ -26,7 +26,7 @@
         width: 270px;
     }
 
-    .create-account_right .create-account__description {
+    .create-account_role_nko .create-account__description {
         margin-left: 24px;
         margin-right: 0;
         width: 312px;

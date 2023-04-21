@@ -26,7 +26,7 @@
 @import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
 @import url(../../blocks/input-case/__option/input-case__option.css);
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
-@import url(../../blocks/input-case/__error-message/_active/input-case-error-message_active.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case__error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
 
 /* buttons */

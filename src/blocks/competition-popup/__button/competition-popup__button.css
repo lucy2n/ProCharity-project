@@ -1,4 +1,4 @@
-.competiton-popup__button {
+.competition-popup__button {
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -13,6 +13,6 @@
   margin: 0;
   transition: 0.3s;
 }
-.competiton-popup__button:hover {
+.competition-popup__button:hover {
   opacity: 0.6;
 }
