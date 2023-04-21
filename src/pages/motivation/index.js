@@ -8,3 +8,5 @@ const inputWhyVolonteer = new Counter(".input-why-volunteer");
 const inputSkills = new Counter(".input-skills");
 inputWhyVolonteer.counter();
 inputSkills.counter();
+inputWhyVolonteer.deleteCounter();
+inputSkills.deleteCounter();
