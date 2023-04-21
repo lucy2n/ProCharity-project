@@ -7,6 +7,15 @@ import { whitelistValue, inputElm } from '../../utils/constants.js';
 import { tagTemplate, suggestionItemTemplate } from '../../utils/tagify_templates.js';
 
 
+const multilevelInput = document.querySelector(".input-case_type_multilevel");
+const mediaQuery = window.matchMedia("(max-width: 856px)");
+multilevelInput.addEventListener('click', () => {
+    if (mediaQuery.matches) {
+        popup.classList.add("competition-popup_opened")
+    }
+})
+
+
 const popup = document.querySelector(".competition-popup");
 const closeButton = popup.querySelector(".competition-popup__close");
 closeButton.addEventListener('click', () => {
