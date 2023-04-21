@@ -1,6 +1,5 @@
 .input-case {
   position: relative;
-  /* display: inline-block; */
   display: block;
   flex-direction: column;
 }

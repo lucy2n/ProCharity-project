@@ -1,4 +1,4 @@
-.create-account_image_bubbles {
+.create-account__image_type_bubbles {
     margin-top: 50px;
 
     position: absolute;
@@ -6,7 +6,7 @@
 
     width: 317px;
     height: 364px;
-    background-image: url('../../../images/bubbles.png');
+    background-image: url('../../../../images/bubbles.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -15,12 +15,12 @@
     z-index: 1;
 }
 
-.create-account:hover .create-account_image_bubbles {
+.create-account:hover .create-account__image_type_bubbles {
     transform: rotate(-2deg);
 }
 
 @media screen and (max-width: 520px) {
-    .create-account_image_bubbles {
+    .create-account__image_type_bubbles {
         margin-top: 160px;
 
         width: 158px;

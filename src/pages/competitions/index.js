@@ -57,12 +57,12 @@ tagify.dropdown.createListHTML = sugegstionsList  => {
         ${ Object.entries(groupOfActivity).map(([group, activities]) => {
         return `<div class="tagify__dropdown__itemsGroup" data-title="Group ${group}:">
                           <div style="display: flex; justify-content: space-between">
-                            <span class="group__span">${ group }</span>
+                            <span class="tagify__group-label">${group}</span>
                             <img src=${img} style="padding: 20px;">
                         
                             <div class="items">
-                              <div class="tagify_subgroup group_${ group }">
-                                  ${ getGroupSuggestionsHTML(activities) }
+                              <div class="tagify_subgroup group_${group}">
+                                  ${getGroupSuggestionsHTML(activities)}
                               </div>
                             </div>
                           </div>

@@ -83,7 +83,7 @@
 
 /*notifications*/
 
-@import url(../../blocks/notification/__follow-container/notification__follow-container.css);
+@import url(../../blocks/main/__follow-container/main__follow-container.css);
 @import url(../../blocks/notification/__image/_telegram/notification__image_telegram.css);
 @import url(../../blocks/notification/__mark/notification__mark.css);
 @import url(../../blocks/button/_type/button_type_telegram.css);
@@ -95,4 +95,4 @@
 @import url(../../blocks/main/__checkbox-content/main__checkbox-content.css);
 @import url(../../blocks/main/__chechbox-input/main__checkbox-input.css);
 @import url(../../blocks/main/__checkbox-stile/main__checkbox-stile.css);
-@import url(../../blocks/main/__checkbox-content/_not-active/main__checkbox-content_not-active.css);
+@import url(../../blocks/main/__checkbox-content/_disabled/main__checkbox-content_disabled.css);

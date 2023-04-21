@@ -96,10 +96,10 @@
 @import url(../../blocks/create-account/__title/create-account__title.css);
 @import url(../../blocks/create-account/__text/create-account__text.css);
 @import url(../../blocks/create-account/__create/create-account__create.css);
-@import url(../../blocks/create-account/_image/create-account_image_horn.css);
-@import url(../../blocks/create-account/_image/create-account_image_horn-razor.css);
-@import url(../../blocks/create-account/_image/create-account_image_life-preserver.css);
-@import url(../../blocks/create-account/_image/create-account_image_bubbles.css);
+@import url(../../blocks/create-account/__image/_type/create-account__image_type_horn.css);
+@import url(../../blocks/create-account/__image/_type/create-account__image_type_horn-razor.css);
+@import url(../../blocks/create-account/__image/_type/create-account__image_type_life-preserver.css);
+@import url(../../blocks/create-account/__image/_type/create-account__image_type_bubbles.css);
 
 @import url(../../blocks/registration/registration.css);
 @import url(../../blocks/registration/__account-variants/registration__account-variants.css);

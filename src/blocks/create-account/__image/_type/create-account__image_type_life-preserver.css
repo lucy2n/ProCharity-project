@@ -1,4 +1,4 @@
-.create-account_image_life-preserver {
+.create-account__image_type_life-preserver {
     margin-top: 50px;
 
     position: absolute;
@@ -6,7 +6,7 @@
 
     width: 317px;
     height: 364px;
-    background-image: url('../../../images/life-preserver.png');
+    background-image: url('../../../../images/life-preserver.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -15,14 +15,14 @@
     z-index: 1;
 }
 
-.create-account:hover .create-account_image_life-preserver {
+.create-account:hover .create-account__image_type_life-preserver {
     transform-origin: bottom left;
-    background-image: url('../../../images/life-preserver-grey.png');
+    background-image: url('../../../../images/life-preserver-grey.png');
     transform: rotate(1deg);
 }
 
 @media screen and (max-width: 520px) {
-    .create-account_image_life-preserver {
+    .create-account__image_type_life-preserver {
         margin-top: 148px;
 
         position: absolute;

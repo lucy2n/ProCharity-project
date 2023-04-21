@@ -1,29 +1,26 @@
-.create-account_image_horn {
+.create-account__image_type_horn-razor {
     position: absolute;
     top: -64px;
-    left: -1px;
 
     width: 336px;
     height: 414px;
-    background-image: url('../../../images/horn.png');
+    background-image: url('../../../../images/horn-razor.png');
     background-repeat: no-repeat;
     background-size: contain;
-
+    transform: scale(0.93);
     transition: all .2s linear;
+
     z-index: 1;
 }
 
-.create-account:hover .create-account_image_horn {
-    transform-origin: bottom left;
-    transform: rotate(-2deg);
-    background-image: url('../../../images/horn-grey.png');
+.create-account:hover .create-account__image_type_horn-razor {
+    transform: scale(1);
 }
 
 @media screen and (max-width: 520px) {
-    .create-account_image_horn {
+    .create-account__image_type_horn-razor {
         position: absolute;
         top: -4px;
-        left: -10px;
 
         width: 168px;
         height: 207px;

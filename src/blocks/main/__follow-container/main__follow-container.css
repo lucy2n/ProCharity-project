@@ -1,4 +1,4 @@
-.notification__follow-container {
+.main__follow-container {
     margin: 32px 0;
     padding: 14px;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 856px) {
-    .notification__follow-container {
+    .main__follow-container {
         flex-direction: column;
         align-items: flex-end;
     }

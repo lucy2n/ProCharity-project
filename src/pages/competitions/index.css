@@ -10,13 +10,12 @@
 @import url(../../../node_modules/@yaireo/tagify/dist/tagify.css);
 @import url(../../root/root.css);
 @import url(../../blocks/tagify/tagify.css);
-@import url(../../blocks/tagify/group__span.css);
+@import url(../../blocks/tagify/tagify__group-label.css);
 @import url(../../blocks/tagify/tagify__dropdown.css);
 @import url(../../blocks/tagify/tagify__dropdown__item.css);
 @import url(../../blocks/tagify/tagify__dropdown__itemsGroup.css);
 @import url(../../blocks/tagify/tagify__dropdown__wrapper.css);
 @import url(../../blocks/tagify/tagify_subgroup.css);
-@import url(../../blocks/tagify/tags-manual-suggestions.css);
 @import url(../../blocks/multilevel-input/_type/multilevel-input_type_error.css);
 
 /* inputs block */
@@ -41,6 +40,7 @@
 @import url(../../blocks/input-case/__ico/_type/input-case__ico_type_calendar.css);
 @import url(../../blocks/input-case/__error-message/_active/input-case__error-message_active.css);
 @import url(../../blocks/input-case/_type/input-case_type_row.css);
+@import url(../../blocks/input-case/_type/input-case_type_multilevel.css);
 
 /* buttons */
 @import url(../../blocks/button/button.css);
@@ -97,7 +97,6 @@
 
 /* Competitions */
 
-@import url(../../blocks/main/__multilevel-input/main__multilevel-input.css);
 @import url(../../blocks/competition-popup/competition-popup.css);
 @import url(../../blocks/competition-popup/_opened/competition-popup_opened.css);
 @import url(../../blocks/competition-popup/__close/competition-popup__close.css);
@@ -121,6 +120,6 @@
 @import url(../../blocks/main/__checkbox-content/main__checkbox-content.css);
 @import url(../../blocks/main/__chechbox-input/main__checkbox-input.css);
 @import url(../../blocks/main/__checkbox-stile/main__checkbox-stile.css);
-@import url(../../blocks/main/__checkbox-content/_not-active/main__checkbox-content_not-active.css);
+@import url(../../blocks/main/__checkbox-content/_disabled/main__checkbox-content_disabled.css);
 @import url(../../blocks/competition-popup/__chip/_active/competition-popup__chip_active.css);
 @import url(../../blocks/competition-popup/__input-subtitle/competition-popup__input-subtitle.css);
