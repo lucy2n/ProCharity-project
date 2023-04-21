@@ -1,9 +1,9 @@
-.notification__mark {
+.main__notification-mark {
     top: 0;
     left: 250px
 }
 
-.notification__mark:hover::after {
+.main__notification-mark:hover::after {
     width: 352px;
     height: 64px;
     position: absolute;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 1010px) {
-    .notification__mark:hover::after {
+    .main__notification-mark:hover::after {
         right: -78px;
     }
 }

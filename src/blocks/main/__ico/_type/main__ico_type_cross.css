@@ -1,4 +1,4 @@
-.input-case__ico_type_cross {
+.main__ico_type_cross {
   background-image: url(../../../../images/input-clear-ico.svg);
   visibility: hidden;
   transition: all .2s linear;
@@ -6,7 +6,7 @@
   transform: rotate(45deg);
 }
 
-.input:focus~.input-case__ico_type_cross {
+.input:focus~.main__ico_type_cross {
   visibility: visible;
   opacity: 1;
   transform: rotate(90deg);

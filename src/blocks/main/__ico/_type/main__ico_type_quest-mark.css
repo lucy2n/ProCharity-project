@@ -1,8 +1,8 @@
-.input-case__ico_type_quest-mark {
+.main__ico_type_quest-mark {
   background-image: url(../../../../images/input-quest-mark-ico.svg);
 }
 
-.input-case__ico_type_quest-mark:hover::after {
+.main__ico_type_quest-mark:hover::after {
   box-sizing: border-box;
   text-align: left;
   width: 352px;
@@ -25,12 +25,12 @@
   color: #58646A;
 }
 
-.input-case__ico_type_quest-mark~.input-case__ico_type_cross {
+.main__ico_type_quest-mark~.main__ico_type_cross {
   right: 38px;
 }
 
 @media screen and (max-width: 856px) {
-  .input-case__ico_type_quest-mark:hover::after {
+  .main__ico_type_quest-mark:hover::after {
     width: 312px;
     right: -12px;
   }
