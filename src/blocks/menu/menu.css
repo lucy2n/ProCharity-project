@@ -10,6 +10,8 @@
     border-radius: 4px;
 
     list-style-type: none;
+
+    cursor: pointer;
 }
 
 @media screen and (max-width: 856px) {
