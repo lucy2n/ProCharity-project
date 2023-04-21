@@ -1,5 +1,4 @@
 .account-variants {
-    max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     gap: 4px;
