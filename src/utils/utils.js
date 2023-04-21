@@ -32,3 +32,21 @@ export function handleClosePopup() {
         })
     })
 }
+
+export function togglePasswordVisibility() {
+    const inputs = document.querySelectorAll(".input[type=password]");
+    inputs.forEach((input) => {
+        const eyeButton = input.parentNode.querySelector(".main__ico")
+        eyeButton.addEventListener('click', () => {
+            if (eyeButton.classList.contains("main__ico_type_eye-crossed")) {
+                input.type = "text"
+                eyeButton.classList.remove("main__ico_type_eye-crossed")
+                eyeButton.classList.add("main__ico_type_eye")
+            } else {
+                input.type = "password"
+                eyeButton.classList.add("main__ico_type_eye-crossed")
+                eyeButton.classList.remove("main__ico_type_eye")
+            }
+        })
+    })
+}

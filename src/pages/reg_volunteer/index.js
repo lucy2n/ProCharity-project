@@ -1,4 +1,5 @@
 import './index.css';
-import { inputTextDelete } from '../../utils/utils';
+import {inputTextDelete, togglePasswordVisibility} from '../../utils/utils';
 
 inputTextDelete()
+togglePasswordVisibility()
