@@ -1,23 +1,14 @@
 .page__email-info {
     margin-bottom: 203px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (min-width: 1450px) {
     .page__email-info {
-        max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
     }
 }
 
-@media screen and (max-width: 1270px) {
-    .page__email-info {
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 682px) {
     .page__email-info {
