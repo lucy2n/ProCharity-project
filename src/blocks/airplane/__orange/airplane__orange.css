@@ -1,0 +1,22 @@
+.airplane__orange {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+
+    position: absolute;
+    margin-top: 52px;
+
+    width: 136px;
+    height: 89px;
+    background-image: url(../../../images/airplane-or.svg);
+    background-size: contain;
+
+    animation: fly__orange 2s infinite linear backwards;
+}
+
+@media screen and (max-width: 682px) {
+    .airplane__orange {
+        width: 122px;
+        height: 80px;
+    }
+}

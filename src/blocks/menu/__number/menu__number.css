@@ -1,0 +1,47 @@
+.menu__number {
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 32px;
+    background-color: #72D0DC;
+    border-radius: 50%;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.stepper_place_registration .menu__number {
+    background-color: #F5F6F8;
+    color: #7B878F;
+}
+
+.menu__item_active .menu__number {
+    background-color: #EA5A0A;
+}
+
+.stepper_place_registration .menu__item_active .menu__number {
+    background-image: url(../../../../src/images/Shape.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+@media screen and (max-width: 856px) {
+    .menu__number {
+        width: 100%;
+        min-width: 42px;
+        height: 8px;
+        border-radius: 4px;
+        font-size: 0;
+    }
+
+    .stepper_place_registration .menu__item_active .menu__number {
+        background: linear-gradient(to right, #E65609 50%, #F1F5F9 50%);
+    }
+}

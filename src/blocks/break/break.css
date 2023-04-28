@@ -1,0 +1,9 @@
+.break {
+    display: none;
+}
+
+@media screen and (max-width: 693px) {
+    .break {
+        display: block;
+    }
+}

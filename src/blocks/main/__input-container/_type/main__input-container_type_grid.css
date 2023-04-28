@@ -1,0 +1,15 @@
+.main__input-container_type_grid {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(200px, 358px) minmax(200px, 358px);
+  gap: 20px;
+}
+
+@media screen and (max-width: 856px) {
+  .main__input-container_type_grid {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
+}

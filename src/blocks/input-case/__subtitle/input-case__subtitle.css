@@ -1,0 +1,21 @@
+.input-case__subtitle {
+  position: absolute;
+  opacity: 0;
+
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0;
+  color: #7B878F;
+  top: 5px;
+  left: 16px;
+
+  transition: all .2s linear;
+}
+
+.input:focus~.input-case__subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 1;
+}

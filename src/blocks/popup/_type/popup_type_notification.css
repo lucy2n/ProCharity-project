@@ -1,0 +1,14 @@
+.popup_type_notification {
+    width: unset;
+    height: unset;
+    justify-content: unset;
+    align-items: unset;
+    left: unset;
+
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 352px;
+}

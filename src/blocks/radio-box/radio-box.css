@@ -1,0 +1,13 @@
+.radio-box {
+  display: flex;
+  margin: 32px 0 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 856px) {
+  .radio-box {
+    flex-direction: column;
+    margin: 32px 0 16px;
+  }
+}
+

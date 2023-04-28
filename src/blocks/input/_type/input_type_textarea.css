@@ -1,0 +1,20 @@
+.input_type_textarea {
+  width: 100%;
+  min-height: 188px;
+  resize: none;
+  border: none;
+  color: #374045;
+  padding: 23px 48px 25px 16px;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 856px) {
+  .input_type_textarea {
+    max-width: none;
+  }
+}

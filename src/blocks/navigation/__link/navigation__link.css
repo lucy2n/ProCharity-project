@@ -1,0 +1,15 @@
+.navigation__link {
+    margin: 0;
+
+    color: #048AA7;
+}
+
+.navigation__link:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 856px) {
+    .navigation__link {
+        display: none;
+    }
+}

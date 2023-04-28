@@ -1,0 +1,26 @@
+@keyframes fly__blue {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 10px;
+        left: 0;
+    }
+
+    50% {
+        top: 12px;
+        left: 5px;
+    }
+
+    75% {
+        top: 0;
+        left: 10px;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

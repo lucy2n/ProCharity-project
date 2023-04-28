@@ -1,0 +1,15 @@
+.tagify {
+  position: inherit;
+  background: #F1F5F9;
+  border-radius: 6px;
+  border: none;
+  min-height: 48px;
+  width: 100%;
+  gap: 8px;
+  --tag-bg: #FF6100;
+  --tag-border-radius: 20px;
+  --tag-text-color--edit: #fffx;
+  --tag-text-color: #fff;
+  --tag-remove-btn-color: #fff;
+  align-items: center;
+}

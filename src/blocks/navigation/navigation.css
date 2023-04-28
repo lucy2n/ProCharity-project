@@ -1,0 +1,35 @@
+.navigation {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B878F;
+}
+
+.stepper_place_registration .navigation {
+    display: none;
+}
+
+@media screen and (max-width: 856px) {
+    .navigation {
+        width: 100%;
+    }
+
+    .stepper_place_registration .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        min-width: 610px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .stepper_place_registration .navigation {
+        min-width: 0;
+    }
+}

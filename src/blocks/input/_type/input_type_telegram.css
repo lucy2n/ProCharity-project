@@ -1,0 +1,7 @@
+.input_type_telegram {
+  padding: 12px 36px 12px 16px;
+}
+
+.input_type_telegram:focus {
+  padding: 23px 66px 5px 16px;
+}

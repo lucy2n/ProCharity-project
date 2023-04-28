@@ -1,0 +1,10 @@
+.button_type_save {
+  width: 147px;
+}
+
+@media screen and (max-width: 856px) {
+  .button_type_save {
+    width: 312px;
+    margin-left: calc((100% - 312px) / 2);
+  }
+}

@@ -1,0 +1,125 @@
+/* tags */
+@import url(../../blocks/tag/tag.css);
+@import url(../../blocks/tag/__text/tag__text.css);
+@import url(../../blocks/tag/__mark/tag__mark.css);
+@import url(../../blocks/tag/_color/tag_color_dark.css);
+@import url(../../blocks/tag/_color/tag_color_orange.css);
+@import url(../../blocks/tag/_color/tag_color_blue.css);
+
+/* tagrify block */
+@import url(../../../node_modules/@yaireo/tagify/dist/tagify.css);
+@import url(../../root/root.css);
+@import url(../../blocks/tagify/tagify.css);
+@import url(../../blocks/tagify/tagify__group-label.css);
+@import url(../../blocks/tagify/tagify__dropdown.css);
+@import url(../../blocks/tagify/tagify__dropdown__item.css);
+@import url(../../blocks/tagify/tagify__dropdown__itemsGroup.css);
+@import url(../../blocks/tagify/tagify__dropdown__wrapper.css);
+@import url(../../blocks/tagify/tagify_subgroup.css);
+@import url(../../blocks/multilevel-input/_type/multilevel-input_type_error.css);
+
+/* inputs block */
+@import url(../../blocks/input/input.css);
+@import url(../../blocks/input/_type/input_type_error.css);
+@import url(../../blocks/input/_type/input_type_full-width.css);
+@import url(../../blocks/input/_type/input_type_select.css);
+@import url(../../blocks/input-case/__subtitle/input-case__subtitle.css);
+@import url(../../blocks/main/__ico/main__ico.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_eye.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_eye-crossed.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_quest-mark.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_cross.css);
+@import url(../../blocks/input-case/input-case.css);
+@import url(../../blocks/input-case/__image/input-case__image.css);
+@import url(../../blocks/input-case/__image/_active/input-case__image_active.css);
+@import url(../../blocks/input-case/__error-message/input-case__error-message.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_arrow.css);
+@import url(../../blocks/input-case/__title/input-case__title.css);
+@import url(../../blocks/input-case/__dropdown-content/input-case__dropdown-content.css);
+@import url(../../blocks/input-case/__option/input-case__option.css);
+@import url(../../blocks/main/__ico/_type/main__ico_type_calendar.css);
+@import url(../../blocks/input-case/__error-message/_active/input-case__error-message_active.css);
+@import url(../../blocks/input-case/_type/input-case_type_row.css);
+@import url(../../blocks/input-case/_type/input-case_type_multilevel.css);
+
+/* buttons */
+@import url(../../blocks/button/button.css);
+@import url(../../blocks/button/_disabled/button_disabled.css);
+@import url(../../blocks/button/_type/button_type_back.css);
+@import url(../../blocks/button/_type/button_type_save.css);
+
+/* Header */
+@import url(../index__header_footer.css); /* Header */
+
+/* stepper */
+@import url(../../blocks/stepper/stepper.css);
+@import url(../../blocks/stepper/_place/stepper_place_registration.css);
+@import url(../../blocks/stepper/__navigation/stepper__navigation.css);
+
+/* navigation */
+@import url(../../blocks/navigation/navigation.css);
+@import url(../../blocks/navigation/__link/navigation__link.css);
+@import url(../../blocks/navigation/__text/navigation__text.css);
+
+/* menu */
+@import url(../../blocks/menu/menu.css);
+@import url(../../blocks/menu/__item/menu__item.css);
+@import url(../../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../../blocks/menu/__number/menu__number.css);
+@import url(../../blocks/menu/__text/menu__text.css);
+
+/*status*/
+@import url(../../blocks/status/status.css);
+@import url(../../blocks/status/__title/status__title.css);
+
+/*progress*/
+@import url(../../blocks/progress/progress.css);
+@import url(../../blocks/progress/__complete/progress__complete.css);
+@import url(../../blocks/progress/__bar/progress__bar.css);
+@import url(../../blocks/progress/__reload/progress__reload.css);
+@import url(../../blocks/progress/__info/progress__info.css);
+@import url(../../blocks/progress/__link/progress__link.css);
+
+/*общее для страницы*/
+@import url(../../blocks/content/content.css);
+@import url(../../blocks/page/__content/page__content.css);
+@import url(../../blocks/content/_page/content_page_uikit.css);
+@import url(../../blocks/main/main.css);
+@import url(../../blocks/main/__title/main__title.css);
+@import url(../../blocks/main/__subtitle/main__subtitle.css);
+@import url(../../blocks/main/__paragraph/main__paragraph.css);
+@import url(../../blocks/main/__input-container/main__input-container.css);
+@import url(../../blocks/main/__textarea/main__textarea.css);
+@import url(../../blocks/main/__input-container/_type/main__input-container_type_grid.css);
+@import url(../../blocks/main/__input-container/main__input-container.css);
+@import url(../../blocks/main/__input-container/_type/main__input-container_type_grid.css);
+
+
+/* Competitions */
+
+@import url(../../blocks/competition-popup/competition-popup.css);
+@import url(../../blocks/competition-popup/_opened/competition-popup_opened.css);
+@import url(../../blocks/competition-popup/__close/competition-popup__close.css);
+@import url(../../blocks/competition-popup/__form/competition-popup__form.css);
+@import url(../../blocks/competition-popup/__title/competition-popup__title.css);
+@import url(../../blocks/competition-popup/__selection/competition-popup__selection.css);
+@import url(../../blocks/competition-popup/__reset-selection/competition-popup__reset-selection.css);
+@import url(../../blocks/competition-popup/__container/competition-popup__container.css);
+@import url(../../blocks/competition-popup/__acord-body/competition-popup__acord-body.css);
+@import url(../../blocks/competition-popup/__accord-container/competition-popup__acoprd-content.css);
+@import url(../../blocks/competition-popup/__input/competition-popup__input.css);
+@import url(../../blocks/competition-popup/__input-stile/competition-popup__input-stile.css);
+@import url(../../blocks/competition-popup/__list/competition-popup__list.css);
+@import url(../../blocks/competition-popup/__buttons/competition-popup__buttons.css);
+@import url(../../blocks/competition-popup/__button/competition-popup__button.css);
+@import url(../../blocks/competition-popup/__chip/competition-popup__chip.css);
+
+/*notifications*/
+
+@import url(../../blocks/main/__checkbox/main__checkbox.css);
+@import url(../../blocks/main/__checkbox-content/main__checkbox-content.css);
+@import url(../../blocks/main/__chechbox-input/main__checkbox-input.css);
+@import url(../../blocks/main/__checkbox-stile/main__checkbox-stile.css);
+@import url(../../blocks/main/__checkbox-content/_disabled/main__checkbox-content_disabled.css);
+@import url(../../blocks/competition-popup/__chip/_active/competition-popup__chip_active.css);
+@import url(../../blocks/competition-popup/__input-subtitle/competition-popup__input-subtitle.css);

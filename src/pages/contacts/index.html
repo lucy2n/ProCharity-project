@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.js"></script>
+    <title>Контакты</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <img class="header__menu-img" src="<%=require('../../images/menu.svg')%>" alt="меню">
+            <a href="#">
+                <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+            </a>
+            <nav class="header__menu">
+                <a class="header__link" href="#">О проекте</a>
+                <a class="header__link" href="#">Задания</a>
+                <a class="header__link" href="#">Волонтерам</a>
+                <a class="header__link" href="#">Для НКО</a>
+                <a class="header__link" href="#">Бизнесу</a>
+                <a class="header__link" href="#">FAQ</a>
+                <button class="header__search" type="button" aria-label="поиск"></button>
+            </nav>
+            <div class="header__personal-area header__personal-area_add_user header__personal-area_active">
+                <p class="header__title header__title_add_user">Личный кабинет</p>
+                <div class="header__avatar header__avatar_add_user"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content page__content">
+        <section class="stepper">
+            <div class="navigation stepper__navigation"><a class="navigation__link" href=""
+                    title="Личный кабинет">Личный
+                    кабинет</a>
+                <p class="navigation__text">/</p>
+                <p class="navigation__text">Мои данные</p>
+            </div>
+            <ul class="menu" id="AccountMenu">
+                <li class="menu__item menu__item_active">
+                    <p class="menu__number">1</p>
+                    <p class="menu__text">Личные данные</p>
+                </li>
+                <li class="menu__item">
+                    <p class="menu__number">2</p>
+                    <p class="menu__text">Компетенции</p>
+                </li>
+                <li class="menu__item">
+                    <p class="menu__number">3</p>
+                    <p class="menu__text">Мотивация</p>
+                </li>
+                <li class="menu__item">
+                    <p class="menu__number">4</p>
+                    <p class="menu__text">Портфолио</p>
+                </li>
+                <li class="menu__item">
+                    <p class="menu__number">5</p>
+                    <p class="menu__text">Социальные сети</p>
+                </li>
+            </ul>
+        </section>
+
+        <div class="main">
+            <h1 class="main__title">Личные данные</h1>
+            <div class="avatar-box">
+                <div class="avatar-box__avatar">
+                    <a class="avatar-box__link" href="#">Добавить фотографию</a>
+                </div>
+                <span class="avatar-box__avatar-info">Jpg, png &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; объемом
+                    не более 5 Мб</span>
+            </div>
+            <form class="main__form">
+                <p class="main__form-subtitle">Фонды увидят эти данные на твоей странице</p>
+                <fieldset class="main__input-container main__input-container_type_grid">
+                    <div class="input-case">
+                        <input class="input" type="text" placeholder="Имя">
+                        <span class="input-case__subtitle">Имя</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы
+                            и специальные символы</span>
+                    </div>
+                    <div class="input-case">
+                        <input class="input" type="text" placeholder="Фамилия">
+                        <span class="input-case__subtitle">Фамилия</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                    <div class="input-case">
+                        <input class="input input_type_date" type="date">
+                        <span class="input-case__subtitle">Дата рождения</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                    <div class="input-case">
+                        <input class="input" type="text" placeholder="Город">
+                        <span class="input-case__subtitle">Город</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                </fieldset>
+                <p class="main__form-subtitle main__form-subtitle_type_desktop">Контакты будут
+                    видны фондам, которые
+                    выберут тебя исполнителем задания</p>
+                <p class="main__form-subtitle main__form-subtitle_type_mobile">Контактные данные
+                </p>
+                <fieldset class="main__input-container main__input-container_type_grid">
+                    <div class="input-case">
+                        <input class="input" type="email" placeholder="Электронная почта">
+                        <span class="input-case__subtitle">Электронная почта</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                    <div class="input-case">
+                        <input class="input" type="tel" placeholder="Телефон">
+                        <span class="input-case__subtitle">Телефон</span>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                    <div class="input-case">
+                        <input class="input input_type_telegram" type="text" placeholder="Ник в Telegram">
+                        <span class="input-case__subtitle">Ник в Telegram</span>
+                        <div class="main__ico main__ico_type_quest-mark"></div>
+                        <div class="main__ico main__ico_type_cross"></div>
+                        <span class="input-case__error-message">Может содержать только буквы и специальные
+                            символы</span>
+                    </div>
+                    <div class="input-case">
+                        <div class="input-case__dropdown">
+                            <input
+                                    class="input input_type_select"
+                                    type="text"
+                                    placeholder="Предпочитаемый способ связи"
+                                    id="contacts_input"
+                            />
+                            <span class="input-case__subtitle">Предпочитаемый способ связи</span>
+                            <div class="input-case__dropdown-content">
+                                <div class="input-case__option" id="option_1">
+                                    <span class="input-case__option-title">Telegram</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                                </div>
+                                <div class="input-case__option" id="option_2">
+                                    <span class="input-case__option-title">Email</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                                </div>
+                                <div class="input-case__option" id="option_3">
+                                    <span class="input-case__option-title">Моб.телефон</span>
+                                    <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                                </div>
+                            </div>
+                            <div class="main__ico main__ico_type_arrow"></div>
+                            <span class="input-case__error-message">Может содержать только буквы
+                            и специальные символы</span>
+                        </div>
+                    </div>
+                </fieldset>
+            <div class="radio-box">
+                <button type="button"
+                        class="radio-box__button" id="radio_person">я
+                    Частное лицо
+                </button>
+                <button type="button" class="radio-box__button" id="radio_company">я представляю
+                    компанию
+                </button>
+            </div>
+            <fieldset class="main__input-container main__input-container_type_grid">
+                <div class="input-case">
+                    <div class="input-case__dropdown">
+                        <input
+                                class="input input_type_select input_disabled"
+                                type="text"
+                                placeholder="Выбрать компанию"
+                                id="company_input"
+                                disabled
+                        />
+                        <span class="input-case__subtitle">Выбрать компанию</span>
+                        <div class="input-case__dropdown-content">
+                            <div class="input-case__option" id="option1">
+                                <span class="input-case__option-title">Яндекс</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                            </div>
+                            <div class="input-case__option" id="option2">
+                                <span class="input-case__option-title">Гугл</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                            </div>
+                            <div class="input-case__option" id="option3">
+                                <span class="input-case__option-title">Амазон</span>
+                                <img src="<%=require('../../images/selected.svg')%>" class="input-case__image" alt="галочка">
+                            </div>
+                        </div>
+                        <div class="main__ico main__ico_type_arrow"></div>
+                        <span class="input-case__error-message">Поле обязательное</span>
+                    </div>
+                </div>
+                <div class="input-case">
+                    <input class="input input_disabled" type="text" placeholder="Должность" id="proffession_input" disabled>
+                    <span class="input-case__subtitle">Должность</span>
+                    <div class="main__ico main__ico_type_cross"></div>
+                    <span class="input-case__error-message">Поле обязательное</span>
+                </div>
+
+            </fieldset>
+                <div class="input-case">
+                    <textarea class="main__textarea" placeholder="Как ты о нас узнал?"></textarea>
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+                <button type="submit" class="button button_type_save">Сохранить</button>
+            </form>
+        </div>
+
+        <section class="status">
+            <p class="status__title">Статус профиля</p>
+            <div class="status__tag tag tag_color_dark" tabindex="-1">
+                <p class="tag__text">Скрыт</p>
+                <p class="tag__mark">?</p>
+            </div>
+        </section>
+
+        <section class="progress" style="margin: 0">
+            <p class="progress__complete">
+                Профиль заполнен на <span class="progress-value">66</span>%
+            </p>
+            <progress class="progress__bar" max="100" value="66"></progress>
+            <button class="progress__reload" type="button" aria-label="перезагрузка прогресса"></button>
+            <p class="progress__info">
+                Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
+                выбрали исполнителем
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <h2 class="footer__title">О проекте</h2>
+            <h2 class="footer__title">Задания</h2>
+            <h2 class="footer__title">Волонтерам</h2>
+            <h2 class="footer__title">Фондам</h2>
+            <h2 class="footer__title">Бизнесу</h2>
+            <h2 class="footer__title">FAQ</h2>
+            <nav class="footer__links">
+                <a href="#" target="_blank" class="footer__link">О платформе</a>
+                <a href="#" target="_blank" class="footer__link">Команда</a>
+                <a href="#" target="_blank" class="footer__link">Новости</a>
+                <a href="#" target="_blank" class="footer__link">Документы</a>
+                <a href="#" target="_blank" class="footer__link">Партнеры</a>
+                <a href="#" target="_blank" class="footer__link">Отзывы</a>
+                <a href="#" target="_blank" class="footer__link">Контакты</a>
+                <a href="#" target="_blank" class="footer__link">Пожертвовать в фонды</a>
+            </nav>
+            <nav class="footer__links">
+                <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+                <a href="#" target="_blank" class="footer__link">В работе</a>
+                <a href="#" target="_blank" class="footer__link">Выполненные</a>
+            </nav>
+            <nav class="footer__links">
+                <a href="#" target="_blank" class="footer__link">Как помочь</a>
+                <a href="#" target="_blank" class="footer__link">Задания</a>
+                <a href="#" target="_blank" class="footer__link">Список НКО</a>
+                <a href="#" target="_blank" class="footer__link">Бонусы</a>
+                <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+                <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+            </nav>
+            <nav class="footer__links">
+                <a href="#" target="_blank" class="footer__link">Как получить помощь</a>
+                <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+                <a href="#" target="_blank" class="footer__link">Компании-волонтеры</a>
+                <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+                <a href="#" target="_blank" class="footer__link">Вебинары</a>
+            </nav>
+            <nav class="footer__links">
+                <a href="#" target="_blank" class="footer__link">Как помочь</a>
+                <a href="#" target="_blank" class="footer__link">Список НКО</a>
+                <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+            </nav>
+            <ul class="footer__icons">
+                <li class="footer__icon-container">
+                    <p class="footer__icon-title">Создатель проекта</p>
+                    <img class="footer__icon" src="<%=require('../../images/logo_druzya.svg')%>"
+                        alt="логотип фонда друзья">
+                </li>
+                <li class="footer__icon-container">
+                    <p class="footer__icon-title">Генеральный партнёр</p>
+                    <img class="footer__icon" src="<%=require('../../images/logo_mastercard.svg')%>"
+                        alt="логотип mastercard">
+                </li>
+                <li class="footer__icon-container">
+                    <img class="footer__icon" src="<%=require('../../images/pgrants_logo.svg')%>"
+                        alt="логотип фонда президенстских грантов">
+                </li>
+                <li class="footer__icon-container">
+                    <a href="#" target="_blank" class="footer__social-link"><img
+                            src="<%=require('../../images/facebook.svg')%>" alt="FaceBook"
+                            class="footer__social-icon"></a>
+                    <a href="#" target="_blank" class="footer__social-link"><img
+                            src="<%=require('../../images/instragram.svg')%>" alt="Instragram"
+                            class="footer__social-icon"></a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img src="<%=require('../../images/vk.svg')%>" alt="VK" class="footer__social-icon">
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__copyright">
+                <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+                <p class="footer__information">
+                    Юридическая информация и защита персональных данных
+                </p>
+                <img class="footer__logo" src="<%=require('../../images/logo_buroburo.svg')%>" alt="логотип бюро">
+            </div>
+        </div>
+    </footer>
+    <section class="popup">
+        <div class="popup__container">
+            <h2 class="popup__title">Выберите фрагмент изображения</h2>
+            <div class="popup__cropper-container">
+                <img id="popup__avatar" src="<%=require('../../images/popup_image.png')%>" alt="popup"
+                    class="popup__image">
+            </div>
+            <button class="button button_type_save">Сохранить</button>
+            <button class="popup__button-close"></button>
+        </div>
+    </section>
+    <section class="popup popup_type_notification popup_opened">
+        <img src="<%=require('../../images/popup__notification.png')%>" alt="popup" class="popup__image-notification">
+        <div class="popup__container-notification">
+            <h2 class="popup__title-notification">Профиль на модерации</h2>
+            <p class="popup__text-notification">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим
+                на email.
+            </p>
+        </div>
+        <button class="popup__button-close popup__button-close_type_notification"></button>
+    </section>
+
+</body>
+
+</html>

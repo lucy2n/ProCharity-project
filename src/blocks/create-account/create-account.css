@@ -1,0 +1,9 @@
+.create-account {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.create-account:hover {
+    cursor: pointer;
+}

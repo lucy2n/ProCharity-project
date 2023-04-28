@@ -1,0 +1,17 @@
+.page__email-info {
+    margin-bottom: 203px;
+}
+
+@media screen and (min-width: 1450px) {
+    .page__email-info {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+@media screen and (max-width: 682px) {
+    .page__email-info {
+        margin-bottom: 68%;
+    }
+}

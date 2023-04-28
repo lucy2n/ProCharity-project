@@ -1,0 +1,12 @@
+.main__delete-file {
+  background: url(../../../images/trash.svg) no-repeat center;
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  transition: 0.2s;
+  width: 24px;
+  margin: 24px 24px 24px 4px;
+}
+.main__delete-file:hover {
+  opacity: 0.6;
+}

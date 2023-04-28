@@ -1,0 +1,8 @@
+.main__checkbox_type_notification {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main__checkbox_type_notification:first-of-type {
+    margin-top: 12px;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Социальные сети</title>
+</head>
+
+<body class="page">
+<header class="header">
+    <div class="header__container">
+        <img class="header__menu-img" src="<%=require('../../images/menu.svg')%>" alt="меню">
+        <a href="#">
+            <img class="header__logo" src="<%=require('../../images/logo.svg')%>" alt="ProCharity">
+        </a>
+        <nav class="header__menu">
+            <a class="header__link" href="#">О проекте</a>
+            <a class="header__link" href="#">Задания</a>
+            <a class="header__link" href="#">Волонтерам</a>
+            <a class="header__link" href="#">Для НКО</a>
+            <a class="header__link" href="#">Бизнесу</a>
+            <a class="header__link" href="#">FAQ</a>
+            <button class="header__search" type="button" aria-label="поиск"></button>
+        </nav>
+        <div class="header__personal-area header__personal-area_add_user header__personal-area_active">
+            <p class="header__title header__title_add_user">Личный кабинет</p>
+            <div class="header__avatar header__avatar_add_user"></div>
+        </div>
+    </div>
+</header>
+
+<main class="content page__content">
+    <section class="stepper">
+        <div class="navigation stepper__navigation">
+            <a class="navigation__link" href="" title="Личный кабинет">Личный кабинет</a>
+            <p class="navigation__text">/</p>
+            <p class="navigation__text">Мои данные</p>
+        </div>
+        <ul class="menu" id="AccountMenu">
+            <li class="menu__item">
+                <p class="menu__number">1</p>
+                <p class="menu__text">Личные данные</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">2</p>
+                <p class="menu__text">Компетенции</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">3</p>
+                <p class="menu__text">Мотивация</p>
+            </li>
+            <li class="menu__item">
+                <p class="menu__number">4</p>
+                <p class="menu__text">Портфолио</p>
+            </li>
+            <li class="menu__item menu__item_active">
+                <p class="menu__number">5</p>
+                <p class="menu__text">Социальные сети</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="main">
+        <h1 class="main__title">Социальные сети</h1>
+        <p class="main__subtitle">Можешь прикрепить ссылки на свои профили в соцсетях — так
+            представители фондов смогут лучше тебя узнать. А еще это может быть дополнительным способом с тобой
+            связаться.
+        </p>
+        <form class="main__form" id="main-form">
+            <fieldset class="main__input-container">
+                <div class="input-case input-case_type_row">
+                    <img class="input-case__logo" src="<%=require('../../images/logo-linkedin.svg')%>" alt="linkedin">
+                    <input class="input input_type_full-width" type="url" placeholder="https://linkedin.com/username/">
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+                <div class="input-case input-case_type_row">
+                    <img class="input-case__logo" src="<%=require('../../images/logo-vk.svg')%>" alt="vk">
+                    <input class="input input_type_full-width" type="url" placeholder="https://vk.com/username/">
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+                <div class="input-case input-case_type_row">
+                    <img class="input-case__logo" src="<%=require('../../images/logo-ok.svg')%>" alt="ok">
+                    <input class="input input_type_full-width" type="url" placeholder="https://ok.com/username/">
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+                <div class="input-case input-case_type_row">
+                    <img class="input-case__logo" src="<%=require('../../images/logo-instagram.svg')%>" alt="instagram">
+                    <input class="input input_type_full-width" type="url"
+                           placeholder="https://instagram.com/username/">
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+                <div class="input-case input-case_type_row">
+                    <img class="input-case__logo" src="<%=require('../../images/logo-facebook.svg')%>" alt="facebook">
+                    <input class="input input_type_full-width" type="url" placeholder="https://facebook.com/username/">
+                    <div class="main__ico main__ico_type_cross"></div>
+                </div>
+            </fieldset>
+        </form>
+        <p class="main__paragraph">Facebook и Instagram — продукты Meta Platforms Inc.</p>
+        <p class="main__paragraph">Meta Platforms Inc. признана экстремистской организацией, запрещена на территории России</p>
+        <button type="submit" form="main-form" class="button button_type_save">Сохранить</button>
+    </section>
+
+    <section class="status">
+        <p class="status__title">Статус профиля</p>
+        <div class="status__tag tag tag_color_blue" tabindex="-1">
+            <p class="tag__text">На модерации</p>
+            <p class="tag__mark">?</p>
+        </div>
+    </section>
+
+    <section class="progress">
+        <p class="progress__complete">
+            Профиль заполнен на <span class="progress-value">66</span>%
+        </p>
+        <progress class="progress__bar" max="100" value="66"></progress>
+        <button class="progress__reload" type="button" aria-label="перезагрузка прогресса"></button>
+        <p class="progress__info">
+            Узнай, <a href="#" class="progress__link">как заполнить профиль</a>, чтобы тебя
+            выбрали исполнителем
+        </p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <h2 class="footer__title">О проекте</h2>
+        <h2 class="footer__title">Задания</h2>
+        <h2 class="footer__title">Волонтерам</h2>
+        <h2 class="footer__title">Фондам</h2>
+        <h2 class="footer__title">Бизнесу</h2>
+        <h2 class="footer__title">FAQ</h2>
+        <nav class="footer__links">
+            <a href="#" target="_blank" class="footer__link">О платформе</a>
+            <a href="#" target="_blank" class="footer__link">Команда</a>
+            <a href="#" target="_blank" class="footer__link">Новости</a>
+            <a href="#" target="_blank" class="footer__link">Документы</a>
+            <a href="#" target="_blank" class="footer__link">Партнеры</a>
+            <a href="#" target="_blank" class="footer__link">Отзывы</a>
+            <a href="#" target="_blank" class="footer__link">Контакты</a>
+            <a href="#" target="_blank" class="footer__link">Пожертвовать в фонды</a>
+        </nav>
+        <nav class="footer__links">
+            <a href="#" target="_blank" class="footer__link">Ждут исполнителей</a>
+            <a href="#" target="_blank" class="footer__link">В работе</a>
+            <a href="#" target="_blank" class="footer__link">Выполненные</a>
+        </nav>
+        <nav class="footer__links">
+            <a href="#" target="_blank" class="footer__link">Как помочь</a>
+            <a href="#" target="_blank" class="footer__link">Задания</a>
+            <a href="#" target="_blank" class="footer__link">Список НКО</a>
+            <a href="#" target="_blank" class="footer__link">Бонусы</a>
+            <a href="#" target="_blank" class="footer__link">Отзывы волонтеров</a>
+            <a href="#" target="_blank" class="footer__link">Премия ProCharity</a>
+        </nav>
+        <nav class="footer__links">
+            <a href="#" target="_blank" class="footer__link">Как получить помощь</a>
+            <a href="#" target="_blank" class="footer__link">Список волонтеров</a>
+            <a href="#" target="_blank" class="footer__link">Компании-волонтеры</a>
+            <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+            <a href="#" target="_blank" class="footer__link">Вебинары</a>
+        </nav>
+        <nav class="footer__links">
+            <a href="#" target="_blank" class="footer__link">Как помочь</a>
+            <a href="#" target="_blank" class="footer__link">Список НКО</a>
+            <a href="#" target="_blank" class="footer__link">Отзывы НКО</a>
+        </nav>
+        <ul class="footer__icons">
+            <li class="footer__icon-container">
+                <p class="footer__icon-title">Создатель проекта</p>
+                <img class="footer__icon" src="<%=require('../../images/logo_druzya.svg')%>" alt="логотип фонда друзья">
+            </li>
+            <li class="footer__icon-container">
+                <p class="footer__icon-title">Генеральный партнёр</p>
+                <img class="footer__icon" src="<%=require('../../images/logo_mastercard.svg')%>"
+                     alt="логотип mastercard">
+            </li>
+            <li class="footer__icon-container">
+                <img class="footer__icon" src="<%=require('../../images/pgrants_logo.svg')%>"
+                     alt="логотип фонда президенстских грантов">
+            </li>
+            <li class="footer__icon-container">
+                <a href="#" target="_blank" class="footer__social-link"><img
+                        src="<%=require('../../images/facebook.svg')%>"
+                        alt="FaceBook" class="footer__social-icon"></a>
+                <a href="#" target="_blank" class="footer__social-link"><img
+                        src="<%=require('../../images/instragram.svg')%>"
+                        alt="Instragram" class="footer__social-icon"></a>
+                <a href="#" target="_blank" class="footer__social-link"><img src="<%=require('../../images/vk.svg')%>"
+                                                                             alt="VK"
+                                                                             class="footer__social-icon"></a>
+            </li>
+        </ul>
+        <div class="footer__copyright">
+            <p class="footer__autor">&#169;2017–2019 ProCharity</p>
+            <p class="footer__information">
+                Юридическая информация и защита персональных данных
+            </p>
+            <img class="footer__logo" src="<%=require('../../images/logo_buroburo.svg')%>" alt="логотип бюро">
+        </div>
+    </div>
+</footer>
+<section class="popup popup_type_notification popup_opened">
+    <img src="<%=require('../../images/popup__notification.png')%>" alt="" class="popup__image-notification">
+    <div class="popup__container-notification">
+        <h2 class="popup__title-notification">Профиль на модерации</h2>
+        <p class="popup__text-notification">Обычно это занимает до 2 рабочих дней. Как только все проверим, сообщим на email.</p>
+    </div>
+    <button class="popup__button-close popup__button-close_type_notification"></button>
+</section>
+
+</body>
+
+</html>

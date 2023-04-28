@@ -1,0 +1,25 @@
+.button_type_telegram {
+
+    text-decoration: none;
+    box-sizing: border-box;
+
+    width: 132px;
+    height: 32px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-transform: none;
+    letter-spacing: 0.25px;
+    background-color: #54A9EA;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    padding: 0 12px 0 0;
+}
+
+.button_type_telegram:not(.button_unactive, .button_type_back):hover {
+    background-color: #54a9ea;
+    opacity: .8;
+}

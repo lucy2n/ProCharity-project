@@ -1,0 +1,37 @@
+.main__ico_type_quest-mark {
+  background-image: url(../../../../images/input-quest-mark-ico.svg);
+}
+
+.main__ico_type_quest-mark:hover::after {
+  box-sizing: border-box;
+  text-align: left;
+  width: 352px;
+  height: 84px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  content: 'Если тебе удобнее, чтобы представители фондов писали в Telegram, укажи свой ник (без @ и url)';
+  position: absolute;
+  right: -10px;
+  top: -90px;
+  background: #FFFFFF;;
+  box-shadow: 0 4px 24px rgba(0, 77, 95, 0.24);
+
+
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #58646A;
+}
+
+.main__ico_type_quest-mark~.main__ico_type_cross {
+  right: 38px;
+}
+
+@media screen and (max-width: 856px) {
+  .main__ico_type_quest-mark:hover::after {
+    width: 312px;
+    right: -12px;
+  }
+}

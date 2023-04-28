@@ -1,0 +1,21 @@
+.tag {
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 157px;
+    max-width: fit-content;
+    height: 24px;
+    outline: 2px solid transparent;
+    border-radius: 12px;
+    font-weight: 700;
+    line-height: 14px;
+
+    transition: all .2s linear;
+}
+
+.tag:hover {
+    opacity: .5;
+}

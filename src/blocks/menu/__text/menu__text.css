@@ -1,0 +1,23 @@
+.menu__text {
+    margin: 0;
+    padding-left: 12px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #58646A;
+}
+
+.menu__item_active .menu__text {
+    color: #EA5A0A;
+}
+
+.stepper_place_registration .menu__text {
+    color: #7B878F;
+}
+
+@media screen and (max-width: 856px) {
+    .menu__text {
+        display: none;
+    }
+}

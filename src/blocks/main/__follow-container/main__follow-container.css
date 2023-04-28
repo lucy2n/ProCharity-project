@@ -1,0 +1,14 @@
+.main__follow-container {
+    margin: 32px 0;
+    padding: 14px;
+    display: flex;
+    border: 1px solid #58646A;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 856px) {
+    .main__follow-container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

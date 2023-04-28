@@ -1,0 +1,15 @@
+.stepper_place_registration {
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 856px) {
+    .stepper_place_registration {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .stepper_place_registration {
+        max-width: 736px;
+    }
+}

@@ -1,0 +1,17 @@
+.avatar-box__avatar {
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  border: 1px dashed #A0ABB5;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.avatar-box__avatar>a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #048AA7;
+}

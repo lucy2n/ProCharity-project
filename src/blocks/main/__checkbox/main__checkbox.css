@@ -1,0 +1,9 @@
+.main__checkbox {
+	margin-top: 12px;
+	margin-bottom: 32px;
+	position: relative;
+}
+
+.volunteer .main__checkbox {
+	margin: 32px 0;
+}

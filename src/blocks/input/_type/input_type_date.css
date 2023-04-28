@@ -1,0 +1,13 @@
+.input_type_date::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    background: url(../../../images/input-calendar-ico.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #7B878F;
+}
+
+.input_type_date~.main__ico_type_cross {
+    right: 38px;
+}

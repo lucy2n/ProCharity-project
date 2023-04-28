@@ -1,0 +1,16 @@
+.competition-popup__input-stile {
+  box-sizing: border-box;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: url(../../../images/input-arrow-ico.svg) no-repeat center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.competition-popup__input:checked + .competition-popup__input-stile {
+  content: "";
+  rotate: 180deg;
+}

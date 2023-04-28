@@ -1,0 +1,9 @@
+.stepper__navigation {
+    margin: 24px 0 22px;
+}
+
+@media screen and (max-width: 856px) {
+    .stepper__navigation {
+        margin: 8px 0 0;
+    }
+}
